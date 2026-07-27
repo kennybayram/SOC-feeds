@@ -14,7 +14,7 @@ OUTPUT_HASH = "threat_hash.txt"
 WHITELIST_IPS = {"127.0.0.1", "8.8.8.8", "8.8.4.4", "1.1.1.1", "1.0.0.1", "9.9.9.9"}
 WHITELIST_DOMAINS = {
     "google.com", "cloudflare.com", "microsoft.com", 
-    "apple.com", "github.com", "amazon.com", "siberguvenlik.gov.tr", "usom.gov.tr"
+    "apple.com", "github.com", "amazon.com", "siberguvenlik.gov.tr", "usom.gov.tr", "linkedin.com","githubusercontent.com"
 }
 
 ip_sources = defaultdict(set)
