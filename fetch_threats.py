@@ -63,7 +63,7 @@ def add_hash(h):
             hashes.add(h)
 
 def fetch_feeds():
-    print("[*] Temizlenmiş tehdit istihbarat kaynaklarından veriler çekiliyor...")
+    print("[*] Tehdit istihbarat kaynaklarından veriler çekiliyor...")
 
     sources = [
         ("https://www.usom.gov.tr/url-list.txt", "txt_url"),
@@ -90,7 +90,7 @@ def fetch_feeds():
 
     for url, method in sources:
         try:
-            headers = {'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) CyberSecurityEngine/3.0'}
+            headers = {'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) CyberSecurityEngine/4.0'}
             resp = requests.get(url, headers=headers, timeout=25)
             if resp.status_code != 200:
                 continue
@@ -149,21 +149,12 @@ def save_outputs():
     load_existing(OUTPUT_URL, urls, lambda u: u.startswith("http"))
     load_existing(OUTPUT_HASH, hashes, lambda h: len(h) in (32, 64))
 
-    with open(OUTPUT_IP, "w", encoding="utf-8") as f:
-        f.write(f"# Updated: {utc_now} UTC\n")
-        f.write("\n".join(sorted(ips)) + "\n")
-
-    with open(OUTPUT_DOMAIN, "w", encoding="utf-8") as f:
-        f.write(f"# Updated: {utc_now} UTC\n")
-        f.write("\n".join(sorted(domains)) + "\n")
-
-    with open(OUTPUT_URL, "w", encoding="utf-8") as f:
-        f.write(f"# Updated: {utc_now} UTC\n")
-        f.write("\n".join(sorted(urls)) + "\n")
-
-    with open(OUTPUT_HASH, "w", encoding="utf-8") as f:
-        f.write(f"# Updated: {utc_now} UTC\n")
-        f.write("\n".join(sorted(hashes)) + "\n")
+    for filename, data in [(OUTPUT_IP, ips), (OUTPUT_DOMAIN, domains), (OUTPUT_URL, urls), (OUTPUT_HASH, hashes)]:
+        with open(filename, "w", encoding="utf-8") as f:
+            f.write(f"# Updated: {utc_now} UTC\n")
+            f.write("\n".join(sorted(data)) + "\n")
+            f.flush()
+            os.fsync(f.fileno())
 
     print(f"[✓] İşlem Tamamlandı -> IP: {len(ips)}, Domain: {len(domains)}, URL: {len(urls)}, Hash: {len(hashes)}")
 
