@@ -26,16 +26,13 @@ jobs:
       - name: Run Feed Engine
         run: python fetch_threats.py
 
-      - name: Stage Only Text Files
+      - name: Verify Files Generated
+        run: ls -la threat_*.txt
+
+      - name: Commit and Push Changes
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git reset -- .github/workflows/main.yml
           git add threat_ip.txt threat_domain.txt threat_url.txt threat_hash.txt
-
-      - name: Commit and Push Changes
-        uses: ad-m/github-push-action@master
-        with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          branch: main
-          force: true
+          git status
+          git diff --quiet && git diff --staged --quiet || (git commit -m "Auto-update threat feeds [skip ci]" && git push https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git HEAD:main)
