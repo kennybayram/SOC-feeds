@@ -26,10 +26,11 @@ jobs:
       - name: Run Feed Engine
         run: python fetch_threats.py
 
-      - name: Stage Generated Files
+      - name: Stage Only Text Files
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git reset -- .github/workflows/main.yml
           git add threat_ip.txt threat_domain.txt threat_url.txt threat_hash.txt
 
       - name: Commit and Push Changes
