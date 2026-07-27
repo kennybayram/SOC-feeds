@@ -1,14 +1,9 @@
 # SOC-FEEDS
 
-> **Live Statistics:** 🌐 IP: `38,795` | 🗂️ Domain: `43,654` | 🔗 URL: `133,856` | 🔑 Hash: `2,367`: Real-Time Open-Source Threat Intelligence & IoC Aggregator
-
+>
 <div align="center">
-  <h3>
-    🌐 Live Feed Stats — 
-    IPs: <b>38,718</b> | 
-    Domains: <b>43,673</b> | 
-    URLs: <b>133,746</b> | 
-    Hashes: <b>2,366</b>
+ **Live Statistics:** 🌐 IP: `38,795` | 🗂️ Domain: `43,654` | 🔗 URL: `133,856` | 🔑 Hash: `2,367`: Real-Time Open-Source Threat Intelligence & IoC Aggregator
+
   </h3>
   <br>
   <a href="#tr">Türkçe</a> | <a href="#en">English</a> | <a href="#de">Deutsch</a> | <a href="#fr">Français</a> | <a href="#es">Español</a> | <a href="#it">Italiano</a> | <a href="#nl">Nederlands</a> | <a href="#pl">Polski</a> | <a href="#sv">Svenska</a> | <a href="#da">Dansk</a> | <a href="#fi">Suomi</a> | <a href="#pt">Português</a> | <a href="#el">Ελληνικά</a> | <a href="#cs">Čeština</a> | <a href="#hu">Magyar</a> | <a href="#ro">Română</a> | <a href="#bg">Български</a> | <a href="#sk">Slovenčina</a> | <a href="#hr">Hrvatski</a> | <a href="#sl">Slovenščina</a> | <a href="#lt">Lietuvių</a> | <a href="#lv">Latviešu</a> | <a href="#ee">Eesti</a> | <a href="#ga">Gaeilge</a> | <a href="#mt">Malti</a>
