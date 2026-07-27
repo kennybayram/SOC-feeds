@@ -1,6 +1,6 @@
 # SOC-FEEDS
 
-> **Live Statistics:** 🌐 IP: `39,119` | 🗂️ Domain: `43,721` | 🔗 URL: `133,984` | 🔑 Hash: `2,368`
+> **Live Statistics:** 🌐 IP: `39,058` | 🗂️ Domain: `43,718` | 🔗 URL: `133,984` | 🔑 Hash: `2,369`
 
 >
 <div align="center">
