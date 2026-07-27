@@ -5,6 +5,10 @@ on:
     - cron: '0 * * * *'  # Her 1 saatte bir
   workflow_dispatch:
 
+# Botun repoya commit atabilmesi için yazma izni tanımlıyoruz
+permissions:
+  contents: write
+
 jobs:
   update-feeds:
     runs-on: ubuntu-latest
