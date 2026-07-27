@@ -24,7 +24,7 @@ jobs:
           pip install requests
 
       - name: Run feed updater script
-        run: python update.py # Kendi python betiğinin adı neyse buraya yazabilirsin
+        run: python fetch_threats.py
 
       - name: Pull latest changes with rebase
         run: |
