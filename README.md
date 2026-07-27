@@ -1,4 +1,6 @@
-# SOC-FEEDS: Real-Time Open-Source Threat Intelligence & IoC Aggregator
+# SOC-FEEDS
+
+> **Live Statistics:** 🌐 IP: `38,718` | 🗂️ Domain: `43,673` | 🔗 URL: `133,746` | 🔑 Hash: `2,366`: Real-Time Open-Source Threat Intelligence & IoC Aggregator
 
 <div align="center">
   <a href="#tr">Türkçe</a> | <a href="#en">English</a> | <a href="#de">Deutsch</a> | <a href="#fr">Français</a> | <a href="#es">Español</a> | <a href="#it">Italiano</a> | <a href="#nl">Nederlands</a> | <a href="#pl">Polski</a> | <a href="#sv">Svenska</a> | <a href="#da">Dansk</a> | <a href="#fi">Suomi</a> | <a href="#pt">Português</a> | <a href="#el">Ελληνικά</a> | <a href="#cs">Čeština</a> | <a href="#hu">Magyar</a> | <a href="#ro">Română</a> | <a href="#bg">Български</a> | <a href="#sk">Slovenčina</a> | <a href="#hr">Hrvatski</a> | <a href="#sl">Slovenščina</a> | <a href="#lt">Lietuvių</a> | <a href="#lv">Latviešu</a> | <a href="#ee">Eesti</a> | <a href="#ga">Gaeilge</a> | <a href="#mt">Malti</a>
