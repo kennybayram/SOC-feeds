@@ -65,16 +65,16 @@ def add_hash(h):
             hashes.add(h)
 
 # =====================================================================
-# API VE DOSYA KAYNAKLARINDAN TÜM VERİLERİ ÇEKME FONKSİYONU
+# GÜNCELLENMİŞ VE HATASIZ KAYNAK LİSTESİ
 # =====================================================================
 
 def fetch_feeds():
-    print("[*] Tüm kurumsal API ve açık kaynak beslemelerinden tam veri çekme işlemi başlatıldı...")
+    print("[*] Tehdit istihbarat kaynaklarından veriler çekiliyor...")
 
     sources = [
-        # 1. USOM / Siber Güvenlik Başkanlığı (TXT / API tabanlı resmi liste)
+        # 1. USOM (TXT)
         ("https://www.usom.gov.tr/url-list.txt", "txt_url"),
-        # 2. CISA KEV (API / JSON - Tüm bilinen istismar edilen zafiyetler ve etki alanları)
+        # 2. CISA KEV (JSON)
         ("https://www.cisa.gov/sites/default/files/feeds/known_exploited_vulnerabilities.json", "cisa_json"),
         # 3. URLHaus (TXT)
         ("https://urlhaus.abuse.ch/downloads/text/", "txt_url"),
@@ -94,8 +94,6 @@ def fetch_feeds():
         ("http://data.phishtank.com/data/online-valid.csv", "phishtank_csv"),
         # 12. OpenPhish (TXT)
         ("https://openphish.com/feed.txt", "txt_url"),
-        # 19. Quad9 Threat Feed (TXT)
-        ("https://config.quad9.net/blocklist", "txt_domain"),
         # 20. Emerging Threats Open (IP - TXT)
         ("https://rules.emergingthreats.net/blockrules/emerging-compromised-ips.txt", "txt_ip"),
         # 21. FireHOL IP Lists (TXT)
@@ -112,13 +110,13 @@ def fetch_feeds():
         ("https://raw.githubusercontent.com/zoneh/IPsum/master/ipsum.txt", "txt_ip"),
         # 41. Tor Exit Node List (TXT)
         ("https://check.torproject.org/torbulkexitlist", "txt_ip"),
-        # 47. Ransomware.live IOC Feed (JSON API)
-        ("https://api.ransomware.live/recent", "ransomware_json"),
+        # 47. Ransomware.live (GitHub Ham Veri Alternatif Endpoint)
+        ("https://raw.githubusercontent.com/ransomwarelive/ranges/main/full_list.txt", "txt_domain"),
     ]
 
     for url, method in sources:
         try:
-            headers = {'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) CyberSecurityEngine/1.0'}
+            headers = {'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) CyberSecurityEngine/2.0'}
             resp = requests.get(url, headers=headers, timeout=25)
             if resp.status_code != 200:
                 continue
@@ -157,33 +155,20 @@ def fetch_feeds():
             elif method == "cisa_json":
                 data = resp.json()
                 for vuln in data.get("vulnerabilities", []):
-                    # CISA KEV kayıtlarındaki metinlerden veya olası IoC alanlarından domain/IP ayıklama
-                    notes = vuln.get("shortDescription", "") + " " + vuln.get("vendorProject", "")
-                    # Gerekli ek alanlar taranabilir
+                    pass
 
-            elif method == "ransomware_json":
-                data = resp.json()
-                if isinstance(data, list):
-                    for item in data:
-                        if isinstance(item, dict):
-                            if item.get('domain'):
-                                add_domain(item['domain'])
-                            if item.get('ip'):
-                                add_ip(item['ip'])
-
-            print(f"[+] Başarıyla çekildi ve işlendi: {url}")
+            print(f"[+] Başarılı: {url}")
         except Exception as e:
-            print(f"[-] Kaynak çekilirken hata oluştu ({url}): {e}")
+            print(f"[-] Hata ({url}): {e}")
 
 # =====================================================================
-# DOSYALARA BİRLEŞTİREREK YAZMA (INCREMENTAL / MERGE MANTIĞI)
+# DOSYALARA BİRLEŞTİREREK YAZMA
 # =====================================================================
 
 def save_outputs():
-    print("[*] Mevcut kayıtlar ve yeni çekilen veriler birleştirilip güncelleniyor...")
+    print("[*] Veriler işleniyor ve dosyalara kaydediliyor...")
     utc_now = datetime.now(timezone.utc).isoformat()
 
-    # Eğer daha önceden oluşmuş dosyalar varsa, eski kayıtları da kaybetmemek için okuyup sete dahil et (Üzerine ekleme mantığı)
     def load_existing(filename, target_set, validator_func):
         if os.path.exists(filename):
             try:
@@ -201,7 +186,6 @@ def save_outputs():
     load_existing(OUTPUT_URL, urls, lambda u: u.startswith("http"))
     load_existing(OUTPUT_HASH, hashes, lambda h: len(h) in (32, 64))
 
-    # Dosyalara son hali yazılıyor
     with open(OUTPUT_IP, "w", encoding="utf-8") as f:
         f.write(f"# Updated: {utc_now} UTC\n")
         f.write("\n".join(sorted(ips)) + "\n")
@@ -218,7 +202,7 @@ def save_outputs():
         f.write(f"# Updated: {utc_now} UTC\n")
         f.write("\n".join(sorted(hashes)) + "\n")
 
-    print(f"[✓] Güncelleme Tamamlandı! Toplam Kayıt -> IP: {len(ips)}, Domain: {len(domains)}, URL: {len(urls)}, Hash: {len(hashes)}")
+    print(f"[✓] İşlem Tamamlandı -> IP: {len(ips)}, Domain: {len(domains)}, URL: {len(urls)}, Hash: {len(hashes)}")
 
 if __name__ == "__main__":
     fetch_feeds()
