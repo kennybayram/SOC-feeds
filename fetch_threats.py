@@ -2,7 +2,6 @@ import os
 import re
 import csv
 import io
-import json
 import requests
 from datetime import datetime, timezone
 from collections import defaultdict
@@ -69,14 +68,11 @@ def add_url(url, source):
 def add_hash(h, source):
     if h:
         h = h.strip().lower()
-        # MD5 (32), SHA1 (40) veya SHA256 (64) hex kontrolü
         if len(h) in (32, 40, 64) and all(c in "0123456789abcdef" for c in h):
             hashes.add(h)
             hash_sources[h].add(source)
 
 def extract_hashes_from_text(text, source_name):
-    """Metin içindeki potansiyel hash değerlerini (MD5, SHA1, SHA256) regex ile yakalar"""
-    # 64 karakterli hex (SHA256), 40 karakterli hex (SHA1), 32 karakterli hex (MD5)
     potential_hashes = re.findall(r'\b[a-fA-F0-9]{32}\b|\b[a-fA-F0-9]{40}\b|\b[a-fA-F0-9]{64}\b', text)
     for h in potential_hashes:
         add_hash(h, source_name)
@@ -85,15 +81,10 @@ def fetch_feeds():
     print("[*] Tüm servislerden IP, Domain, URL ve Hash verileri toplanıyor...")
 
     sources = [
-        # USOM & Phishing
         ("USOM URL List", "https://www.usom.gov.tr/url-list.txt", "txt_url"),
         ("URLHaus", "https://urlhaus.abuse.ch/downloads/text/", "txt_url"),
-        
-        # Zengin Hash ve IoC Kaynakları (Abuse.ch Ecosystem & ThreatFox)
         ("ThreatFox IOC List", "https://threatfox.abuse.ch/downloads/ioc_list/", "threatfox_csv"),
         ("MalwareBazaar Recent", "https://bazaar.abuse.ch/export/txt/recent/", "txt_hash"),
-        
-        # Network & IP Blokları
         ("Feodo Tracker", "https://feodotracker.abuse.ch/downloads/ipblocklist.txt", "txt_ip"),
         ("SSLBL", "https://sslbl.abuse.ch/blacklist/sslipblacklist.txt", "txt_ip"),
         ("Spamhaus DROP", "https://www.spamhaus.org/drop/drop.txt", "txt_ip"),
@@ -113,14 +104,12 @@ def fetch_feeds():
 
     for source_name, url, method in sources:
         try:
-            headers = {'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) CyberSecurityEngine/7.0'}
+            headers = {'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) CyberSecurityEngine/8.0'}
             resp = requests.get(url, headers=headers, timeout=30)
             if resp.status_code != 200:
                 continue
 
             content = resp.text
-
-            # Her halükarda genel metin taraması ile kaçmış olabilecek hash'leri yakala
             extract_hashes_from_text(content, f"{source_name} (Scan)")
 
             if method == "txt_ip":
@@ -149,7 +138,6 @@ def fetch_feeds():
                 for line in content.splitlines():
                     line = line.strip()
                     if line and not line.startswith("#"):
-                        # ThreatFox CSV sütunlarında payload hash'leri yer alır, satırdaki tüm alanları tetikle
                         cols = line.split('"')
                         for col in cols:
                             col_clean = col.strip()
@@ -166,8 +154,31 @@ def fetch_feeds():
         except Exception as e:
             print(f"[-] Hata ({source_name}): {e}")
 
+def update_readme_stats():
+    readme_path = "README.md"
+    if not os.path.exists(readme_path):
+        print("[-] README.md bulunamadı, istatistik güncellenemedi.")
+        return
+
+    print("[*] README.md canlı istatistikleri güncelleniyor...")
+    
+    with open(readme_path, "r", encoding="utf-8") as f:
+        content = f.read()
+
+    stats_block = f"\n\n> **Live Statistics:** 🌐 IP: `{len(ips):,}` | 🗂️ Domain: `{len(domains):,}` | 🔗 URL: `{len(urls):,}` | 🔑 Hash: `{len(hashes):,}`"
+
+    # Eski istatistik satırı varsa temizle
+    content = re.sub(r"\n\n> \*\*Live Statistics:\*\*.*", "", content)
+    
+    # Başlığın hemen altına ekle
+    content = content.replace("# SOC-FEEDS", f"# SOC-FEEDS{stats_block}")
+
+    with open(readme_path, "w", encoding="utf-8") as f:
+        f.write(content)
+    print("[✓] README.md istatistikleri başarıyla işlendi.")
+
 def save_outputs():
-    print("[*] Tüm veriler işleniyor ve dosyalar güncelleniyor...")
+    print("[*] Tüm veriler işleniyor ve çıktı dosyaları yazılıyor...")
     utc_now = datetime.now(timezone.utc).isoformat()
 
     def write_feed_file(filename, data_set, source_dict):
@@ -189,6 +200,9 @@ def save_outputs():
     write_feed_file(OUTPUT_DOMAIN, domains, domain_sources)
     write_feed_file(OUTPUT_URL, urls, url_sources)
     write_feed_file(OUTPUT_HASH, hashes, hash_sources)
+
+    # README güncellemesini tetikle
+    update_readme_stats()
 
     print(f"[✓] Tamamlandı -> IP: {len(ips)}, Domain: {len(domains)}, URL: {len(urls)}, Hash: {len(hashes)}")
 
