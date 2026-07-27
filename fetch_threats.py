@@ -2,8 +2,10 @@ import os
 import re
 import csv
 import io
+import json
 import requests
 from datetime import datetime, timezone
+from collections import defaultdict
 
 OUTPUT_IP = "threat_ip.txt"
 OUTPUT_DOMAIN = "threat_domain.txt"
@@ -15,6 +17,11 @@ WHITELIST_DOMAINS = {
     "google.com", "cloudflare.com", "microsoft.com", 
     "apple.com", "github.com", "amazon.com", "siberguvenlik.gov.tr", "usom.gov.tr"
 }
+
+ip_sources = defaultdict(set)
+domain_sources = defaultdict(set)
+url_sources = defaultdict(set)
+hash_sources = defaultdict(set)
 
 ips = set()
 domains = set()
@@ -41,122 +48,149 @@ def is_valid_domain(domain):
     pattern = r"^(?!-)[a-z0-9-]{1,63}(?<!-)\.(?:[a-z0-9-]{1,63}(?<!-)\.)*[a-z]{2,}$"
     return bool(re.match(pattern, domain))
 
-def add_ip(ip):
+def add_ip(ip, source):
     if is_valid_ip(ip):
         ips.add(ip)
+        ip_sources[ip].add(source)
 
-def add_domain(domain):
+def add_domain(domain, source):
     if is_valid_domain(domain):
         domains.add(domain)
+        domain_sources[domain].add(source)
 
-def add_url(url):
+def add_url(url, source):
     if url and url.startswith("http"):
         urls.add(url)
+        url_sources[url].add(source)
         match = re.findall(r'https?://([^/]+)', url)
         if match:
-            add_domain(match[0])
+            add_domain(match[0], f"{source} (Extracted)")
 
-def add_hash(h):
+def add_hash(h, source):
     if h:
         h = h.strip().lower()
-        if len(h) in (32, 64) and all(c in "0123456789abcdef" for c in h):
+        # MD5 (32), SHA1 (40) veya SHA256 (64) hex kontrolü
+        if len(h) in (32, 40, 64) and all(c in "0123456789abcdef" for c in h):
             hashes.add(h)
+            hash_sources[h].add(source)
+
+def extract_hashes_from_text(text, source_name):
+    """Metin içindeki potansiyel hash değerlerini (MD5, SHA1, SHA256) regex ile yakalar"""
+    # 64 karakterli hex (SHA256), 40 karakterli hex (SHA1), 32 karakterli hex (MD5)
+    potential_hashes = re.findall(r'\b[a-fA-F0-9]{32}\b|\b[a-fA-F0-9]{40}\b|\b[a-fA-F0-9]{64}\b', text)
+    for h in potential_hashes:
+        add_hash(h, source_name)
 
 def fetch_feeds():
-    print("[*] Tehdit istihbarat kaynaklarından veriler çekiliyor...")
+    print("[*] Tüm servislerden IP, Domain, URL ve Hash verileri toplanıyor...")
 
     sources = [
-        ("https://www.usom.gov.tr/url-list.txt", "txt_url"),
-        ("https://www.cisa.gov/sites/default/files/feeds/known_exploited_vulnerabilities.json", "cisa_json"),
-        ("https://urlhaus.abuse.ch/downloads/text/", "txt_url"),
-        ("https://threatfox.abuse.ch/downloads/hostfile/", "txt_domain"),
-        ("https://bazaar.abuse.ch/export/txt/recent/", "txt_hash"),
-        ("https://feodotracker.abuse.ch/downloads/ipblocklist.txt", "txt_ip"),
-        ("https://sslbl.abuse.ch/blacklist/sslipblacklist.txt", "txt_ip"),
-        ("https://www.spamhaus.org/drop/drop.txt", "txt_ip"),
-        ("https://www.spamhaus.org/drop/edrop.txt", "txt_ip"),
-        ("https://www.spamhaus.org/drop/domaindrop.txt", "txt_domain"),
-        ("http://data.phishtank.com/data/online-valid.csv", "phishtank_csv"),
-        ("https://openphish.com/feed.txt", "txt_url"),
-        ("https://rules.emergingthreats.net/blockrules/emerging-compromised-ips.txt", "txt_ip"),
-        ("https://raw.githubusercontent.com/firehol/blocklist-ipsets/master/firehol_level1.netset", "txt_ip"),
-        ("https://www.blocklist.de/downloads/export-ips_all.txt", "txt_ip"),
-        ("https://www.binarydefense.com/banlist.txt", "txt_ip"),
-        ("https://cinsscore.com/list/ci-badguys.txt", "txt_ip"),
-        ("https://www.dshield.org/block.txt", "txt_ip"),
-        ("https://raw.githubusercontent.com/zoneh/IPsum/master/ipsum.txt", "txt_ip"),
-        ("https://check.torproject.org/torbulkexitlist", "txt_ip"),
+        # USOM & Phishing
+        ("USOM URL List", "https://www.usom.gov.tr/url-list.txt", "txt_url"),
+        ("URLHaus", "https://urlhaus.abuse.ch/downloads/text/", "txt_url"),
+        
+        # Zengin Hash ve IoC Kaynakları (Abuse.ch Ecosystem & ThreatFox)
+        ("ThreatFox IOC List", "https://threatfox.abuse.ch/downloads/ioc_list/", "threatfox_csv"),
+        ("MalwareBazaar Recent", "https://bazaar.abuse.ch/export/txt/recent/", "txt_hash"),
+        
+        # Network & IP Blokları
+        ("Feodo Tracker", "https://feodotracker.abuse.ch/downloads/ipblocklist.txt", "txt_ip"),
+        ("SSLBL", "https://sslbl.abuse.ch/blacklist/sslipblacklist.txt", "txt_ip"),
+        ("Spamhaus DROP", "https://www.spamhaus.org/drop/drop.txt", "txt_ip"),
+        ("Spamhaus EDROP", "https://www.spamhaus.org/drop/edrop.txt", "txt_ip"),
+        ("Spamhaus DBL", "https://www.spamhaus.org/drop/domaindrop.txt", "txt_domain"),
+        ("PhishTank", "http://data.phishtank.com/data/online-valid.csv", "phishtank_csv"),
+        ("OpenPhish", "https://openphish.com/feed.txt", "txt_url"),
+        ("Emerging Threats", "https://rules.emergingthreats.net/blockrules/emerging-compromised-ips.txt", "txt_ip"),
+        ("FireHOL Level1", "https://raw.githubusercontent.com/firehol/blocklist-ipsets/master/firehol_level1.netset", "txt_ip"),
+        ("Blocklist.de", "https://www.blocklist.de/downloads/export-ips_all.txt", "txt_ip"),
+        ("Binary Defense", "https://www.binarydefense.com/banlist.txt", "txt_ip"),
+        ("CINSSCORE", "https://cinsscore.com/list/ci-badguys.txt", "txt_ip"),
+        ("DShield", "https://www.dshield.org/block.txt", "txt_ip"),
+        ("IPsum", "https://raw.githubusercontent.com/zoneh/IPsum/master/ipsum.txt", "txt_ip"),
+        ("Tor Exit Nodes", "https://check.torproject.org/torbulkexitlist", "txt_ip"),
     ]
 
-    for url, method in sources:
+    for source_name, url, method in sources:
         try:
-            headers = {'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) CyberSecurityEngine/4.0'}
-            resp = requests.get(url, headers=headers, timeout=25)
+            headers = {'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) CyberSecurityEngine/7.0'}
+            resp = requests.get(url, headers=headers, timeout=30)
             if resp.status_code != 200:
                 continue
 
+            content = resp.text
+
+            # Her halükarda genel metin taraması ile kaçmış olabilecek hash'leri yakala
+            extract_hashes_from_text(content, f"{source_name} (Scan)")
+
             if method == "txt_ip":
-                for line in resp.text.splitlines():
+                for line in content.splitlines():
                     line = line.strip()
                     if line and not line.startswith(("#", ";", "//")):
-                        add_ip(line.split()[0])
+                        add_ip(line.split()[0], source_name)
             elif method == "txt_domain":
-                for line in resp.text.splitlines():
+                for line in content.splitlines():
                     line = line.strip()
                     if line and not line.startswith(("#", ";", "//")):
-                        add_domain(line.split()[0])
+                        add_domain(line.split()[0], source_name)
             elif method == "txt_url":
-                for line in resp.text.splitlines():
+                for line in content.splitlines():
                     line = line.strip()
                     if line and not line.startswith(("#", ";", "//")):
-                        add_url(line.split()[0])
+                        add_url(line.split()[0], source_name)
             elif method == "txt_hash":
-                for line in resp.text.splitlines():
+                for line in content.splitlines():
                     line = line.strip()
                     if line and not line.startswith(("#", ";", "//")):
-                        add_hash(line.split()[0])
+                        parts = line.split(',')
+                        val = parts[0].strip('"').strip()
+                        add_hash(val, source_name)
+            elif method == "threatfox_csv":
+                for line in content.splitlines():
+                    line = line.strip()
+                    if line and not line.startswith("#"):
+                        # ThreatFox CSV sütunlarında payload hash'leri yer alır, satırdaki tüm alanları tetikle
+                        cols = line.split('"')
+                        for col in cols:
+                            col_clean = col.strip()
+                            if len(col_clean) in (32, 40, 64):
+                                add_hash(col_clean, source_name)
             elif method == "phishtank_csv":
-                f = io.StringIO(resp.text)
+                f = io.StringIO(content)
                 reader = csv.DictReader(f)
                 for row in reader:
                     if row.get('url'):
-                        add_url(row['url'])
-            elif method == "cisa_json":
-                pass
+                        add_url(row['url'], source_name)
 
-            print(f"[+] Başarılı: {url}")
+            print(f"[+] Başarılı ({source_name}): {url}")
         except Exception as e:
-            print(f"[-] Hata ({url}): {e}")
+            print(f"[-] Hata ({source_name}): {e}")
 
 def save_outputs():
-    print("[*] Veriler işleniyor ve dosyalara kaydediliyor...")
+    print("[*] Tüm veriler işleniyor ve dosyalar güncelleniyor...")
     utc_now = datetime.now(timezone.utc).isoformat()
 
-    def load_existing(filename, target_set, validator_func):
-        if os.path.exists(filename):
-            try:
-                with open(filename, "r", encoding="utf-8") as f:
-                    for line in f:
-                        line = line.strip()
-                        if line and not line.startswith("#"):
-                            if validator_func(line):
-                                target_set.add(line)
-            except Exception:
-                pass
-
-    load_existing(OUTPUT_IP, ips, is_valid_ip)
-    load_existing(OUTPUT_DOMAIN, domains, is_valid_domain)
-    load_existing(OUTPUT_URL, urls, lambda u: u.startswith("http"))
-    load_existing(OUTPUT_HASH, hashes, lambda h: len(h) in (32, 64))
-
-    for filename, data in [(OUTPUT_IP, ips), (OUTPUT_DOMAIN, domains), (OUTPUT_URL, urls), (OUTPUT_HASH, hashes)]:
+    def write_feed_file(filename, data_set, source_dict):
         with open(filename, "w", encoding="utf-8") as f:
-            f.write(f"# Updated: {utc_now} UTC\n")
-            f.write("\n".join(sorted(data)) + "\n")
+            f.write(f"# ==========================================================\n")
+            f.write(f"# SOC-FEEDS INTELLIGENCE REPORT\n")
+            f.write(f"# Last Updated: {utc_now} UTC\n")
+            f.write(f"# Total Records: {len(data_set)}\n")
+            f.write(f"# ==========================================================\n\n")
+            
+            for item in sorted(data_set):
+                sources = ", ".join(sorted(source_dict[item])) if item in source_dict else "Source-Unknown"
+                f.write(f"{item}  # Sources: [{sources}]\n")
+            
             f.flush()
             os.fsync(f.fileno())
 
-    print(f"[✓] İşlem Tamamlandı -> IP: {len(ips)}, Domain: {len(domains)}, URL: {len(urls)}, Hash: {len(hashes)}")
+    write_feed_file(OUTPUT_IP, ips, ip_sources)
+    write_feed_file(OUTPUT_DOMAIN, domains, domain_sources)
+    write_feed_file(OUTPUT_URL, urls, url_sources)
+    write_feed_file(OUTPUT_HASH, hashes, hash_sources)
+
+    print(f"[✓] Tamamlandı -> IP: {len(ips)}, Domain: {len(domains)}, URL: {len(urls)}, Hash: {len(hashes)}")
 
 if __name__ == "__main__":
     fetch_feeds()
