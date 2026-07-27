@@ -26,15 +26,10 @@ jobs:
       - name: Run feed updater script
         run: python fetch_threats.py
 
-      - name: Pull latest changes with rebase
-        run: |
-          git config user.name "github-actions[bot]"
-          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git pull origin main --rebase
-
       - name: Commit and push changes
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
           commit_message: "Auto-update threat feeds and live stats [skip ci]"
           commit_user_name: "github-actions[bot]"
           commit_user_email: "41898282+github-actions[bot]@users.noreply.github.com"
+          push_options: '--force'
