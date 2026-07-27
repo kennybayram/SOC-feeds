@@ -1,18 +1,16 @@
-name: Threat Feeds Aggregator
+name: Update Threat Feeds
 
 on:
   schedule:
     - cron: '0 * * * *' # Her saat başı çalışır
-  workflow_dispatch:
+  workflow_dispatch: # Manuel tetikleme için
 
 jobs:
-  build:
+  update-feeds:
     runs-on: ubuntu-latest
-    permissions:
-      contents: write # Git commit izni için şarttır
 
     steps:
-      - name: Checkout Repository
+      - name: Checkout repository
         uses: actions/checkout@v4
 
       - name: Set up Python
@@ -20,21 +18,23 @@ jobs:
         with:
           python-version: '3.10'
 
-      - name: Install Dependencies
+      - name: Install dependencies
         run: |
           python -m pip install --upgrade pip
           pip install requests
 
-      - name: Run Feed Fetcher
-        run: python fetch_threats.py
+      - name: Run feed updater script
+        run: python update.py # Kendi python betiğinin adı neyse buraya yazabilirsin
 
-      - name: Commit and Push Changes
+      - name: Pull latest changes with rebase
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git pull origin main --rebase
+
+      - name: Commit and push changes
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
           commit_message: "Auto-update threat feeds and live stats [skip ci]"
-          branch: main
-          - name: Pull latest changes
-  run: |
-    git config user.name "github-actions[bot]"
-    git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-    git pull origin main --rebase
+          commit_user_name: "github-actions[bot]"
+          commit_user_email: "41898282+github-actions[bot]@users.noreply.github.com"
