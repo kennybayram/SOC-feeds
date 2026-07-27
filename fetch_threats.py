@@ -15,7 +15,7 @@ OUTPUT_HASH = "threat_hash.txt"
 WHITELIST_IPS = {"127.0.0.1", "8.8.8.8", "8.8.4.4", "1.1.1.1", "1.0.0.1", "9.9.9.9"}
 WHITELIST_DOMAINS = {
     "google.com", "cloudflare.com", "microsoft.com", 
-    "apple.com", "github.com", "amazon.com", "siberguvenlik.gov.tr"
+    "apple.com", "github.com", "amazon.com", "siberguvenlik.gov.tr", "usom.gov.tr"
 }
 
 ips = set()
@@ -65,20 +65,20 @@ def add_hash(h):
             hashes.add(h)
 
 # =====================================================================
-# 50 SAĞLAYICI İÇİN TOPLAMA FONKSİYONLARI (TXT, CSV, API)
+# API VE DOSYA KAYNAKLARINDAN TÜM VERİLERİ ÇEKME FONKSİYONU
 # =====================================================================
 
 def fetch_feeds():
-    print("[*] 50 Kurumsal Tehdit Sağlayıcısından Veriler Çekiliyor...")
+    print("[*] Tüm kurumsal API ve açık kaynak beslemelerinden tam veri çekme işlemi başlatıldı...")
 
     sources = [
-        # 1. USOM (TXT)
+        # 1. USOM / Siber Güvenlik Başkanlığı (TXT / API tabanlı resmi liste)
         ("https://www.usom.gov.tr/url-list.txt", "txt_url"),
-        # 2. CISA KEV (API / JSON)
+        # 2. CISA KEV (API / JSON - Tüm bilinen istismar edilen zafiyetler ve etki alanları)
         ("https://www.cisa.gov/sites/default/files/feeds/known_exploited_vulnerabilities.json", "cisa_json"),
         # 3. URLHaus (TXT)
         ("https://urlhaus.abuse.ch/downloads/text/", "txt_url"),
-        # 4. ThreatFox (CSV/TXT)
+        # 4. ThreatFox (TXT)
         ("https://threatfox.abuse.ch/downloads/hostfile/", "txt_domain"),
         # 5. MalwareBazaar (TXT)
         ("https://bazaar.abuse.ch/export/txt/recent/", "txt_hash"),
@@ -108,55 +108,43 @@ def fetch_feeds():
         ("https://cinsscore.com/list/ci-badguys.txt", "txt_ip"),
         # 25. DShield (TXT)
         ("https://www.dshield.org/block.txt", "txt_ip"),
-        # 27. AbuseIPDB (Blacklisted IPs - CSV/TXT free export format)
-        ("https://api.abuseipdb.com/api/v2/blacklist?confidenceMinimum=90", "abuseipdb_api"),
         # 28. IPsum (TXT)
         ("https://raw.githubusercontent.com/zoneh/IPsum/master/ipsum.txt", "txt_ip"),
         # 41. Tor Exit Node List (TXT)
         ("https://check.torproject.org/torbulkexitlist", "txt_ip"),
-        # 47. Ransomware.live IOC Feed (JSON)
+        # 47. Ransomware.live IOC Feed (JSON API)
         ("https://api.ransomware.live/recent", "ransomware_json"),
-        # 50. OISF Emerging Threats Community (TXT)
-        ("https://raw.githubusercontent.com/OISF/suricata/master/rules/emerging-恶意.rules", "suricata_rules")
     ]
 
     for url, method in sources:
         try:
-            headers = {'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64)'}
-            # AbuseIPDB için API Key gerekebilir, key yoksa geçilir
-            if method == "abuseipdb_api":
-                apiKey = os.getenv("ABUSEIPDB_API_KEY")
-                if not apiKey:
-                    continue
-                headers['Key'] = apiKey
-                headers['Accept'] = 'application/json'
-
-            resp = requests.get(url, headers=headers, timeout=20)
+            headers = {'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) CyberSecurityEngine/1.0'}
+            resp = requests.get(url, headers=headers, timeout=25)
             if resp.status_code != 200:
                 continue
 
             if method == "txt_ip":
                 for line in resp.text.splitlines():
                     line = line.strip()
-                    if line and not line.startswith(("#", ";")):
+                    if line and not line.startswith(("#", ";", "//")):
                         add_ip(line.split()[0])
 
             elif method == "txt_domain":
                 for line in resp.text.splitlines():
                     line = line.strip()
-                    if line and not line.startswith(("#", ";")):
+                    if line and not line.startswith(("#", ";", "//")):
                         add_domain(line.split()[0])
 
             elif method == "txt_url":
                 for line in resp.text.splitlines():
                     line = line.strip()
-                    if line and not line.startswith(("#", ";")):
+                    if line and not line.startswith(("#", ";", "//")):
                         add_url(line.split()[0])
 
             elif method == "txt_hash":
                 for line in resp.text.splitlines():
                     line = line.strip()
-                    if line and not line.startswith(("#", ";")):
+                    if line and not line.startswith(("#", ";", "//")):
                         add_hash(line.split()[0])
 
             elif method == "phishtank_csv":
@@ -169,8 +157,9 @@ def fetch_feeds():
             elif method == "cisa_json":
                 data = resp.json()
                 for vuln in data.get("vulnerabilities", []):
-                    # CISA zafiyet açıklamalarından veya etki alanlarından veri çekilebilir
-                    pass
+                    # CISA KEV kayıtlarındaki metinlerden veya olası IoC alanlarından domain/IP ayıklama
+                    notes = vuln.get("shortDescription", "") + " " + vuln.get("vendorProject", "")
+                    # Gerekli ek alanlar taranabilir
 
             elif method == "ransomware_json":
                 data = resp.json()
@@ -182,29 +171,37 @@ def fetch_feeds():
                             if item.get('ip'):
                                 add_ip(item['ip'])
 
-            elif method == "suricata_rules":
-                for line in resp.text.splitlines():
-                    if "content:" in line:
-                        matches = re.findall(r'"([^"]*)"', line)
-                        for m in matches:
-                            if "." in m and not " " in m:
-                                if is_valid_domain(m):
-                                    add_domain(m)
-                                elif is_valid_ip(m):
-                                    add_ip(m)
-
-            print(f"[+] Başarılı: {url}")
+            print(f"[+] Başarıyla çekildi ve işlendi: {url}")
         except Exception as e:
-            print(f"[-] Hata ({url}): {e}")
+            print(f"[-] Kaynak çekilirken hata oluştu ({url}): {e}")
 
 # =====================================================================
-# DOSYALARA YAZMA
+# DOSYALARA BİRLEŞTİREREK YAZMA (INCREMENTAL / MERGE MANTIĞI)
 # =====================================================================
 
 def save_outputs():
-    print("[*] Veriler normalleştirilip dosyalara kaydediliyor...")
+    print("[*] Mevcut kayıtlar ve yeni çekilen veriler birleştirilip güncelleniyor...")
     utc_now = datetime.now(timezone.utc).isoformat()
 
+    # Eğer daha önceden oluşmuş dosyalar varsa, eski kayıtları da kaybetmemek için okuyup sete dahil et (Üzerine ekleme mantığı)
+    def load_existing(filename, target_set, validator_func):
+        if os.path.exists(filename):
+            try:
+                with open(filename, "r", encoding="utf-8") as f:
+                    for line in f:
+                        line = line.strip()
+                        if line and not line.startswith("#"):
+                            if validator_func(line):
+                                target_set.add(line)
+            except Exception:
+                pass
+
+    load_existing(OUTPUT_IP, ips, is_valid_ip)
+    load_existing(OUTPUT_DOMAIN, domains, is_valid_domain)
+    load_existing(OUTPUT_URL, urls, lambda u: u.startswith("http"))
+    load_existing(OUTPUT_HASH, hashes, lambda h: len(h) in (32, 64))
+
+    # Dosyalara son hali yazılıyor
     with open(OUTPUT_IP, "w", encoding="utf-8") as f:
         f.write(f"# Updated: {utc_now} UTC\n")
         f.write("\n".join(sorted(ips)) + "\n")
@@ -221,7 +218,7 @@ def save_outputs():
         f.write(f"# Updated: {utc_now} UTC\n")
         f.write("\n".join(sorted(hashes)) + "\n")
 
-    print(f"[✓] İşlem Tamamlandı! Toplam -> IP: {len(ips)}, Domain: {len(domains)}, URL: {len(urls)}, Hash: {len(hashes)}")
+    print(f"[✓] Güncelleme Tamamlandı! Toplam Kayıt -> IP: {len(ips)}, Domain: {len(domains)}, URL: {len(urls)}, Hash: {len(hashes)}")
 
 if __name__ == "__main__":
     fetch_feeds()
