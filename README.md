@@ -1,6 +1,8 @@
 <p align="center">
-  #SOC-FEEDS
-###🛡️ Real-Time Open-Source Threat Intelligence & IoC Aggregator
+  
+#SOC-FEEDS
+
+##🛡️ Real-Time Open-Source Threat Intelligence & IoC Aggregator
 </p>
                                               
 
