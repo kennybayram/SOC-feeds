@@ -1,392 +1,164 @@
+# SOC-FEEDS 🛡️ Real-Time Open-Source Threat Intelligence & IoC Aggregator
 
->
-<div align="center">
-SOC-FEEDS
- **Live Statistics:** 🌐 IP: `38,795` | 🗂️ Domain: `43,654` | 🔗 URL: `133,856` | 🔑 Hash: `2,367`:
-  Real-Time Open-Source Threat Intelligence & IoC Aggregator
+<p align="center">
+  🌐 <b>IP:</b> <code id="stat-ip">38,795</code> &nbsp;|&nbsp; 
+  🗂️ <b>Domain:</b> <code id="stat-domain">43,654</code> &nbsp;|&nbsp; 
+  🔗 <b>URL:</b> <code id="stat-url">133,856</code> &nbsp;|&nbsp; 
+  🔑 <b>Hash:</b> <code id="stat-hash">2,367</code>
+</p>
 
-  </h3>
-  <br>
-  <a href="#tr">Türkçe</a> | <a href="#en">English</a> | <a href="#de">Deutsch</a> | <a href="#fr">Français</a> | <a href="#es">Español</a> | <a href="#it">Italiano</a> | <a href="#nl">Nederlands</a> | <a href="#pl">Polski</a> | <a href="#sv">Svenska</a> | <a href="#da">Dansk</a> | <a href="#fi">Suomi</a> | <a href="#pt">Português</a> | <a href="#el">Ελληνικά</a> | <a href="#cs">Čeština</a> | <a href="#hu">Magyar</a> | <a href="#ro">Română</a> | <a href="#bg">Български</a> | <a href="#sk">Slovenčina</a> | <a href="#hr">Hrvatski</a> | <a href="#sl">Slovenščina</a> | <a href="#lt">Lietuvių</a> | <a href="#lv">Latviešu</a> | <a href="#ee">Eesti</a> | <a href="#ga">Gaeilge</a> | <a href="#mt">Malti</a>
-  <br><br>
+<p align="center">
+  <b>[ 🇹🇷 Türkçe | 🇬🇧 English | 🇩🇪 Deutsch | 🇳🇱 Nederlands | 🇫🇷 Français | 🇮🇹 Italiano | 🇳🇴 Norsk | 🇸🇪 Svenska | 🇫🇮 Suomi ]</b>
+</p>
 
 ---
 
-## <a id="tr"></a>🇹🇷 Türkçe
+## 🇹🇷 Türkçe
 
 ### 📌 Kurumsal Genel Bakış
-SOC-feeds, kritik ağ altyapılarını, Güvenlik Operasyon Merkezlerini (SOC) ve kurumsal çevre güvenliğini korumak amacıyla tasarlanmış otomatik bir Tehdit İstihbaratı (Threat Intelligence) toplama ve derleme motorudur. Sistem; dünya çapındaki güvenilir, açık kaynaklı ve resmi istihbarat kaynaklarından zararlı IP adreslerini, etki alanlarını (domain), URL'leri ve zararlı yazılım hash değerlerini saatlik periyotlarla derler, temizler, mükerrer kayıtları ayıklar ve güncel tutar.
+**SOC-feeds**, kritik ağ altyapılarını, Güvenlik Operasyon Merkezlerini (SOC) ve kurumsal çevre güvenliğini korumak amacıyla tasarlanmış otomatik bir **Tehdit İstihbaratı (Threat Intelligence)** toplama ve derleme motorudur. Sistem; dünya çapındaki güvenilir, açık kaynaklı ve resmi istihbarat kaynaklarından zararlı IP adreslerini, etki alanlarını (domain), URL'leri ve zararlı yazılım hash değerlerini periyodik olarak derler, temizler, mükerrer kayıtları ayıklar ve dinamik olarak güncel tutar.
 
-### 🔌 Entegrasyon ve Kullanım Alanları
-* **Güvenlik Duvarları (Next-Gen Firewalls)**: Palo Alto, Fortinet, Check Point, Cisco ASA/FTD sistemlerinde IP ve Domain bazlı otomatik bloklama (External Dynamic Lists).
-* **SIEM & SOAR Platformları**: Wazuh, Zabbix, Splunk, Elastic Stack, Microsoft Sentinel üzerinde log korelasyonu ve tehdit avcılığı (Threat Hunting).
-* **E-Posta Güvenlik Ağ Geçitleri (SEG)**: Phishing ve zararlı URL/domain tespiti.
+#### 🔌 Entegrasyon ve Kullanım Alanları
+* **Güvenlik Duvarları (Next-Gen Firewalls):** Palo Alto, Fortinet, Check Point, Cisco ASA/FTD sistemlerinde IP ve Domain bazlı otomatik bloklama (External Dynamic Lists).
+* **SIEM & SOAR Platformları:** Wazuh, Zabbix, Splunk, Elastic Stack, Microsoft Sentinel üzerinde log korelasyonu ve tehdit avcılığı (Threat Hunting).
+* **E-Posta Güvenlik Ağ Geçitleri (SEG):** Phishing ve zararlı URL/domain tespiti.
 
-### 🔗 Veri Kaynakları (Threat Intelligence Feeds)
+#### 🔗 Veri Kaynakları (Threat Intelligence Feeds)
 Sistem aşağıdaki resmi ve küresel güvenlik kaynaklarından anlık veri çekmektedir:
-* **USOM URL List**: Türkiye Ulusal Siber Olaylara Müdahale Merkezi zararlı bağlantı listesi.
-* **CISA KEV**: Bilinen ve aktif olarak istismar edilen zaafiyet katalogları.
-* **Abuse.ch Ecosystem**: URLHaus, ThreatFox, MalwareBazaar, Feodo Tracker, SSLBL.
-* **Spamhaus Project**: DROP & EDROP, DBL (Domain Block List).
-* **PhishTank & OpenPhish**: Doğrulanmış oltalama (phishing) URL ve site veritabanı.
-* **Emerging Threats & FireHOL**: Kompromize edilmiş, saldırı amaçlı kullanılan IP blok setleri (Level 1).
-* **Blocklist.de, DShield & CINSSCORE**: Küresel honeypot ve güvenlik sensörü verileri.
-* **Binary Defense & IPsum**: Çoklu kaynak tabanlı kötü amaçlı IP derecelendirme listeleri.
-* **Tor Project**: Anonimleştirme ve saldırı çıkış düğümü (Exit Node) IP listeleri.
+* **USOM URL List:** Türkiye Ulusal Siber Olaylara Müdahale Merkezi zararlı bağlantı listesi.
+* **CISA KEV:** Bilinen ve aktif olarak istismar edilen zaafiyet katalogları.
+* **Abuse.ch Ecosystem:** URLHaus, ThreatFox, MalwareBazaar, Feodo Tracker, SSLBL.
+* **Spamhaus Project:** DROP & EDROP, DBL (Domain Block List).
+* **PhishTank & OpenPhish:** Doğrulanmış oltalama (phishing) URL ve site veritabanı.
+* **Emerging Threats & FireHOL:** Kompromize edilmiş, saldırı amaçlı kullanılan IP blok setleri (Level 1).
+* **Blocklist.de, DShield & CINSSCORE:** Küresel honeypot ve güvenlik sensörü verileri.
+* **Tor Project:** Anonimleştirme ve saldırı çıkış düğümü (Exit Node) IP listeleri.
 
 ---
 
-## <a id="en"></a>🇬🇧 English
+## 🇬🇧 English
 
 ### 📌 Corporate Overview
-SOC-feeds is an automated Threat Intelligence collection and aggregation engine architected to empower Security Operations Centers (SOCs), SIEM solutions, and enterprise perimeter defenses. The system autonomously aggregates, sanitizes, deduplicates, and continuously updates malicious IP addresses, domains, URLs, and file hashes hourly from globally recognized, open-source, and official threat feeds.
+**SOC-feeds** is an automated Threat Intelligence aggregation and compilation engine engineered to safeguard critical network infrastructures, Security Operations Centers (SOCs), and corporate perimeters. The system continuously compiles, sanitizes, deduplicates, and maintains malicious IP addresses, domains, URLs, and malware hash values from trusted global open-source and official intelligence sources.
 
-### 🔌 Integration & Use Cases
-* **Next-Generation Firewalls (NGFW)**: External Dynamic Lists (EDL) for automated IP/Domain blocking on Palo Alto, Fortinet, Check Point, and Cisco platforms.
-* **SIEM & SOAR Platforms**: Log correlation and threat hunting integration for Wazuh, Zabbix, Splunk, Elastic Stack, and Microsoft Sentinel.
-* **Email Security Gateways (SEG)**: Real-time phishing URL and malicious domain detection.
+#### 🔌 Integration & Use Cases
+* **Next-Gen Firewalls (NGFW):** Automated IP and domain blocking via External Dynamic Lists for platforms such as Palo Alto, Fortinet, Check Point, and Cisco.
+* **SIEM & SOAR Platforms:** Log correlation and threat hunting capabilities across Wazuh, Zabbix, Splunk, Elastic Stack, and Microsoft Sentinel.
+* **Email Security Gateways (SEG):** Advanced detection and blocking of phishing and malicious URLs/domains.
 
-### 🔗 Intelligence Sources
-* USOM URL List, CISA KEV, Abuse.ch Suite (URLHaus, ThreatFox, MalwareBazaar, Feodo, SSLBL), Spamhaus (DROP, DBL), PhishTank, OpenPhish, Emerging Threats, FireHOL, Blocklist.de, DShield, CINSSCORE, Binary Defense, IPsum, and Tor Project.
+#### 🔗 Threat Intelligence Feeds
+The platform aggregates data from premier global and official security feeds, including USOM, CISA KEV, Abuse.ch, Spamhaus DROP/EDROP/DBL, PhishTank, OpenPhish, FireHOL, DShield, Tor Exit Nodes, and multi-source reputation lists.
 
 ---
 
-## <a id="de"></a>🇩🇪 Deutsch
+## 🇩🇪 Deutsch
 
 ### 📌 Unternehmensübersicht
-SOC-feeds ist eine automatisierte Threat-Intelligence-Sammelengine zur Unterstützung von Security Operations Centern (SOC), SIEM-Lösungen und Perimetersicherheitsarchitekturen.
+**SOC-feeds** ist eine automatisierte Threat-Intelligence-Aggregations- und Kompilierungs-Engine, die entwickelt wurde, um kritische Netzwerkinfrastrukturen, Security Operations Center (SOC) und Unternehmensperimeter zu schützen. Das System sammelt, bereinigt und aktualisiert kontinuierlich bösartige IP-Adressen, Domains, URLs und Malware-Hashes aus vertrauenswürdigen globalen Open-Source-Quellen.
 
-### 🔌 Integration & Anwendungsfälle
-* **Next-Gen Firewalls**: External Dynamic Lists für Palo Alto, Fortinet und Cisco.
-* **SIEM & SOAR**: Log-Korrelation und Bedrohungsjagd für Wazuh, Splunk und Microsoft Sentinel.
+#### 🔌 Integration und Anwendungsbereiche
+* **Next-Gen Firewalls (NGFW):** Automatisierte Blockierung über External Dynamic Lists für Palo Alto, Fortinet, Check Point und Cisco.
+* **SIEM- und SOAR-Plattformen:** Log-Korrelation und Threat Hunting in Wazuh, Zabbix, Splunk, Elastic Stack und Microsoft Sentinel.
+* **E-Mail-Sicherheits-Gateways (SEG):** Präzise Erkennung von Phishing und schädlichen URLs.
 
-### 🔗 Datenquellen
-USOM, CISA KEV, Abuse.ch, Spamhaus, PhishTank, OpenPhish, Tor Exit Nodes, FireHOL, DShield.
-
----
-
-## <a id="fr"></a>🇫🇷 Français
-
-### 📌 Aperçu Professionnel
-SOC-feeds est un moteur automatisé de collecte de Cyberveille conçu pour renforcer les SOC, les solutions SIEM et la sécurité périmétrique.
-
-### 🔌 Intégration & Cas d'Utilisation
-* **Pare-feu nouvelle génération**: Listes dynamiques pour Palo Alto, Fortinet, Check Point.
-* **SIEM & SOAR**: Corrélation de journaux et recherche de menaces (Wazuh, Splunk).
-
-### 🔗 Sources de Données
-USOM, CISA KEV, Abuse.ch, Spamhaus, PhishTank, OpenPhish, Tor Project, FireHOL, DShield.
+#### 🔗 Bedrohungsinformations-Feeds
+Das System aggregiert Echtzeitdaten von führenden globalen und offiziellen Sicherheitsquellen, darunter USOM, CISA KEV, Abuse.ch, Spamhaus, PhishTank, OpenPhish, FireHOL, DShield und Tor Exit Nodes.
 
 ---
 
-## <a id="es"></a>🇪🇸 Español
-
-### 📌 Resumen Corporativo
-SOC-feeds es un motor automatizado de Inteligencia de Amenazas diseñado para potenciar los SOC, soluciones SIEM y la seguridad perimetral.
-
-### 🔌 Integración y Casos de Uso
-* **Firewalls de nueva generación**: Listas dinámicas externas para bloqueo automatizado.
-* **Plataformas SIEM/SOAR**: Integración para correlación de registros y búsqueda de amenazas.
-
-### 🔗 Fuentes de Datos
-USOM, CISA KEV, Abuse.ch, Spamhaus, PhishTank, OpenPhish, Tor Project, FireHOL, DShield.
-
----
-
-## <a id="it"></a>🇮🇹 Italiano
-
-### 📌 Panoramica Aziendale
-SOC-feeds è un motore automatizzato di Cyber Threat Intelligence per SOC, soluzioni SIEM e difese perimetriche aziendali.
-
-### 🔌 Integrazione e Casi d'Uso
-* **Firewall NGFW**: Liste dinamiche esterne per il blocco automatizzato su Palo Alto, Fortinet e Cisco.
-* **SIEM & SOAR**: Correlazione dei log e Threat Hunting (Wazuh, Splunk, Elastic).
-
-### 🔗 Fonti di Intelligence
-USOM, CISA KEV, Abuse.ch, Spamhaus, PhishTank, OpenPhish, Tor Project, FireHOL, DShield.
-
----
-
-## <a id="nl"></a>🇳🇱 Nederlands
+## 🇳🇱 Nederlands
 
 ### 📌 Bedrijfsoverzicht
-SOC-feeds is een geautomatiseerde Threat Intelligence-engine voor SOC's, SIEM-oplossingen en netwerkbeveiliging.
+**SOC-feeds** is een geautomatiseerde Threat Intelligence-aggregatie- en compilatie-engine die is ontworpen om kritieke netwerkinfrastructuren, Security Operations Centers (SOC's) en bedrijfsperimeters te beschermen. Het systeem verzamelt, schoont op, ontdubbelt en onderhoudt schadelijke IP-adressen, domeinen, URL's en malware-hashes op basis van betrouwbare wereldwijde bronnen.
 
-### 🔌 Integratie & Toepassingen
-* **Next-Gen Firewalls**: External Dynamic Lists voor geautomatiseerde blokkering.
-* **SIEM & SOAR**: Logkorrelatie en threat hunting voor Wazuh en Splunk.
+#### 🔌 Integratie en Toepassingen
+* **Next-Gen Firewalls (NGFW):** Geautomatiseerde IP- en domeinblokkering via External Dynamic Lists voor systemen zoals Palo Alto, Fortinet, Check Point en Cisco.
+* **SIEM- & SOAR-platforms:** Logcorrelatie en threat hunting op Wazuh, Zabbix, Splunk, Elastic Stack en Microsoft Sentinel.
+* **E-mailbeveiligingsgateways (SEG):** Geavanceerde detectie van phishing en schadelijke URL's.
 
-### 🔗 Bronnen
-USOM, CISA KEV, Abuse.ch, Spamhaus, PhishTank, OpenPhish, Tor Project, FireHOL, DShield.
-
----
-
-## <a id="pl"></a>🇵🇱 Polski
-
-### 📌 Przegląd Korporacyjny
-SOC-feeds to zautomatyzowany silnik Threat Intelligence dla centrów SOC, systemów SIEM i ochrony peryferyjnej.
-
-### 🔌 Integracja i Zastosowania
-* **Firewalle Nowej Generacji**: Listy dynamiczne do automatycznego blokowania.
-* **SIEM & SOAR**: Korelacja logów i wyszukiwanie zagrożeń.
-
-### 🔗 Źródła Danych
-USOM, CISA KEV, Abuse.ch, Spamhaus, PhishTank, OpenPhish, Tor Project, FireHOL, DShield.
+#### 🔗 Threat Intelligence Feeds
+Het platform aggregeert realtime data van toonaangevende wereldwijde bronnen, waaronder USOM, CISA KEV, Abuse.ch, Spamhaus, PhishTank, OpenPhish, FireHOL, DShield en Tor Exit Nodes.
 
 ---
 
-## <a id="sv"></a>🇸🇪 Svenska
+## 🇫🇷 Français
+
+### 📌 Aperçu de l'Entreprise
+**SOC-feeds** est un moteur automatisé de regroupement et de compilation de renseignements sur les menaces (Threat Intelligence), conçu pour protéger les infrastructures réseau critiques, les Centres d'Opérations de Sécurité (SOC) et les périmètres d'entreprise. Le système collecte, nettoie, déduplique et met à jour en continu les adresses IP malveillantes, les domaines, les URL et les hachages de logiciels malveillants.
+
+#### 🔌 Intégration et Cas d'Utilisation
+* **Pare-feu de Nouvelle Génération (NGFW) :** Blocage automatisé des IP et domaines via des listes dynamiques externes (Palo Alto, Fortinet, Check Point, Cisco).
+* **Plateformes SIEM et SOAR :** Corrélation des journaux et chasse aux menaces sur Wazuh, Zabbix, Splunk, Elastic Stack et Microsoft Sentinel.
+* **Passerelles de Sécurité E-mail (SEG) :** Détection proactive des hameçonnages et des URL malveillantes.
+
+#### 🔗 Flux de Renseignements sur les Menaces
+Le système intègre des données en temps réel provenant de sources mondiales telles que l'USOM, CISA KEV, Abuse.ch, Spamhaus, PhishTank, OpenPhish, FireHOL, DShield et les nœuds de sortie Tor.
+
+---
+
+## 🇮🇹 Italiano
+
+### 📌 Panoramica Aziendale
+**SOC-feeds** è un motore automatizzato di aggregazione e compilazione di Threat Intelligence progettato per proteggere infrastrutture di rete critiche, Security Operations Center (SOC) e perimetri aziendali. Il sistema raccoglie, pulisce, de-duplica e aggiorna continuamente indirizzi IP dannosi, domini, URL e hash di malware da fonti affidabili.
+
+#### 🔌 Integrazione e Casi d'Uso
+* **Firewall di Nuova Generazione (NGFW):** Blocco automatizzato di IP e domini tramite External Dynamic Lists per Palo Alto, Fortinet, Check Point e Cisco.
+* **Piattaforme SIEM e SOAR:** Correlazione dei log e threat hunting su Wazuh, Zabbix, Splunk, Elastic Stack e Microsoft Sentinel.
+* **Email Security Gateway (SEG):** Rilevamento avanzato di phishing e URL dannosi.
+
+#### 🔗 Feed di Threat Intelligence
+La piattaforma aggrega dati in tempo reale da fonti di sicurezza globali e ufficiali tra cui USOM, CISA KEV, Abuse.ch, Spamhaus, PhishTank, OpenPhish, FireHOL, DShield e nodi di uscita Tor.
+
+---
+
+## 🇳🇴 Norsk
+
+### 📌 Bedriftsoversikt
+**SOC-feeds** er en automatisert trusselefterretningsmotor (Threat Intelligence) utformet for å beskytte kritiske nettverksinfrastrukturer, Security Operations Centers (SOC) og bedriftsperimetere. Systemet samler inn, renser, dupliserer og vedlikeholder ondsinnede IP-adresser, domener, URL-er og skadelig programvare-hasher i sanntid.
+
+#### 🔌 Integrasjon og Bruksområder
+* **Next-Gen Firewalls (NGFW):** Automatisert IP- og domeneblokkering via External Dynamic Lists for Palo Alto, Fortinet, Check Point og Cisco.
+* **SIEM- og SOAR-plattformer:** Loggkorrelasjon og trusseljakt (Threat Hunting) på tvers av Wazuh, Zabbix, Splunk, Elastic Stack og Microsoft Sentinel.
+* **E-postsikkerhetsgatewayer (SEG):** Avansert deteksjon av phishing og skadelige URL-er.
+
+#### 🔗 Trusselefterretningsstrømmer
+Plattformen samler inn data fra ledende globale og offisielle sikkerhetskilder, inkludert USOM, CISA KEV, Abuse.ch, Spamhaus, PhishTank, OpenPhish, FireHOL, DShield og Tor Exit Nodes.
+
+---
+
+## 🇸🇪 Svenska
 
 ### 📌 Företagsöversikt
-SOC-feeds är en automatiserad hotunderrättelsemotor för SOC, SIEM-lösningar och perimetersäkerhet.
+**SOC-feeds** är en automatiserad motor för sammanställning och aggregering av hotintelligence (Threat Intelligence) utformad för att skydda kritiska nätverksinfrastrukturer, Security Operations Centers (SOC) och företagsperimeter. Systemet samlar in, rensar, deduplicerar och underhåller skadliga IP-adresser, domäner, URL:er och skadlig programvara.
 
-### 🔌 Integration & Användningsfall
-* **Brandväggar (NGFW)**: Externa dynamiska listor för automatisk blockering.
-* **SIEM & SOAR**: Loggkorrelation och hotjakt.
+#### 🔌 Integration och Användningsområden
+* **Next-Gen Firewalls (NGFW):** Automatisk IP- och domänblockering via externa dynamiska listor för Palo Alto, Fortinet, Check Point och Cisco.
+* **SIEM- och SOAR-plattformar:** Loggkorrelation och hotsökning (Threat Hunting) över Wazuh, Zabbix, Splunk, Elastic Stack och Microsoft Sentinel.
+* **E-postsäkerhetsgateways (SEG):** Avancerad detektering av nätfiske och skadliga webbadresser.
 
-### 🔗 Källor
-USOM, CISA KEV, Abuse.ch, Spamhaus, PhishTank, OpenPhish, Tor Project, FireHOL, DShield.
-
----
-
-## <a id="da"></a>🇩🇰 Dansk
-
-### 📌 Virksomhedsoversigt
-SOC-feeds er en automatiseret Threat Intelligence-motor til SOC, SIEM-løsninger og perimetersikkerhed.
-
-### 🔌 Integration & Anvendelse
-* **Firewalls (NGFW)**: Eksterne dynamiske lister til automatisk blokering.
-* **SIEM & SOAR**: Logkorrelation og trusselsjagt.
-
-### 🔗 Kilder
-USOM, CISA KEV, Abuse.ch, Spamhaus, PhishTank, OpenPhish, Tor Project, FireHOL, DShield.
+#### 🔗 Hotintelligenstjänster
+Plattformen aggregerar data i realtid från ledande globala och officiella säkerhetskällor, inklusive USOM, CISA KEV, Abuse.ch, Spamhaus, PhishTank, OpenPhish, FireHOL, DShield och Tor Exit Nodes.
 
 ---
 
-## <a id="fi"></a>🇫🇮 Suomi
+## 🇫🇮 Suomi
 
-### 📌 Yleiskatsaus
-SOC-feeds on automaattinen uhkatiedon keruumoottori SOC-keskuksille, SIEM-ratkaisuille ja verkkoturvallisuudelle.
+### 📌 Yrityskatsaus
+**SOC-feeds** on automatisoitu uhkatiedon (Threat Intelligence) keräys- ja koostamismoottori, joka on suunniteltu suojaamaan kriittisiä verkkoinfrastruktuureja, tietoturvakeskuksia (SOC) ja yritysympäristöjä. Järjestelmä kerää, puhdistaa, poistaa kaksoiskappaleet ja ylläpitää haitallisia IP-osoitteita, verkkotunnuksia, URL-osoitteita ja haittaohjelmien tiivisteitä reaaliajassa.
 
-### 🔌 Integrointi & Käyttötapaukset
-* **Palomuurit**: Ulkoiset dynaamiset listat automatisoituun estämiseen.
-* **SIEM & SOAR**: Lokikorrelaatio ja uhkien metsästys.
+#### 🔌 Integraatio ja Käyttökohteet
+* **Next-Gen Firewalls (NGFW):** Automaattinen IP- ja verkkotunnusten esto External Dynamic List -listojen kautta Palo Alto-, Fortinet-, Check Point- ja Cisco-järjestelmeissä.
+* **SIEM- & SOAR-alustat:** Lokien korrelaatio ja uhkojen metsästys (Threat Hunting) Wazuh-, Zabbix-, Splunk-, Elastic Stack- ja Microsoft Sentinel -alustoilla.
+* **Sähköpostin tietoturvayhdyskäytävät (SEG):** Phishing- ja haitallisten URL-osoitteiden edistynyt tunnistus.
 
-### 🔗 Lähteet
-USOM, CISA KEV, Abuse.ch, Spamhaus, PhishTank, OpenPhish, Tor Project, FireHOL, DShield.
-
----
-
-## <a id="pt"></a>🇵🇹 Português
-
-### 📌 Visão Geral Corporativa
-SOC-feeds é um motor automatizado de Threat Intelligence para SOCs, soluções SIEM e defesas perimétricas.
-
-### 🔌 Integração e Casos de Uso
-* **Firewalls de Nova Geração**: Listas dinâmicas para bloqueio automatizado.
-* **SIEM & SOAR**: Correlação de logs e caça a ameaças.
-
-### 🔗 Fontes de Dados
-USOM, CISA KEV, Abuse.ch, Spamhaus, PhishTank, OpenPhish, Tor Project, FireHOL, DShield.
+#### 🔗 Uhkatietosyötteet
+Alusta kokoaa reaaliaikaista dataa johtavista globaaleista ja virallisista tietoturvalähteistä, mukaan lukien USOM, CISA KEV, Abuse.ch, Spamhaus, PhishTank, OpenPhish, FireHOL, DShield ja Tor Exit Nodes.
 
 ---
 
-## <a id="el"></a>🇬🇷 Ελληνικά
-
-### 📌 Επισκόπηση
-Το SOC-feeds είναι μια αυτοματοποιημένη μηχανή Threat Intelligence για SOC, λύσεις SIEM και ασφάλεια περιμέτρου.
-
-### 🔌 Ενοποίηση & Χρήση
-* **Firewalls Νέας Gen**: Εξωτερικές δυναμικές λίστες για αυτόματο αποκλεισμό.
-* **SIEM & SOAR**: Συσχετισμός log και Threat Hunting.
-
-### 🔗 Πηγές
-USOM, CISA KEV, Abuse.ch, Spamhaus, PhishTank, OpenPhish, Tor Project, FireHOL, DShield.
+## 👨‍💻 Developer & Project Lead
+* **Created by:** Kenan Bayram
+* **Professional Profile:** [LinkedIn - Kenan Bayram](https://www.linkedin.com/in/kennybayram)
 
 ---
-
-## <a id="cs"></a>🇨🇿 Čeština
-
-### 📌 Přehled
-SOC-feeds je automatizovaný nástroj Threat Intelligence pro SOC, SIEM řešení a perimetrovou bezpečnost.
-
-### 🔌 Integrace a Použití
-* **NGFW Firewally**: Externí dynamické seznamy pro automatické blokování.
-* **SIEM & SOAR**: Korelace logů a threat hunting.
-
-### 🔗 Zdroje
-USOM, CISA KEV, Abuse.ch, Spamhaus, PhishTank, OpenPhish, Tor Project, FireHOL, DShield.
-
----
-
-## <a id="hu"></a>🇭🇺 Magyar
-
-### 📌 Áttekintés
-A SOC-feeds egy automatizált fenyegetésfelderítési motor SOC-k, SIEM megoldások és peremhálózati védelem számára.
-
-### 🔌 Integráció és Használat
-* **Tűzfalak**: Külső dinamikus listák az automatikus blokkoláshoz.
-* **SIEM & SOAR**: Naplókorreláció és veszélykutatás.
-
-### 🔗 Források
-USOM, CISA KEV, Abuse.ch, Spamhaus, PhishTank, OpenPhish, Tor Project, FireHOL, DShield.
-
----
-
-## <a id="ro"></a>🇷🇴 Română
-
-### 📌 Prezentare generală
-SOC-feeds este un motor automatizat de Threat Intelligence pentru SOC, soluții SIEM și securitate perimetrică.
-
-### 🔌 Integrare și Utilizare
-* **Firewall-uri NGFW**: Liste dinamice externe pentru blocare automată.
-* **SIEM & SOAR**: Corelarea jurnalelor și vânătoarea de amenințări.
-
-### 🔗 Surse de Date
-USOM, CISA KEV, Abuse.ch, Spamhaus, PhishTank, OpenPhish, Tor Project, FireHOL, DShield.
-
----
-
-## <a id="bg"></a>🇧🇬 Български
-
-### 📌 Преглед
-SOC-feeds е автоматизирана система за разузнаване на заплахи за SOC, SIEM решения и мecждова защита.
-
-### 🔌 Интеграция и Употреба
-* **Мрежови защитни стени**: Динамични списъци за автоматично блокиране.
-* **SIEM & SOAR**: Корелация на логове и откриване на заплахи.
-
-### 🔗 Източници
-USOM, CISA KEV, Abuse.ch, Spamhaus, PhishTank, OpenPhish, Tor Project, FireHOL, DShield.
-
----
-
-## <a id="sk"></a>🇸🇰 Slovenčina
-
-### 📌 Prehľad
-SOC-feeds je automatizovaný nástroj Threat Intelligence pre SOC, SIEM riešenia a ochranu obvodu siete.
-
-### 🔌 Integrácia a Použitie
-* **Firewally**: Externé dynamické zoznamy na automatické blokovanie.
-* **SIEM & SOAR**: Korelácia logov a vyhľadávanie hrozieb.
-
-### 🔗 Zdroje
-USOM, CISA KEV, Abuse.ch, Spamhaus, PhishTank, OpenPhish, Tor Project, FireHOL, DShield.
-
----
-
-## <a id="hr"></a>🇭🇷 Hrvatski
-
-### 📌 Pregled
-SOC-feeds je automatizirani sustav Threat Intelligence za SOC, SIEM rješenja i zaštitu perimetra.
-
-### 🔌 Integracija i Primjena
-* **Vatrozidi**: Vanjske dinamičke liste za automatsko blokiranje.
-* **SIEM & SOAR**: Korelacija logova i lov na prijetnje.
-
-### 🔗 Izvori
-USOM, CISA KEV, Abuse.ch, Spamhaus, PhishTank, OpenPhish, Tor Project, FireHOL, DShield.
-
----
-
-## <a id="sl"></a>🇸🇮 Slovenščina
-
-### 📌 Pregled
-SOC-feeds je avtomatiziran sistem Threat Intelligence za SOC, SIEM rešitve in obrobno varnost.
-
-### 🔌 Integracija in Uporaba
-* **Požarni zidovi**: Zunanje dinamične seznami za samodejno blokiranje.
-* **SIEM & SOAR**: Korelacija dnevnikov in iskanje groženj.
-
-### 🔗 Viri
-USOM, CISA KEV, Abuse.ch, Spamhaus, PhishTank, OpenPhish, Tor Project, FireHOL, DShield.
-
----
-
-## <a id="lt"></a>🇱🇹 Lietuvių
-
-### 📌 Apžvalga
-SOC-feeds yra automatinis grėsmių žvalgybos įrankis SOC, SIEM sistemoms ir perimetro apsaugai.
-
-### 🔌 Integracija ir Naudojimas
-* **Ugniasienės**: Išoriniai dinaminiai sąrašai automatiniam blokavimui.
-* **SIEM & SOAR**: Žurnalų koreliacija ir grėsmių paieška.
-
-### 🔗 Šaltiniai
-USOM, CISA KEV, Abuse.ch, Spamhaus, PhishTank, OpenPhish, Tor Project, FireHOL, DShield.
-
----
-
-## <a id="lv"></a>🇱🇻 Latviešu
-
-### 📌 Pārskats
-SOC-feeds ir automatizēts draudu izlūkošanas rīks SOC, SIEM risinājumiem un perimetra drošībai.
-
-### 🔌 Integrācija un Lietošana
-* **Ugunsmūri**: Ārējie dinamiskie saraksti automātiskai bloķēšanai.
-* **SIEM & SOAR**: Žurnālu korelācija un draudu medības.
-
-### 🔗 Avoti
-USOM, CISA KEV, Abuse.ch, Spamhaus, PhishTank, OpenPhish, Tor Project, FireHOL, DShield.
-
----
-
-## <a id="ee"></a>🇪🇪 Eesti
-
-### 📌 Ülevaade
-SOC-feeds on automatiseeritud ohuveebiluure mootor SOC-i, SIEM-i ja perimeetri turvalisuse jaoks.
-
-### 🔌 Integreerimine ja Kasutamine
-* **Tulemüürid**: Välised dünaamilised loendid automaatseks blokeerimiseks.
-* **SIEM & SOAR**: Logide korrelatsioon ja ohtude jaht.
-
-### 🔗 Allikad
-USOM, CISA KEV, Abuse.ch, Spamhaus, PhishTank, OpenPhish, Tor Project, FireHOL, DShield.
-
----
-
-## <a id="ga"></a>🇮🇪 Gaeilge
-
-### 📌 Forbhreathnú
-Is inneall uathoibríoch Threat Intelligence é SOC-feeds le haghaidh SOCanna, réitigh SIEM, agus cosaint imlíne.
-
-### 🔌 Comhtháthú & Úsáid
-* **Ballaí Dóiteáin**: Liostaí dinimiciúla seachtracha le haghaidh blocála uathoibríoch.
-* **SIEM & SOAR**: Comhghaolú logaí agus seilg bagairtí.
-
-### 🔗 Foinsí
-USOM, CISA KEV, Abuse.ch, Spamhaus, PhishTank, OpenPhish, Tor Project, FireHOL, DShield.
-
----
-
-## <a id="mt"></a>🇲🇹 Malti
-
-### 📌 Ħarsa Ġenerali
-SOC-feeds hija magna awtomatizzata ta' Threat Intelligence għal SOCs, soluzzjonijiet SIEM, u sigurtà perimetrali.
-
-### 🔌 Integrazzjoni u Użu
-* **Firewalls**: Listi dinamiċi esterni għal imblukkar awtomatiku.
-* **SIEM & SOAR**: Korrelazzjoni ta' log u tfittxija ta' theddid.
-
-### 🔗 Sorsi
-USOM, CISA KEV, Abuse.ch, Spamhaus, PhishTank, OpenPhish, Tor Project, FireHOL, DShield.
-
----
-
-## 📂 Output Artifacts Format
-The repository automatically maintains four clean, stripped, and deduplicated `.txt` artifacts featuring source attribution comments:
-* `threat_ip.txt` — Malicious IPv4 addresses & CIDRs
-* `threat_domain.txt` — Malicious domains
-* `threat_url.txt` — Full malicious URLs
-* `threat_hash.txt` — Malware SHA256/MD5 hashes
-
----
-
-<script>
-function copyReadme() {
-    const text = document.body.innerText;
-    navigator.clipboard.writeText(text).then(() => {
-        alert("README içeriği panoya kopyalandı! / README copied to clipboard!");
-    });
-}
-</script>
+*Note: Statistics values above are automatically updated in real-time via backend cron/API sync.*
