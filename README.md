@@ -1,6 +1,6 @@
 # SOC-FEEDS
 
-                                                 🛡️ Real-Time Open-Source Threat Intelligence & IoC Aggregator
+                                               ### 🛡️ Real-Time Open-Source Threat Intelligence & IoC Aggregator
 
 <p align="center">
   🌐 <b>IP:</b> <code id="stat-ip">38,795</code> &nbsp;|&nbsp; 
