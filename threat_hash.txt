@@ -1,7 +1,7 @@
 # ==========================================================
 # SOC-FEEDS INTELLIGENCE REPORT
-# Last Updated: 2026-07-29T12:33:38.842558+00:00 UTC
-# Total Records: 2376
+# Last Updated: 2026-07-29T14:27:29.412934+00:00 UTC
+# Total Records: 2377
 # ==========================================================
 
 0001f7c112074f63a483d2423fdd5ab9  # Sources: [PhishTank (Scan)]
@@ -1764,6 +1764,7 @@ bcd20d4f3afb419c9a85436c74c45b24  # Sources: [PhishTank (Scan)]
 bcdbacad5ee743ab82a804cbaba17a4d  # Sources: [PhishTank (Scan)]
 bd03d87f6a044ff6a3f5d44bc7048f92  # Sources: [OpenPhish (Scan)]
 bd3605e69a38408daa5f394425dd28d4  # Sources: [PhishTank (Scan)]
+bd570760274eb2b44d484b0a6ec56d82  # Sources: [URLHaus (Scan)]
 bd6e7119846f4870a6bc1fb33bcc6c57  # Sources: [PhishTank (Scan)]
 bd98dac241874256b11ed6c63ced0c9d  # Sources: [PhishTank (Scan)]
 bda0c66467384daeb36a5ade8cd6385b  # Sources: [PhishTank (Scan)]
