@@ -1,6 +1,6 @@
 # ==========================================================
 # SOC-FEEDS INTELLIGENCE REPORT
-# Last Updated: 2026-07-31T06:12:32.056506+00:00 UTC
+# Last Updated: 2026-07-31T09:43:53.386734+00:00 UTC
 # Total Records: 2382
 # ==========================================================
 
@@ -209,7 +209,6 @@
 15b1f71cb9484c93bce8a849fd74e154  # Sources: [PhishTank (Scan)]
 15c3d7b5b3974a70b09b5a3193b007b9  # Sources: [PhishTank (Scan)]
 15d20d4ea241484399ad17636cfd2cbf  # Sources: [PhishTank (Scan)]
-15d4031688cbb71def72a06cf15d7fa1  # Sources: [URLHaus (Scan)]
 15d6153a5f90476bbd5f8548e0621522  # Sources: [PhishTank (Scan)]
 15e198a585e94836b09cce7e681e6cfb  # Sources: [PhishTank (Scan)]
 1614f03ccc264957a7cc0e4d8e29b5b0  # Sources: [PhishTank (Scan)]
@@ -1825,6 +1824,7 @@ c3c1b24b4817402a85b98a13acc9688d  # Sources: [PhishTank (Scan)]
 c3d113df9eee4fe79576d4da15ed7ce8  # Sources: [PhishTank (Scan)]
 c3fac41fc6884e3db327baaa4dce5290  # Sources: [PhishTank (Scan)]
 c41139fec02049f0ab88eefac2729bea  # Sources: [PhishTank (Scan)]
+c4284a2a6c1b60247944a03cbaf930c5  # Sources: [URLHaus (Scan)]
 c4337bc932ec7ac0f8a1368cf444a003  # Sources: [URLHaus (Scan)]
 c43bf92debe59061434771b0c811be43  # Sources: [PhishTank (Scan)]
 c4770837dd25568d369b368135c2dd084cabb675  # Sources: [URLHaus (Scan)]
