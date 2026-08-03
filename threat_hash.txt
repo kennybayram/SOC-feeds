@@ -1,7 +1,7 @@
 # ==========================================================
 # SOC-FEEDS INTELLIGENCE REPORT
-# Last Updated: 2026-08-03T10:49:56.298270+00:00 UTC
-# Total Records: 2380
+# Last Updated: 2026-08-03T13:40:26.648401+00:00 UTC
+# Total Records: 2381
 # ==========================================================
 
 0001f7c112074f63a483d2423fdd5ab9  # Sources: [PhishTank (Scan)]
@@ -201,6 +201,7 @@
 14c2ffac67f94665abf1c43364994008  # Sources: [PhishTank (Scan)]
 14cd9ed3de1b46f28da35b1d5187dc2a  # Sources: [PhishTank (Scan)]
 1557fad8649e638f43f20cccf5794a440c70eae03204f5af9fe9850b3197b8ff  # Sources: [URLHaus (Scan)]
+15677796669860232524364903925279  # Sources: [OpenPhish (Scan)]
 156b160b762f43f297c604792a050622  # Sources: [PhishTank (Scan)]
 1588399637a6a9bb74c6187cb2957b8d  # Sources: [PhishTank (Scan)]
 15a14b92a00a657edccee46a57f7be246210e6720e3e491ff401e4565cb40ba9  # Sources: [PhishTank (Scan)]
@@ -228,7 +229,6 @@
 18cd9cfbf2f0e896b59430c309d0ff12ecd23818  # Sources: [URLHaus (Scan)]
 1900be17f2994b5580d602f23eb7fb93  # Sources: [URLHaus (Scan)]
 1904fcafb89a4eaaa354dadaabc46627  # Sources: [PhishTank (Scan)]
-19273633728608329679424985971709  # Sources: [OpenPhish (Scan)]
 192826e776c143cf955be3a43f398206  # Sources: [PhishTank (Scan)]
 192f62c6161041fcac5089098032e9a9  # Sources: [PhishTank (Scan)]
 19adc4e57069479caeb411abf55506e5  # Sources: [PhishTank (Scan)]
@@ -368,6 +368,7 @@
 26127ab785d24d2087170e787e815171  # Sources: [PhishTank (Scan)]
 26134882651288395930977728252000  # Sources: [PhishTank (Scan)]
 26240ad62996453d9928d007fc82cb55  # Sources: [PhishTank (Scan)]
+26676135374151735703107772519650  # Sources: [OpenPhish (Scan)]
 267b3d8f426d4d9ca10e514a1933f21b  # Sources: [URLHaus (Scan)]
 267e75099df1409cb8ac9c2adf802a43  # Sources: [PhishTank (Scan)]
 2686d36d9f4d4a70b27c351df66dd1da  # Sources: [PhishTank (Scan)]
@@ -976,6 +977,7 @@
 6567d298630649f1a6aeb07a0bdb8f63  # Sources: [PhishTank (Scan)]
 65782130561325902681092299032696  # Sources: [PhishTank (Scan)]
 658eb15335a243fa9b33e14e27558675  # Sources: [PhishTank (Scan)]
+65924314243259842165815914766551  # Sources: [OpenPhish (Scan)]
 659a914c53f4432eb4a60ed22cdfe264  # Sources: [PhishTank (Scan)]
 65a391e462e149e6bd3def1db0f5f32b  # Sources: [PhishTank (Scan)]
 65e32b21a7b24261955e32d88f080f5f  # Sources: [URLHaus (Scan)]
@@ -1301,7 +1303,6 @@
 8741f94267d14a8b9b771002d2438dd5  # Sources: [PhishTank (Scan)]
 87487eecfa8b4adfa94445ca010325e3  # Sources: [PhishTank (Scan)]
 87829592040c28dbc3c7bc6baa68cf7a  # Sources: [PhishTank (Scan)]
-87937092440095885504933173564581  # Sources: [OpenPhish (Scan)]
 87b03e80b07524c94d805f0c60e0c5b80f8a8da8  # Sources: [URLHaus (Scan)]
 87bbfbc6259c288a08e54924e072d49b  # Sources: [PhishTank (Scan)]
 87d66414183345baaa06b7793685d440  # Sources: [PhishTank (Scan)]
@@ -1893,7 +1894,7 @@ cc1ed51e8e7f49f19e4f5e61a22b7a40  # Sources: [PhishTank (Scan)]
 cc36b12b40aba4137fdd6257ecf5d488  # Sources: [PhishTank (Scan)]
 cc5051299e144be6b660d92b68558f8b  # Sources: [PhishTank (Scan)]
 cc526d65239f4fbc9a9ea9571b094043  # Sources: [PhishTank (Scan)]
-cc5b4ed1cd0c4a71b3e0acde77b5f3ed  # Sources: [PhishTank (Scan)]
+cc5b4ed1cd0c4a71b3e0acde77b5f3ed  # Sources: [OpenPhish (Scan), PhishTank (Scan)]
 cc7bf707aeb947348410516568da0fb6  # Sources: [PhishTank (Scan)]
 cc9d5dea66b0416b9dea589e3bdd8f2e  # Sources: [URLHaus (Scan)]
 ccb5bde39ee94fb4ab451be04b030570  # Sources: [PhishTank (Scan)]
