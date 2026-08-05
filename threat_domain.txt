@@ -1,6 +1,6 @@
 # ==========================================================
 # SOC-FEEDS INTELLIGENCE REPORT
-# Last Updated: 2026-08-05T17:28:14.960889+00:00 UTC
+# Last Updated: 2026-08-05T19:27:33.089988+00:00 UTC
 # Total Records: 43662
 # ==========================================================
 
@@ -5647,7 +5647,6 @@ antiguaweb.lumartic.com  # Sources: [PhishTank (Extracted)]
 antiq-telegraphyproduct.wiki  # Sources: [URLHaus (Extracted)]
 antitibadra00485.firebaseapp.com  # Sources: [PhishTank (Extracted)]
 antitibadra00485.web.app  # Sources: [PhishTank (Extracted)]
-antleds.com  # Sources: [URLHaus (Extracted)]
 antoine-gonthier.firebaseapp.com  # Sources: [PhishTank (Extracted)]
 antoine-gonthier.web.app  # Sources: [PhishTank (Extracted)]
 anular-ahora.webcindario.com  # Sources: [PhishTank (Extracted)]
@@ -23240,6 +23239,7 @@ mailfrontlinegrouporg.weebly.com  # Sources: [PhishTank (Extracted)]
 mailfrontpageredirect.w3spaces.com  # Sources: [PhishTank (Extracted)]
 mailgenes.linoraspasedrecole.com  # Sources: [PhishTank (Extracted)]
 mailhelpdesk.github.io  # Sources: [PhishTank (Extracted)]
+mailify.cc  # Sources: [URLHaus (Extracted)]
 mailinfitelstraa.weebly.com  # Sources: [PhishTank (Extracted)]
 mailinmglandng.weebly.com  # Sources: [PhishTank (Extracted)]
 mailiredisdiscord-cell.github.io  # Sources: [PhishTank (Extracted)]
@@ -25063,6 +25063,7 @@ myalphaweb.godaddysites.com  # Sources: [PhishTank (Extracted)]
 myamarilomobileonline.weebly.com  # Sources: [PhishTank (Extracted)]
 myamericanbtbg-accsecfast.weebly.com  # Sources: [PhishTank (Extracted)]
 myao.adocean.pl  # Sources: [PhishTank (Extracted)]
+myapp-acces.com  # Sources: [PhishTank (Extracted)]
 myapp-suitecdn.wixstudio.com  # Sources: [PhishTank (Extracted)]
 myapps-exadusweb.wixstudio.com  # Sources: [PhishTank (Extracted)]
 myapps-trzosuite.wixstudio.com  # Sources: [PhishTank (Extracted)]
@@ -26605,7 +26606,6 @@ oklahoma.gov-zxn.help  # Sources: [PhishTank (Extracted)]
 oklahoma.gov-zxr.help  # Sources: [PhishTank (Extracted)]
 oknahh.com  # Sources: [PhishTank (Extracted)]
 oknmhjx.xenicalby6.com  # Sources: [URLHaus (Extracted)]
-oknoplastik.sk  # Sources: [URLHaus (Extracted)]
 oksz.ozabet.casino  # Sources: [URLHaus (Extracted)]
 oktaticket.com  # Sources: [PhishTank (Extracted)]
 okuiwrsf.prozhedownload.com  # Sources: [URLHaus (Extracted)]
