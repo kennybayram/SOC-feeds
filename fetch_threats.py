@@ -14,7 +14,8 @@ OUTPUT_HASH = "threat_hash.txt"
 WHITELIST_IPS = {"127.0.0.1", "8.8.8.8", "8.8.4.4", "1.1.1.1", "1.0.0.1", "9.9.9.9"}
 WHITELIST_DOMAINS = {
     "google.com", "cloudflare.com", "microsoft.com", 
-    "apple.com", "github.com", "amazon.com", "siberguvenlik.gov.tr", "usom.gov.tr", "linkedin.com","githubusercontent.com""https://cdn.jsdelivr.net"
+    "apple.com", "github.com", "amazon.com", "siberguvenlik.gov.tr", 
+    "usom.gov.tr", "linkedin.com", "githubusercontent.com", "cdn.jsdelivr.net"
 }
 
 ip_sources = defaultdict(set)
@@ -77,6 +78,32 @@ def extract_hashes_from_text(text, source_name):
     for h in potential_hashes:
         add_hash(h, source_name)
 
+def process_misp_json(data, source_name):
+    if isinstance(data, dict):
+        # MISP Event veya Manifest yapısını kontrol et
+        events = data.values() if "Attribute" not in data and "event" not in data else [data]
+        for ev in events:
+            attr_list = []
+            if isinstance(ev, dict):
+                if "Attribute" in ev:
+                    attr_list = ev["Attribute"]
+                elif "Event" in ev and "Attribute" in ev["Event"]:
+                    attr_list = ev["Event"]["Attribute"]
+            
+            for attr in attr_list:
+                val = attr.get("value")
+                t = attr.get("type", "")
+                if not val:
+                    continue
+                if t in ("ip-src", "ip-dst", "ip-dst|port", "ip-src|port"):
+                    add_ip(val.split("|")[0], source_name)
+                elif t in ("domain", "hostname", "domain|ip"):
+                    add_domain(val.split("|")[0], source_name)
+                elif t in ("url", "uri"):
+                    add_url(val, source_name)
+                elif t in ("md5", "sha1", "sha256") or "hash" in t:
+                    add_hash(val, source_name)
+
 def fetch_feeds():
     print("[*] Tüm servislerden IP, Domain, URL ve Hash verileri toplanıyor...")
 
@@ -100,6 +127,12 @@ def fetch_feeds():
         ("DShield", "https://www.dshield.org/block.txt", "txt_ip"),
         ("IPsum", "https://raw.githubusercontent.com/zoneh/IPsum/master/ipsum.txt", "txt_ip"),
         ("Tor Exit Nodes", "https://check.torproject.org/torbulkexitlist", "txt_ip"),
+        # MISP Feeds Entegrasyonu
+        ("MISP Botvrij IP", "https://www.botvrij.eu/data/ioc/ip-dst.txt", "txt_ip"),
+        ("MISP Botvrij Domain", "https://www.botvrij.eu/data/ioc/domain.txt", "txt_domain"),
+        ("MISP Botvrij URL", "https://www.botvrij.eu/data/ioc/url.txt", "txt_url"),
+        ("MISP Botvrij Hash", "https://www.botvrij.eu/data/ioc/hashes.txt", "txt_hash"),
+        ("MISP CIRCL OSINT Hashes", "https://www.circl.lu/doc/misp/feed-osint/hashes.csv", "txt_hash"),
     ]
 
     for source_name, url, method in sources:
@@ -149,6 +182,8 @@ def fetch_feeds():
                 for row in reader:
                     if row.get('url'):
                         add_url(row['url'], source_name)
+            elif method == "misp_json":
+                process_misp_json(resp.json(), source_name)
 
             print(f"[+] Başarılı ({source_name}): {url}")
         except Exception as e:
@@ -167,10 +202,7 @@ def update_readme_stats():
 
     stats_block = f"\n\n> **Live Statistics:** 🌐 IP: `{len(ips):,}` | 🗂️ Domain: `{len(domains):,}` | 🔗 URL: `{len(urls):,}` | 🔑 Hash: `{len(hashes):,}`"
 
-    # Eski istatistik satırı varsa temizle
     content = re.sub(r"\n\n> \*\*Live Statistics:\*\*.*", "", content)
-    
-    # Başlığın hemen altına ekle
     content = content.replace("# SOC-FEEDS", f"# SOC-FEEDS{stats_block}")
 
     with open(readme_path, "w", encoding="utf-8") as f:
@@ -201,7 +233,6 @@ def save_outputs():
     write_feed_file(OUTPUT_URL, urls, url_sources)
     write_feed_file(OUTPUT_HASH, hashes, hash_sources)
 
-    # README güncellemesini tetikle
     update_readme_stats()
 
     print(f"[✓] Tamamlandı -> IP: {len(ips)}, Domain: {len(domains)}, URL: {len(urls)}, Hash: {len(hashes)}")
