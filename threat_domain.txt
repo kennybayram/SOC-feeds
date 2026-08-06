@@ -1,7 +1,7 @@
 # ==========================================================
 # SOC-FEEDS INTELLIGENCE REPORT
-# Last Updated: 2026-08-06T07:53:00.969583+00:00 UTC
-# Total Records: 43501
+# Last Updated: 2026-08-06T07:59:49.843510+00:00 UTC
+# Total Records: 43498
 # ==========================================================
 
 0.gravatar.com  # Sources: [PhishTank (Extracted)]
@@ -11329,7 +11329,6 @@ comune.weebly.com  # Sources: [PhishTank (Extracted)]
 comunicadto0.webcindario.com  # Sources: [PhishTank (Extracted)]
 comves.icu  # Sources: [PhishTank (Extracted)]
 comweb.globtechnodebase.pics  # Sources: [URLHaus (Extracted)]
-comwebs.ratmedia.lat  # Sources: [URLHaus (Extracted)]
 comwebstat.cloudprocmgr.pics  # Sources: [URLHaus (Extracted)]
 comwebstat.fastnetgatehub.pics  # Sources: [URLHaus (Extracted)]
 comwebstat.pav6mirex.pics  # Sources: [URLHaus (Extracted)]
@@ -17007,7 +17006,6 @@ git.softwincli.pics  # Sources: [URLHaus (Extracted)]
 gitcp7363.github.io  # Sources: [PhishTank (Extracted)]
 gitea.nightcord.st  # Sources: [URLHaus (Extracted)]
 gitlab.com  # Sources: [URLHaus (Extracted)]
-gitlabh.vbytetap.lat  # Sources: [URLHaus (Extracted)]
 gitlabhubs.coderlogicbase.pics  # Sources: [URLHaus (Extracted)]
 gitlabhubs.logicstackhub.pics  # Sources: [URLHaus (Extracted)]
 gitlabhubs.sorix1ar.pics  # Sources: [URLHaus (Extracted)]
@@ -36164,7 +36162,6 @@ tarlouze.domici948239.pro  # Sources: [PhishTank (Extracted)]
 tarratarea.duckdns.org  # Sources: [URLHaus (Extracted)]
 tartine.domici948239.pro  # Sources: [PhishTank (Extracted)]
 taskid.bitflowapp.pics  # Sources: [URLHaus (Extracted)]
-taskids.ratmedia.lat  # Sources: [URLHaus (Extracted)]
 taskidview.cloudprocmgr.pics  # Sources: [URLHaus (Extracted)]
 taskidview.fastnetgatehub.pics  # Sources: [URLHaus (Extracted)]
 taskidview.fromj2nitor.lat  # Sources: [URLHaus (Extracted)]
