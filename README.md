@@ -1,17 +1,8 @@
+# SOC-FEEDS
 
-  
-#SOC-FEEDS
+> **Live Statistics:** 🌐 IP: `0` | 🗂️ Domain: `0` | 🔗 URL: `0` | 🔑 Hash: `0`
 
-##🛡️ Real-Time Open-Source Threat Intelligence & IoC Aggregator
-
-                                              
-
-<p align="center">
-  🌐 <b>IP:</b> <code id="stat-ip">38,795</code> &nbsp;|&nbsp; 
-  🗂️ <b>Domain:</b> <code id="stat-domain">43,654</code> &nbsp;|&nbsp; 
-  🔗 <b>URL:</b> <code id="stat-url">133,856</code> &nbsp;|&nbsp; 
-  🔑 <b>Hash:</b> <code id="stat-hash">2,367</code>
-</p>
+## 🛡️ Real-Time Open-Source Threat Intelligence & IoC Aggregator
 
 <p align="center">
   <b>[ 🇹🇷 Türkçe | 🇬🇧 English | 🇩🇪 Deutsch | 🇳🇱 Nederlands | 🇫🇷 Français | 🇮🇹 Italiano | 🇳🇴 Norsk | 🇸🇪 Svenska | 🇫🇮 Suomi ]</b>
@@ -32,7 +23,7 @@
 #### 🔗 Veri Kaynakları (Threat Intelligence Feeds)
 Sistem aşağıdaki resmi ve küresel güvenlik kaynaklarından anlık veri çekmektedir:
 * **USOM URL List:** Türkiye Ulusal Siber Olaylara Müdahale Merkezi zararlı bağlantı listesi.
-* **CISA KEV:** Bilinen ve aktif olarak istismar edilen zaafiyet katalogları.
+* **MISP Intelligence Feeds:** Botvrij.eu ve CIRCL OSINT MISP tehdit paylaşım ağları.
 * **Abuse.ch Ecosystem:** URLHaus, ThreatFox, MalwareBazaar, Feodo Tracker, SSLBL.
 * **Spamhaus Project:** DROP & EDROP, DBL (Domain Block List).
 * **PhishTank & OpenPhish:** Doğrulanmış oltalama (phishing) URL ve site veritabanı.
@@ -53,7 +44,7 @@ Sistem aşağıdaki resmi ve küresel güvenlik kaynaklarından anlık veri çek
 * **Email Security Gateways (SEG):** Advanced detection and blocking of phishing and malicious URLs/domains.
 
 #### 🔗 Threat Intelligence Feeds
-The platform aggregates data from premier global and official security feeds, including USOM, CISA KEV, Abuse.ch, Spamhaus DROP/EDROP/DBL, PhishTank, OpenPhish, FireHOL, DShield, Tor Exit Nodes, and multi-source reputation lists.
+The platform aggregates data from premier global and official security feeds, including USOM, MISP Feeds (Botvrij/CIRCL OSINT), Abuse.ch, Spamhaus DROP/EDROP/DBL, PhishTank, OpenPhish, FireHOL, DShield, Tor Exit Nodes, and multi-source reputation lists.
 
 ---
 
@@ -68,7 +59,7 @@ The platform aggregates data from premier global and official security feeds, in
 * **E-Mail-Sicherheits-Gateways (SEG):** Präzise Erkennung von Phishing und schädlichen URLs.
 
 #### 🔗 Bedrohungsinformations-Feeds
-Das System aggregiert Echtzeitdaten von führenden globalen und offiziellen Sicherheitsquellen, darunter USOM, CISA KEV, Abuse.ch, Spamhaus, PhishTank, OpenPhish, FireHOL, DShield und Tor Exit Nodes.
+Das System aggregiert Echtzeitdaten von führenden globalen und offiziellen Sicherheitsquellen, darunter USOM, MISP Feeds, Abuse.ch, Spamhaus, PhishTank, OpenPhish, FireHOL, DShield und Tor Exit Nodes.
 
 ---
 
@@ -83,7 +74,7 @@ Das System aggregiert Echtzeitdaten von führenden globalen und offiziellen Sich
 * **E-mailbeveiligingsgateways (SEG):** Geavanceerde detectie van phishing en schadelijke URL's.
 
 #### 🔗 Threat Intelligence Feeds
-Het platform aggregeert realtime data van toonaangevende wereldwijde bronnen, waaronder USOM, CISA KEV, Abuse.ch, Spamhaus, PhishTank, OpenPhish, FireHOL, DShield en Tor Exit Nodes.
+Het platform aggregeert realtime data van toonaangevende wereldwijde bronnen, waaronder USOM, MISP Feeds, Abuse.ch, Spamhaus, PhishTank, OpenPhish, FireHOL, DShield en Tor Exit Nodes.
 
 ---
 
@@ -98,7 +89,7 @@ Het platform aggregeert realtime data van toonaangevende wereldwijde bronnen, wa
 * **Passerelles de Sécurité E-mail (SEG) :** Détection proactive des hameçonnages et des URL malveillantes.
 
 #### 🔗 Flux de Renseignements sur les Menaces
-Le système intègre des données en temps réel provenant de sources mondiales telles que l'USOM, CISA KEV, Abuse.ch, Spamhaus, PhishTank, OpenPhish, FireHOL, DShield et les nœuds de sortie Tor.
+Le système intègre des données en temps réel provenant de sources mondiales telles que l'USOM, MISP Feeds, Abuse.ch, Spamhaus, PhishTank, OpenPhish, FireHOL, DShield et les nœuds de sortie Tor.
 
 ---
 
@@ -113,7 +104,7 @@ Le système intègre des données en temps réel provenant de sources mondiales 
 * **Email Security Gateway (SEG):** Rilevamento avanzato di phishing e URL dannosi.
 
 #### 🔗 Feed di Threat Intelligence
-La piattaforma aggrega dati in tempo reale da fonti di sicurezza globali e ufficiali tra cui USOM, CISA KEV, Abuse.ch, Spamhaus, PhishTank, OpenPhish, FireHOL, DShield e nodi di uscita Tor.
+La piattaforma aggrega dati in tempo reale da fonti di sicurezza globali e ufficiali tra cui USOM, MISP Feeds, Abuse.ch, Spamhaus, PhishTank, OpenPhish, FireHOL, DShield e nodi di uscita Tor.
 
 ---
 
@@ -128,7 +119,7 @@ La piattaforma aggrega dati in tempo reale da fonti di sicurezza globali e uffic
 * **E-postsikkerhetsgatewayer (SEG):** Avansert deteksjon av phishing og skadelige URL-er.
 
 #### 🔗 Trusselefterretningsstrømmer
-Plattformen samler inn data fra ledende globale og offisielle sikkerhetskilder, inkludert USOM, CISA KEV, Abuse.ch, Spamhaus, PhishTank, OpenPhish, FireHOL, DShield og Tor Exit Nodes.
+Plattformen samler inn data fra ledende globale og offisielle sikkerhetskilder, inkludert USOM, MISP Feeds, Abuse.ch, Spamhaus, PhishTank, OpenPhish, FireHOL, DShield og Tor Exit Nodes.
 
 ---
 
@@ -143,7 +134,7 @@ Plattformen samler inn data fra ledende globale og offisielle sikkerhetskilder, 
 * **E-postsäkerhetsgateways (SEG):** Avancerad detektering av nätfiske och skadliga webbadresser.
 
 #### 🔗 Hotintelligenstjänster
-Plattformen aggregerar data i realtid från ledande globala och officiella säkerhetskällor, inklusive USOM, CISA KEV, Abuse.ch, Spamhaus, PhishTank, OpenPhish, FireHOL, DShield och Tor Exit Nodes.
+Plattformen aggregerar data i realtid från ledande globala och officiella säkerhetskällor, inklusive USOM, MISP Feeds, Abuse.ch, Spamhaus, PhishTank, OpenPhish, FireHOL, DShield och Tor Exit Nodes.
 
 ---
 
@@ -158,7 +149,7 @@ Plattformen aggregerar data i realtid från ledande globala och officiella säke
 * **Sähköpostin tietoturvayhdyskäytävät (SEG):** Phishing- ja haitallisten URL-osoitteiden edistynyt tunnistus.
 
 #### 🔗 Uhkatietosyötteet
-Alusta kokoaa reaaliaikaista dataa johtavista globaaleista ja virallisista tietoturvalähteistä, mukaan lukien USOM, CISA KEV, Abuse.ch, Spamhaus, PhishTank, OpenPhish, FireHOL, DShield ja Tor Exit Nodes.
+Alusta kokoaa reaaliaikaista dataa johtavista globaaleista ja virallisista tietoturvalähteistä, mukaan lukien USOM, MISP Feeds, Abuse.ch, Spamhaus, PhishTank, OpenPhish, FireHOL, DShield ja Tor Exit Nodes.
 
 ---
 
@@ -167,4 +158,4 @@ Alusta kokoaa reaaliaikaista dataa johtavista globaaleista ja virallisista tieto
 * **Professional Profile:** [LinkedIn - Kenan Bayram](https://www.linkedin.com/in/kennybayram)
 
 ---
-*Note: Statistics values above are automatically updated in real-time via backend cron/API sync.*
+*Note: Statistics values above are automatically updated in real-time via python execution.*
