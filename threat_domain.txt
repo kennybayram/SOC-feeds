@@ -1,7 +1,7 @@
 # ==========================================================
 # SOC-FEEDS INTELLIGENCE REPORT
-# Last Updated: 2026-08-08T22:28:24.422576+00:00 UTC
-# Total Records: 43000
+# Last Updated: 2026-08-08T23:28:24.358573+00:00 UTC
+# Total Records: 43001
 # ==========================================================
 
 0.gravatar.com  # Sources: [PhishTank (Extracted)]
@@ -35442,6 +35442,7 @@ swiceth-cim0-redir.pages.dev  # Sources: [PhishTank (Extracted)]
 swift-desktop.wixstudio.com  # Sources: [PhishTank (Extracted)]
 swift-hiring-025569.framer.app  # Sources: [PhishTank (Extracted)]
 swiftcargoservices.com  # Sources: [PhishTank (Extracted)]
+swiftfusion.tech  # Sources: [URLHaus (Extracted)]
 swiftqorp.com  # Sources: [PhishTank (Extracted)]
 swiftresponses.standard.us-east-1.oortstorages.com  # Sources: [PhishTank (Extracted)]
 swiftsecurebnk.com  # Sources: [PhishTank (Extracted)]
