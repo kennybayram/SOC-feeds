@@ -1,7 +1,7 @@
 # ==========================================================
 # SOC-FEEDS INTELLIGENCE REPORT
-# Last Updated: 2026-08-08T21:29:39.717540+00:00 UTC
-# Total Records: 42989
+# Last Updated: 2026-08-08T22:28:24.422576+00:00 UTC
+# Total Records: 43000
 # ==========================================================
 
 0.gravatar.com  # Sources: [PhishTank (Extracted)]
@@ -13011,6 +13011,7 @@ dkrxwehc.testpaye.xyz  # Sources: [URLHaus (Extracted)]
 dkserver.sviluppo.host  # Sources: [PhishTank (Extracted)]
 dkvvwj.com  # Sources: [PhishTank (Extracted)]
 dl.1003b.56a.com  # Sources: [URLHaus (Extracted)]
+dl.2345.com  # Sources: [URLHaus (Extracted)]
 dl.360safe.com  # Sources: [URLHaus (Extracted)]
 dl.dropboxusercontent.com  # Sources: [URLHaus (Extracted)]
 dl.dzqzd.com  # Sources: [URLHaus (Extracted)]
@@ -26900,6 +26901,7 @@ pai-ementlbc.onbue.xyz  # Sources: [PhishTank (Extracted)]
 paidboss.vercel.app  # Sources: [PhishTank (Extracted)]
 paiement-avantages.com  # Sources: [PhishTank (Extracted)]
 paiement-boncoin.duckdns.org  # Sources: [PhishTank (Extracted)]
+paiement-dossier-1009.com  # Sources: [PhishTank (Extracted)]
 paiements-autoroute.com  # Sources: [PhishTank (Extracted)]
 paigebuchholz1.ac-page.com  # Sources: [PhishTank (Extracted)]
 painelnetpj.online  # Sources: [PhishTank (Extracted)]
@@ -33386,6 +33388,15 @@ smbcarad.cgp14p.info  # Sources: [PhishTank (Extracted)]
 smbcarad.n5q6dn.info  # Sources: [PhishTank (Extracted)]
 smbcarad.vq8d54.info  # Sources: [PhishTank (Extracted)]
 smbcarad.z7d2q.info  # Sources: [PhishTank (Extracted)]
+smbccerd.ahqcsl.com  # Sources: [PhishTank (Extracted)]
+smbccerd.aiacfun.com  # Sources: [PhishTank (Extracted)]
+smbccerd.clchmc.com  # Sources: [PhishTank (Extracted)]
+smbccerd.fszhsoft.com  # Sources: [PhishTank (Extracted)]
+smbccerd.hncljj.com  # Sources: [PhishTank (Extracted)]
+smbccerd.jsjsjz.com  # Sources: [PhishTank (Extracted)]
+smbccerd.jzszyff.com  # Sources: [PhishTank (Extracted)]
+smbccerd.scxtbxg.com  # Sources: [PhishTank (Extracted)]
+smbccerd.yihuacg.com  # Sources: [PhishTank (Extracted)]
 smbpbufonctad.0f2r0j.info  # Sources: [PhishTank (Extracted)]
 smbpbuobnctad.04ztof.info  # Sources: [PhishTank (Extracted)]
 smbpbuojnctad.mztb5n.info  # Sources: [PhishTank (Extracted)]
