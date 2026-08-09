@@ -1,7 +1,7 @@
 # ==========================================================
 # SOC-FEEDS INTELLIGENCE REPORT
-# Last Updated: 2026-08-09T10:33:56.173103+00:00 UTC
-# Total Records: 43177
+# Last Updated: 2026-08-09T11:28:42.552372+00:00 UTC
+# Total Records: 43179
 # ==========================================================
 
 0.gravatar.com  # Sources: [PhishTank (Extracted)]
@@ -4031,6 +4031,7 @@ allegrolokalnie.2848124.sbs  # Sources: [PhishTank (Extracted)]
 allegrolokalnie.28821392h5.shop  # Sources: [PhishTank (Extracted)]
 allegrolokalnie.292930t923.cyou  # Sources: [PhishTank (Extracted)]
 allegrolokalnie.2938oferta0p398.click  # Sources: [PhishTank (Extracted)]
+allegrolokalnie.293zzvw38ck8.rest  # Sources: [PhishTank (Extracted)]
 allegrolokalnie.3028486514.xyz  # Sources: [PhishTank (Extracted)]
 allegrolokalnie.309137580342.xyz  # Sources: [PhishTank (Extracted)]
 allegrolokalnie.3187id.lol  # Sources: [PhishTank (Extracted)]
@@ -19866,6 +19867,7 @@ iwl-tp313-tna6zp-93ap-5crv.pages.dev  # Sources: [PhishTank (Extracted)]
 iwojm.webgondozas.hu  # Sources: [URLHaus (Extracted)]
 iwpt50r25.ukit.me  # Sources: [PhishTank (Extracted)]
 iwyx.bekabet.casino  # Sources: [URLHaus (Extracted)]
+ixirgroup.com  # Sources: [URLHaus (Extracted)]
 iydheybdse.w3spaces.com  # Sources: [PhishTank (Extracted)]
 iyejvhz.shansbartar.bet  # Sources: [URLHaus (Extracted)]
 iyfdtusryxcuviuklfyidtu-dtusrzydtkuyufdytsukdyj.teemill.com  # Sources: [PhishTank (Extracted)]
