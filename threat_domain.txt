@@ -1,7 +1,7 @@
 # ==========================================================
 # SOC-FEEDS INTELLIGENCE REPORT
-# Last Updated: 2026-08-10T03:54:16.369235+00:00 UTC
-# Total Records: 43245
+# Last Updated: 2026-08-10T05:26:39.240325+00:00 UTC
+# Total Records: 43248
 # ==========================================================
 
 0.gravatar.com  # Sources: [PhishTank (Extracted)]
@@ -11647,6 +11647,7 @@ corireos.bond  # Sources: [PhishTank (Extracted)]
 corireos.click  # Sources: [PhishTank (Extracted)]
 coriroer.weebly.com  # Sources: [PhishTank (Extracted)]
 cornerofthedark.com  # Sources: [PhishTank (Extracted)]
+cornhqcv-online.icu  # Sources: [PhishTank (Extracted)]
 cornhqcv.icu  # Sources: [PhishTank (Extracted)]
 corporacioncrf.com  # Sources: [URLHaus (Extracted)]
 corporate-wellness-sg.com  # Sources: [PhishTank (Extracted)]
@@ -30871,6 +30872,7 @@ rapidousario-configurararsys.blogspot.com  # Sources: [PhishTank (Extracted)]
 rapiny.gamesystem.hu  # Sources: [URLHaus (Extracted)]
 raptore.yzz.me  # Sources: [URLHaus (Extracted)]
 raqmk.mururhesabdari.xyz  # Sources: [URLHaus (Extracted)]
+raqmnh.com  # Sources: [URLHaus (Extracted)]
 raqui-sol1c1t4.webcindario.com  # Sources: [PhishTank (Extracted)]
 rare-blue-d4nhaptpng.edgeone.app  # Sources: [PhishTank (Extracted)]
 rare-fork.surge.sh  # Sources: [PhishTank (Extracted)]
@@ -36237,6 +36239,7 @@ test2258-f1945.firebaseapp.com  # Sources: [PhishTank (Extracted)]
 test2258-f1945.web.app  # Sources: [PhishTank (Extracted)]
 testdomain.kognitivtrainer.de  # Sources: [URLHaus (Extracted)]
 teste.melom.com  # Sources: [PhishTank (Extracted)]
+testificaria.us  # Sources: [PhishTank (Extracted)]
 testingmfa.com  # Sources: [PhishTank (Extracted)]
 testpdf.com  # Sources: [PhishTank (Extracted)]
 tether-sync.vercel.app  # Sources: [PhishTank (Extracted)]
