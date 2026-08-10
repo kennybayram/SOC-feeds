@@ -1,7 +1,7 @@
 # ==========================================================
 # SOC-FEEDS INTELLIGENCE REPORT
-# Last Updated: 2026-08-10T22:37:03.843752+00:00 UTC
-# Total Records: 43313
+# Last Updated: 2026-08-10T23:33:47.957904+00:00 UTC
+# Total Records: 43312
 # ==========================================================
 
 0.gravatar.com  # Sources: [PhishTank (Extracted)]
@@ -13882,6 +13882,7 @@ easy4freeget.surge.sh  # Sources: [PhishTank (Extracted)]
 easybank-kundenservice-mijndomein.co.nl  # Sources: [PhishTank (Extracted)]
 easybenefitsaccess.com  # Sources: [PhishTank (Extracted)]
 easybkde.avanteshipping.com  # Sources: [PhishTank (Extracted)]
+easycryptos.org  # Sources: [URLHaus (Extracted)]
 easyfiles.cc  # Sources: [URLHaus (Extracted)]
 easyfyme.com  # Sources: [PhishTank (Extracted)]
 easygoing-hours-190538.framer.app  # Sources: [PhishTank (Extracted)]
@@ -26709,7 +26710,6 @@ orcube-bf0cf.web.app  # Sources: [PhishTank (Extracted)]
 order-bridge.wixstudio.com  # Sources: [PhishTank (Extracted)]
 order-request.weebly.com  # Sources: [PhishTank (Extracted)]
 orderr-now.biz  # Sources: [PhishTank (Extracted)]
-ordersub-versive.wiki  # Sources: [URLHaus (Extracted)]
 ordiljgt.entegaljerm.xyz  # Sources: [URLHaus (Extracted)]
 ordinary-violet-aiqitdrvzm.edgeone.app  # Sources: [PhishTank (Extracted)]
 ordmv.due-tasnz.com  # Sources: [PhishTank (Extracted)]
@@ -37018,7 +37018,6 @@ trspmls.pro  # Sources: [PhishTank (Extracted)]
 trspmsrl.pro  # Sources: [PhishTank (Extracted)]
 trstwebml.weebly.com  # Sources: [PhishTank (Extracted)]
 trth13r.weebly.com  # Sources: [PhishTank (Extracted)]
-trtmyanmar.com  # Sources: [URLHaus (Extracted)]
 trtruty.w3spaces.com  # Sources: [PhishTank (Extracted)]
 tru-cape.com  # Sources: [PhishTank (Extracted)]
 truckilasoudt.duckdns.org  # Sources: [PhishTank (Extracted)]
