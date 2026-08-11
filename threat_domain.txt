@@ -1,7 +1,7 @@
 # ==========================================================
 # SOC-FEEDS INTELLIGENCE REPORT
-# Last Updated: 2026-08-11T21:44:41.127836+00:00 UTC
-# Total Records: 43329
+# Last Updated: 2026-08-11T22:40:05.156234+00:00 UTC
+# Total Records: 43327
 # ==========================================================
 
 0-lix-a8sbqnxt.d1cdej.top  # Sources: [PhishTank (Extracted)]
@@ -22883,7 +22883,6 @@ m0qlu-zqdb1-v15yge-046y-9jv318.pages.dev  # Sources: [PhishTank (Extracted)]
 m109751101487.square.site  # Sources: [PhishTank (Extracted)]
 m186815.pro  # Sources: [PhishTank (Extracted)]
 m1c2c-iz1u08-9wq-n44v-fw8.pages.dev  # Sources: [PhishTank (Extracted)]
-m1rz16og.poles-wrinkle.digital  # Sources: [URLHaus (Extracted)]
 m1ub6qaj.kabardinskymonasticismradicalism.digital  # Sources: [URLHaus (Extracted)]
 m2625.godaddysites.com  # Sources: [PhishTank (Extracted)]
 m26m7e.csb.app  # Sources: [PhishTank (Extracted)]
@@ -26686,7 +26685,6 @@ oonlinnepaay.weebly.com  # Sources: [PhishTank (Extracted)]
 ooredodz.weebly.com  # Sources: [PhishTank (Extracted)]
 ooy071pxl1-uat-dg67.y3qgxl.qpon  # Sources: [PhishTank (Extracted)]
 op-3oz.pages.dev  # Sources: [PhishTank (Extracted)]
-op1h26r1.exhaustoverwint.digital  # Sources: [URLHaus (Extracted)]
 op2-tec-authorized-docwmtm.firebaseapp.com  # Sources: [PhishTank (Extracted)]
 op2-tec-authorized-docwmtm.web.app  # Sources: [PhishTank (Extracted)]
 opayservicesupport.weebly.com  # Sources: [PhishTank (Extracted)]
