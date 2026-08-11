@@ -1,7 +1,7 @@
 # ==========================================================
 # SOC-FEEDS INTELLIGENCE REPORT
-# Last Updated: 2026-08-11T22:40:05.156234+00:00 UTC
-# Total Records: 43327
+# Last Updated: 2026-08-11T23:39:11.427887+00:00 UTC
+# Total Records: 43324
 # ==========================================================
 
 0-lix-a8sbqnxt.d1cdej.top  # Sources: [PhishTank (Extracted)]
@@ -18174,7 +18174,6 @@ helpsupportalktal.weebly.com  # Sources: [PhishTank (Extracted)]
 helpus-desktop.wixstudio.com  # Sources: [PhishTank (Extracted)]
 helsingborg-se.weebly.com  # Sources: [PhishTank (Extracted)]
 hemlscrotaia.weebly.com  # Sources: [PhishTank (Extracted)]
-hemorrhoid-daydark.wiki  # Sources: [URLHaus (Extracted)]
 hems.standard.us-east-1.oortstorages.com  # Sources: [PhishTank (Extracted)]
 hengmanrui.com  # Sources: [PhishTank (Extracted)]
 henriette43.wixstudio.com  # Sources: [PhishTank (Extracted)]
@@ -27290,7 +27289,6 @@ paste.sensio.no  # Sources: [URLHaus (Extracted)]
 pastee.dev  # Sources: [URLHaus (Extracted)]
 pastefy.app  # Sources: [URLHaus (Extracted)]
 patagonia.fiinanzas.blog  # Sources: [PhishTank (Extracted)]
-patenttag.wiki  # Sources: [URLHaus (Extracted)]
 path-green-second-hub.garden  # Sources: [URLHaus (Extracted)]
 pathwaycommuni.weebly.com  # Sources: [PhishTank (Extracted)]
 patient-agency-496726.framer.app  # Sources: [PhishTank (Extracted)]
@@ -32329,7 +32327,6 @@ scadhgyw.weebly.com  # Sources: [PhishTank (Extracted)]
 scainseto.com.br  # Sources: [URLHaus (Extracted)]
 scaletax-bute-analytics-toeheap.garden  # Sources: [URLHaus (Extracted)]
 scaleyou.com.br  # Sources: [URLHaus (Extracted)]
-scalpingstillephemer-natorel.wiki  # Sources: [URLHaus (Extracted)]
 scalssrtbnkcontn.weebly.com  # Sources: [PhishTank (Extracted)]
 scan-coolhock.xyz  # Sources: [URLHaus (Extracted)]
 scan.ivankozlovsky.com  # Sources: [URLHaus (Extracted)]
