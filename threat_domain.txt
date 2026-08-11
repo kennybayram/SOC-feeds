@@ -1,7 +1,7 @@
 # ==========================================================
 # SOC-FEEDS INTELLIGENCE REPORT
-# Last Updated: 2026-08-11T17:56:06.949118+00:00 UTC
-# Total Records: 43332
+# Last Updated: 2026-08-11T19:02:29.772030+00:00 UTC
+# Total Records: 43331
 # ==========================================================
 
 0-lix-a8sbqnxt.d1cdej.top  # Sources: [PhishTank (Extracted)]
@@ -11655,7 +11655,6 @@ containerizedplantengine.garden  # Sources: [URLHaus (Extracted)]
 containerizedplantmesh.garden  # Sources: [URLHaus (Extracted)]
 containerizedplantnetwork.garden  # Sources: [URLHaus (Extracted)]
 containerizedworkflowengine.courses  # Sources: [URLHaus (Extracted)]
-containerorchestrationhub.wiki  # Sources: [URLHaus (Extracted)]
 contasecuredadminportalupdate.framer.website  # Sources: [PhishTank (Extracted)]
 contasegura.sa.com  # Sources: [PhishTank (Extracted)]
 contatobiaonline.ru.com  # Sources: [PhishTank (Extracted)]
@@ -12614,7 +12613,6 @@ debremzers.firebaseapp.com  # Sources: [PhishTank (Extracted)]
 debremzers.web.app  # Sources: [PhishTank (Extracted)]
 decentralbridge.pages.dev  # Sources: [PhishTank (Extracted)]
 decentralizedmessagingframework.wiki  # Sources: [URLHaus (Extracted)]
-decentralizedworkflowengine.wiki  # Sources: [URLHaus (Extracted)]
 decesinfos44.weebly.com  # Sources: [PhishTank (Extracted)]
 deci.solaferge.fr  # Sources: [PhishTank (Extracted)]
 decisive-concept-891331.framer.app  # Sources: [PhishTank (Extracted)]
@@ -14417,6 +14415,7 @@ eloquent-llama-4b2fa2.netlify.app  # Sources: [PhishTank (Extracted)]
 eloquent-panda-34e9ee.netlify.app  # Sources: [PhishTank (Extracted)]
 eloquent-starburst-c86185.netlify.app  # Sources: [PhishTank (Extracted)]
 elpcenterservicelink.weebly.com  # Sources: [PhishTank (Extracted)]
+elpolacodelsur3.duckdns.org  # Sources: [URLHaus (Extracted)]
 elqenk4.maison-hamour.fr  # Sources: [PhishTank (Extracted)]
 elsms.webgondozas.hu  # Sources: [URLHaus (Extracted)]
 elster-de-eportal.firebaseapp.com  # Sources: [PhishTank (Extracted)]
