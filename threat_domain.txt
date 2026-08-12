@@ -1,7 +1,7 @@
 # ==========================================================
 # SOC-FEEDS INTELLIGENCE REPORT
-# Last Updated: 2026-08-12T21:43:53.080380+00:00 UTC
-# Total Records: 43446
+# Last Updated: 2026-08-12T22:39:46.065311+00:00 UTC
+# Total Records: 43443
 # ==========================================================
 
 0-lix-a8sbqnxt.d1cdej.top  # Sources: [PhishTank (Extracted)]
@@ -10418,7 +10418,6 @@ carte-vitale-franceconnect.com  # Sources: [PhishTank (Extracted)]
 carteavantages-connect7.com  # Sources: [PhishTank (Extracted)]
 carteira-de-pesca-2026-aula-app.vercel.app  # Sources: [PhishTank (Extracted)]
 carterb2b.com  # Sources: [PhishTank (Extracted)]
-cartwell-pastphantom.courses  # Sources: [URLHaus (Extracted)]
 carytek.com  # Sources: [PhishTank (Extracted)]
 cas-ent-login.framer.website  # Sources: [PhishTank (Extracted)]
 cas-internet-user.framer.website  # Sources: [PhishTank (Extracted)]
@@ -19562,7 +19561,6 @@ ingrsing.webcindario.com  # Sources: [PhishTank (Extracted)]
 ingsecusecuring.firebaseapp.com  # Sources: [PhishTank (Extracted)]
 ingsecusecuring.web.app  # Sources: [PhishTank (Extracted)]
 inhalerotolaryngologist.courses  # Sources: [URLHaus (Extracted)]
-inherittruckdoge.courses  # Sources: [URLHaus (Extracted)]
 iniciar-authbn.webcindario.com  # Sources: [PhishTank (Extracted)]
 iniciar-correo-web.weebly.com  # Sources: [PhishTank (Extracted)]
 iniciar-credito.webcindario.com  # Sources: [PhishTank (Extracted)]
@@ -36317,7 +36315,6 @@ telemetry-folder-stream-core.garden  # Sources: [URLHaus (Extracted)]
 telemetry-grid.christmas  # Sources: [URLHaus (Extracted)]
 telemetry-orbit.buzz  # Sources: [URLHaus (Extracted)]
 telemetry-stream-core.courses  # Sources: [URLHaus (Extracted)]
-telemetrycore.courses  # Sources: [URLHaus (Extracted)]
 telemetrygardenmesh.garden  # Sources: [URLHaus (Extracted)]
 telemetrymesh.christmas  # Sources: [URLHaus (Extracted)]
 telemvgna.com  # Sources: [PhishTank (Extracted)]
