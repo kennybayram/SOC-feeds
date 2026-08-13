@@ -1,7 +1,7 @@
 # ==========================================================
 # SOC-FEEDS INTELLIGENCE REPORT
-# Last Updated: 2026-08-13T21:43:37.098277+00:00 UTC
-# Total Records: 43535
+# Last Updated: 2026-08-13T22:40:43.586736+00:00 UTC
+# Total Records: 43531
 # ==========================================================
 
 0-lix-a8sbqnxt.d1cdej.top  # Sources: [PhishTank (Extracted)]
@@ -13154,7 +13154,6 @@ distribuidora-nacional.duckdns.org  # Sources: [PhishTank (Extracted)]
 distributed-cache-storage-layer.wiki  # Sources: [URLHaus (Extracted)]
 distributed-garden-framework.garden  # Sources: [URLHaus (Extracted)]
 distributed-growth-network.garden  # Sources: [URLHaus (Extracted)]
-distributed-petal-network.garden  # Sources: [URLHaus (Extracted)]
 distributedbloomnetwork.garden  # Sources: [URLHaus (Extracted)]
 distributedbotanicalnetwork.garden  # Sources: [URLHaus (Extracted)]
 distributedgardenanalytics.garden  # Sources: [URLHaus (Extracted)]
@@ -17666,7 +17665,6 @@ greenf.alexion.rs  # Sources: [URLHaus (Extracted)]
 greenfosstech.com  # Sources: [PhishTank (Extracted)]
 greenhills-communication.weeblysite.com  # Sources: [PhishTank (Extracted)]
 greenhouse-climate-control-sys.garden  # Sources: [URLHaus (Extracted)]
-greenhousecontrolhub.garden  # Sources: [URLHaus (Extracted)]
 greenhousecontrolplatform.garden  # Sources: [URLHaus (Extracted)]
 greenhousedeploymenthub.garden  # Sources: [URLHaus (Extracted)]
 greenhousemanagementengine.garden  # Sources: [URLHaus (Extracted)]
@@ -24147,7 +24145,6 @@ micro50495045045.web.app  # Sources: [PhishTank (Extracted)]
 microaustrupdsa.weebly.com  # Sources: [PhishTank (Extracted)]
 microcix.com  # Sources: [PhishTank (Extracted)]
 microflora-management-hub.garden  # Sources: [URLHaus (Extracted)]
-microfloraobservatory.garden  # Sources: [URLHaus (Extracted)]
 microlsireqjn.com  # Sources: [URLHaus (Extracted)]
 micronicsolutions.com  # Sources: [PhishTank (Extracted)]
 microservice-hub.christmas  # Sources: [URLHaus (Extracted)]
@@ -42996,7 +42993,6 @@ ysqxkgi.mangobetfarsi.com  # Sources: [URLHaus (Extracted)]
 ystr.bittersweetkennel.com  # Sources: [URLHaus (Extracted)]
 ysulmnsc.sanjeshravani.shop  # Sources: [URLHaus (Extracted)]
 ysuuasycgucgc.weebly.com  # Sources: [PhishTank (Extracted)]
-ysuz4thn.bellow-norushka-pianissimo.digital  # Sources: [URLHaus (Extracted)]
 yt8wol.webwave.dev  # Sources: [PhishTank (Extracted)]
 ytcephe.com  # Sources: [PhishTank (Extracted)]
 ytipck.com  # Sources: [PhishTank (Extracted)]
