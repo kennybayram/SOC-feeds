@@ -1,7 +1,7 @@
 # ==========================================================
 # SOC-FEEDS INTELLIGENCE REPORT
-# Last Updated: 2026-08-13T22:40:43.586736+00:00 UTC
-# Total Records: 43531
+# Last Updated: 2026-08-13T23:39:45.911401+00:00 UTC
+# Total Records: 43530
 # ==========================================================
 
 0-lix-a8sbqnxt.d1cdej.top  # Sources: [PhishTank (Extracted)]
@@ -237,6 +237,7 @@
 1670082278.dojiner.at  # Sources: [PhishTank (Extracted)]
 1675zke.top  # Sources: [PhishTank (Extracted)]
 1717.1000uc.com  # Sources: [URLHaus (Extracted)]
+172-104-49-49.ip.linodeusercontent.com  # Sources: [URLHaus (Extracted)]
 172-104-5-58.cprapid.com  # Sources: [PhishTank (Extracted)]
 17251w.weebly.com  # Sources: [PhishTank (Extracted)]
 17430968.xyz  # Sources: [PhishTank (Extracted)]
@@ -15611,7 +15612,6 @@ federated-grow-install-framework.garden  # Sources: [URLHaus (Extracted)]
 federated-storage-cluster-system.wiki  # Sources: [URLHaus (Extracted)]
 federatedgardencluster.garden  # Sources: [URLHaus (Extracted)]
 federatedgardenplatform.garden  # Sources: [URLHaus (Extracted)]
-federatedgrowframework.garden  # Sources: [URLHaus (Extracted)]
 federatedgrowthnetwork.garden  # Sources: [URLHaus (Extracted)]
 federatedmeadowcluster.garden  # Sources: [URLHaus (Extracted)]
 federatedmeadowsystem.garden  # Sources: [URLHaus (Extracted)]
@@ -19899,7 +19899,6 @@ irljgzvr.sanjeshvaandazegiri.shop  # Sources: [URLHaus (Extracted)]
 irresistible-success-026757.framer.app  # Sources: [PhishTank (Extracted)]
 irrigation-control-framework.garden  # Sources: [URLHaus (Extracted)]
 irrigation-control-network.garden  # Sources: [URLHaus (Extracted)]
-irrigation-management-core.garden  # Sources: [URLHaus (Extracted)]
 irrigation-management-system.garden  # Sources: [URLHaus (Extracted)]
 irrigation-monitoring-framework.garden  # Sources: [URLHaus (Extracted)]
 irrigation-resource-system.garden  # Sources: [URLHaus (Extracted)]
@@ -23670,7 +23669,6 @@ me-qr.com  # Sources: [PhishTank (Extracted)]
 me1amask-wullxtt.gitbook.io  # Sources: [PhishTank (Extracted)]
 meadow-observability-core.garden  # Sources: [URLHaus (Extracted)]
 meadow-processing-core.garden  # Sources: [URLHaus (Extracted)]
-meadow-processing-engine.garden  # Sources: [URLHaus (Extracted)]
 meadowautomationplatform.garden  # Sources: [URLHaus (Extracted)]
 meadowmanagementcenter.garden  # Sources: [URLHaus (Extracted)]
 meadowmonitoringplatform.garden  # Sources: [URLHaus (Extracted)]
@@ -36187,6 +36185,7 @@ taredinmonakal.blogspot.com  # Sources: [PhishTank (Extracted)]
 targetpr0du.webcindario.com  # Sources: [PhishTank (Extracted)]
 tarimorman-gov.weebly.com  # Sources: [PhishTank (Extracted)]
 tarjetasprodubancsosiality.vercel.app  # Sources: [PhishTank (Extracted)]
+tarkioweb.com  # Sources: [URLHaus (Extracted)]
 tarlouze.domici948239.pro  # Sources: [PhishTank (Extracted)]
 tarratarea.duckdns.org  # Sources: [URLHaus (Extracted)]
 tartine.domici948239.pro  # Sources: [PhishTank (Extracted)]
