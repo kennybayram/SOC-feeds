@@ -1,7 +1,7 @@
 # ==========================================================
 # SOC-FEEDS INTELLIGENCE REPORT
-# Last Updated: 2026-08-14T16:51:34.501573+00:00 UTC
-# Total Records: 43532
+# Last Updated: 2026-08-14T17:52:22.209809+00:00 UTC
+# Total Records: 43531
 # ==========================================================
 
 0-lix-a8sbqnxt.d1cdej.top  # Sources: [PhishTank (Extracted)]
@@ -15588,7 +15588,6 @@ febrn.laborfotostudio.hu  # Sources: [URLHaus (Extracted)]
 february-taxes-tent-cancellation.trycloudflare.com  # Sources: [PhishTank (Extracted)]
 federalwayschooldistictoffice365emailupdate.ukit.me  # Sources: [PhishTank (Extracted)]
 federated-storage-cluster-system.wiki  # Sources: [URLHaus (Extracted)]
-federatedgardencluster.garden  # Sources: [URLHaus (Extracted)]
 federatedgardenplatform.garden  # Sources: [URLHaus (Extracted)]
 federatedgrowthnetwork.garden  # Sources: [URLHaus (Extracted)]
 federatedmeadowcluster.garden  # Sources: [URLHaus (Extracted)]
@@ -19863,7 +19862,6 @@ irljgzvr.sanjeshvaandazegiri.shop  # Sources: [URLHaus (Extracted)]
 irresistible-success-026757.framer.app  # Sources: [PhishTank (Extracted)]
 irrigation-control-framework.garden  # Sources: [URLHaus (Extracted)]
 irrigation-control-network.garden  # Sources: [URLHaus (Extracted)]
-irrigation-management-system.garden  # Sources: [URLHaus (Extracted)]
 irrigation-monitoring-framework.garden  # Sources: [URLHaus (Extracted)]
 irrigation-resource-system.garden  # Sources: [URLHaus (Extracted)]
 irrigationanalyticssystem.garden  # Sources: [URLHaus (Extracted)]
@@ -41020,6 +41018,7 @@ www.ehay.uk.login.secures-wr2ssvastv.braxwebdesign.com  # Sources: [PhishTank (E
 www.ekun365.com  # Sources: [PhishTank (Extracted)]
 www.ellipalsetup.live  # Sources: [PhishTank (Extracted)]
 www.elnelien.com  # Sources: [PhishTank (Extracted)]
+www.elpolacodelsur2.duckdns.org  # Sources: [URLHaus (Extracted)]
 www.elpolacodelsur3.duckdns.org  # Sources: [URLHaus (Extracted)]
 www.emitisandabtin.ae  # Sources: [PhishTank (Extracted)]
 www.empresas.terrazzanealmeida.com.br  # Sources: [PhishTank (Extracted)]
