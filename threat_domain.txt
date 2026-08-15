@@ -1,7 +1,7 @@
 # ==========================================================
 # SOC-FEEDS INTELLIGENCE REPORT
-# Last Updated: 2026-08-15T21:20:58.594185+00:00 UTC
-# Total Records: 43504
+# Last Updated: 2026-08-15T22:19:49.019583+00:00 UTC
+# Total Records: 43502
 # ==========================================================
 
 0-lix-a8sbqnxt.d1cdej.top  # Sources: [PhishTank (Extracted)]
@@ -19875,7 +19875,6 @@ irrigation-control-network.garden  # Sources: [URLHaus (Extracted)]
 irrigation-monitoring-framework.garden  # Sources: [URLHaus (Extracted)]
 irrigationanalyticssystem.garden  # Sources: [URLHaus (Extracted)]
 irrigationautomationhub.garden  # Sources: [URLHaus (Extracted)]
-irrigationmanagementhub.garden  # Sources: [URLHaus (Extracted)]
 irrigationprocessingnetwork.garden  # Sources: [URLHaus (Extracted)]
 irrigationtelemetrysystem.garden  # Sources: [URLHaus (Extracted)]
 irrigationworkflowsystem.garden  # Sources: [URLHaus (Extracted)]
@@ -23627,7 +23626,6 @@ me-qr.com  # Sources: [PhishTank (Extracted)]
 me1amask-wullxtt.gitbook.io  # Sources: [PhishTank (Extracted)]
 meadow-observability-core.garden  # Sources: [URLHaus (Extracted)]
 meadow-processing-core.garden  # Sources: [URLHaus (Extracted)]
-meadowautomationplatform.garden  # Sources: [URLHaus (Extracted)]
 meadowmanagementcenter.garden  # Sources: [URLHaus (Extracted)]
 meadowmonitoringplatform.garden  # Sources: [URLHaus (Extracted)]
 meadowoperationshub.garden  # Sources: [URLHaus (Extracted)]
