@@ -1,7 +1,7 @@
 # ==========================================================
 # SOC-FEEDS INTELLIGENCE REPORT
-# Last Updated: 2026-08-15T04:29:17.172956+00:00 UTC
-# Total Records: 43545
+# Last Updated: 2026-08-15T05:23:36.895823+00:00 UTC
+# Total Records: 43543
 # ==========================================================
 
 0-lix-a8sbqnxt.d1cdej.top  # Sources: [PhishTank (Extracted)]
@@ -2004,7 +2004,6 @@ abvnavav.weebly.com  # Sources: [PhishTank (Extracted)]
 abvpostmail56.weebly.com  # Sources: [PhishTank (Extracted)]
 abvvbgg.weebly.com  # Sources: [PhishTank (Extracted)]
 abvwoldwide.weebly.com  # Sources: [PhishTank (Extracted)]
-abyssal-kraken-trench.garden  # Sources: [URLHaus (Extracted)]
 abyssal-plain-topography.garden  # Sources: [URLHaus (Extracted)]
 abyssalkraken.fit  # Sources: [URLHaus (Extracted)]
 ac-aix-marseill.weebly.com  # Sources: [PhishTank (Extracted)]
@@ -12345,7 +12344,6 @@ d.wanyouxi7.com  # Sources: [URLHaus (Extracted)]
 d.yzh.li  # Sources: [PhishTank (Extracted)]
 d0317e.icefactory.cl  # Sources: [OpenPhish (Extracted)]
 d1-eta.vercel.app  # Sources: [PhishTank (Extracted)]
-d1jtbg8r.node-matrix.digital  # Sources: [URLHaus (Extracted)]
 d2314eac.solaraweb-alj.pages.dev  # Sources: [URLHaus (Extracted)]
 d26z9x.blogspot.com  # Sources: [PhishTank (Extracted)]
 d26z9x.blogspot.de  # Sources: [PhishTank (Extracted)]
@@ -38854,7 +38852,6 @@ vin9144.wixsite.com  # Sources: [PhishTank (Extracted)]
 vincentdemiero.com  # Sources: [URLHaus (Extracted)]
 vinci-france.info  # Sources: [PhishTank (Extracted)]
 vinculaitau.webcindario.com  # Sources: [PhishTank (Extracted)]
-vintage-blueprint-vault.garden  # Sources: [URLHaus (Extracted)]
 vintage-telemetry-receiver.garden  # Sources: [URLHaus (Extracted)]
 vintage-vinyl-restoration.garden  # Sources: [URLHaus (Extracted)]
 vintagevinylrestoration.christmas  # Sources: [URLHaus (Extracted)]
@@ -41268,6 +41265,7 @@ www.hudong66.com  # Sources: [PhishTank (Extracted)]
 www.hummocky.cfd  # Sources: [PhishTank (Extracted)]
 www.hunanqingang.com  # Sources: [PhishTank (Extracted)]
 www.huttprimax.partners  # Sources: [URLHaus (Extracted)]
+www.hwgeneralins.com  # Sources: [URLHaus (Extracted)]
 www.hyyywl.com  # Sources: [PhishTank (Extracted)]
 www.ichnology.cfd  # Sources: [PhishTank (Extracted)]
 www.icmktg.n0c.world  # Sources: [PhishTank (Extracted)]
