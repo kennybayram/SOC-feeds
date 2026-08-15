@@ -1,7 +1,7 @@
 # ==========================================================
 # SOC-FEEDS INTELLIGENCE REPORT
-# Last Updated: 2026-08-15T03:37:19.408615+00:00 UTC
-# Total Records: 43548
+# Last Updated: 2026-08-15T04:29:17.172956+00:00 UTC
+# Total Records: 43545
 # ==========================================================
 
 0-lix-a8sbqnxt.d1cdej.top  # Sources: [PhishTank (Extracted)]
@@ -15838,7 +15838,6 @@ fildenford-mq.vercel.app  # Sources: [OpenPhish (Extracted)]
 file-greview.firebaseapp.com  # Sources: [PhishTank (Extracted)]
 file-greview.web.app  # Sources: [PhishTank (Extracted)]
 file.tugou.com.co  # Sources: [URLHaus (Extracted)]
-file.uhsea.com  # Sources: [URLHaus (Extracted)]
 file08793uhg32gv7d43dbjh2.weebly.com  # Sources: [PhishTank (Extracted)]
 filefiles.vercel.app  # Sources: [PhishTank (Extracted)]
 filename-portal.myportfolio.com  # Sources: [PhishTank (Extracted)]
@@ -17952,7 +17951,6 @@ hamzachehlaoui.github.io  # Sources: [PhishTank (Extracted)]
 han.gl  # Sources: [PhishTank (Extracted)]
 hancosbsndkdkekkhancosbsndkdkekkdendkndndkk.ttrbru.eu.org  # Sources: [PhishTank (Extracted)]
 handelsregister.beveiliging-aanvraag.im  # Sources: [PhishTank (Extracted)]
-handmade-cheese-traveler.garden  # Sources: [URLHaus (Extracted)]
 handsome-communication-053785.framer.app  # Sources: [PhishTank (Extracted)]
 hannarantala.com  # Sources: [PhishTank (Extracted)]
 happie-lex-s-school.teachable.com  # Sources: [PhishTank (Extracted)]
@@ -28350,7 +28348,6 @@ preciosasjoyitas.com.mx  # Sources: [URLHaus (Extracted)]
 precious-circumstances-926190.framer.app  # Sources: [PhishTank (Extracted)]
 precious-millions-052749.framer.app  # Sources: [PhishTank (Extracted)]
 precious-plum-334631.framer.app  # Sources: [PhishTank (Extracted)]
-predator-hunting-chronicles.garden  # Sources: [URLHaus (Extracted)]
 predictable-person-591307.framer.app  # Sources: [PhishTank (Extracted)]
 predictable-transportation-105733.framer.app  # Sources: [PhishTank (Extracted)]
 predovicpathbuzz.myportfolio.com  # Sources: [PhishTank (Extracted)]
