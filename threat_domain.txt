@@ -1,7 +1,7 @@
 # ==========================================================
 # SOC-FEEDS INTELLIGENCE REPORT
-# Last Updated: 2026-08-16T18:27:14.099692+00:00 UTC
-# Total Records: 43462
+# Last Updated: 2026-08-16T19:21:15.912946+00:00 UTC
+# Total Records: 43458
 # ==========================================================
 
 0-lix-a8sbqnxt.d1cdej.top  # Sources: [PhishTank (Extracted)]
@@ -999,7 +999,6 @@
 4pr9wkn.hair  # Sources: [PhishTank (Extracted)]
 4q4880m7.bwin90.bet  # Sources: [URLHaus (Extracted)]
 4q74zsh8.raftarsazmani.xyz  # Sources: [URLHaus (Extracted)]
-4qm7sqpa.cyber-harbor.digital  # Sources: [URLHaus (Extracted)]
 4qq6rz.duckdns.org  # Sources: [PhishTank (Extracted)]
 4rtwebrtr.weebly.com  # Sources: [PhishTank (Extracted)]
 4rwebr.weebly.com  # Sources: [PhishTank (Extracted)]
@@ -13104,7 +13103,6 @@ distributed-cache-storage-layer.wiki  # Sources: [URLHaus (Extracted)]
 distributedbloomnetwork.garden  # Sources: [URLHaus (Extracted)]
 distributedbotanicalnetwork.garden  # Sources: [URLHaus (Extracted)]
 distributedgardenanalytics.garden  # Sources: [URLHaus (Extracted)]
-distributedmeadownetwork.garden  # Sources: [URLHaus (Extracted)]
 distribution-reprogramation.com  # Sources: [PhishTank (Extracted)]
 districtchronicles.com  # Sources: [PhishTank (Extracted)]
 districtcourtsouth.com  # Sources: [PhishTank (Extracted)]
@@ -20049,7 +20047,6 @@ jamiesomers05.ac-page.com  # Sources: [PhishTank (Extracted)]
 jamkakiama.blogspot.com  # Sources: [PhishTank (Extracted)]
 jandbgrayy.wixsite.com  # Sources: [PhishTank (Extracted)]
 janjawanaj.blogspot.com  # Sources: [PhishTank (Extracted)]
-jankop.shop  # Sources: [URLHaus (Extracted)]
 janprasad-jan.github.io  # Sources: [OpenPhish (Extracted)]
 jansbdjiasdas.webcindario.com  # Sources: [PhishTank (Extracted)]
 janssonentreprenadab-my.sharepoint.com  # Sources: [PhishTank (Extracted)]
@@ -39996,7 +39993,6 @@ wildfloragrowthsystem.garden  # Sources: [URLHaus (Extracted)]
 wildflorainfrastructurehub.garden  # Sources: [URLHaus (Extracted)]
 wildfloraintegrationplatform.garden  # Sources: [URLHaus (Extracted)]
 wildfloramanagementplatform.garden  # Sources: [URLHaus (Extracted)]
-wildfloraprocessinghub.garden  # Sources: [URLHaus (Extracted)]
 wilfriedngounnou75-byte.github.io  # Sources: [PhishTank (Extracted)]
 will-side-weed.xyz  # Sources: [URLHaus (Extracted)]
 willbile-gyms.xyz  # Sources: [URLHaus (Extracted)]
