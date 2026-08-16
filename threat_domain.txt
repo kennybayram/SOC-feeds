@@ -1,7 +1,7 @@
 # ==========================================================
 # SOC-FEEDS INTELLIGENCE REPORT
-# Last Updated: 2026-08-16T05:26:51.357722+00:00 UTC
-# Total Records: 43483
+# Last Updated: 2026-08-16T06:38:25.114726+00:00 UTC
+# Total Records: 43482
 # ==========================================================
 
 0-lix-a8sbqnxt.d1cdej.top  # Sources: [PhishTank (Extracted)]
@@ -243,7 +243,6 @@
 176.65.149.124.ptr.pfcloud.network  # Sources: [URLHaus (Extracted)]
 176.65.149.168.ptr.pfcloud.network  # Sources: [URLHaus (Extracted)]
 1760880568519-windy-hammer.surge.sh  # Sources: [PhishTank (Extracted)]
-178.248.3.202.ll.sta.mana.pf  # Sources: [URLHaus (Extracted)]
 1781b91d-569b-47de-a333-d9f94e497090-00-bejwa76m1tsd.kirk.replit.dev  # Sources: [PhishTank (Extracted)]
 1789mzx.skin  # Sources: [PhishTank (Extracted)]
 179.248.3.202.ll.sta.mana.pf  # Sources: [URLHaus (Extracted)]
@@ -12655,7 +12654,6 @@ dedouanement-swiss.com  # Sources: [PhishTank (Extracted)]
 dedzwcx.enfejarbahis.com  # Sources: [URLHaus (Extracted)]
 deedfe1.myportfolio.com  # Sources: [PhishTank (Extracted)]
 deeluxeetorolh.firebaseapp.com  # Sources: [PhishTank (Extracted)]
-deep-sea-hydrothermal-vent.garden  # Sources: [URLHaus (Extracted)]
 deepellumfair.com  # Sources: [PhishTank (Extracted)]
 deepika-m-06.github.io  # Sources: [PhishTank (Extracted)]
 deeplclick.mba  # Sources: [PhishTank (Extracted)]
@@ -20122,6 +20120,7 @@ jasf.braverybeans.com  # Sources: [URLHaus (Extracted)]
 jashoagencies.weebly.com  # Sources: [PhishTank (Extracted)]
 jauniceverattisbannars.firebaseapp.com  # Sources: [PhishTank (Extracted)]
 jauniceverattisbannars.web.app  # Sources: [PhishTank (Extracted)]
+jawaratekno.com  # Sources: [URLHaus (Extracted)]
 jawatanterkini-my.vercel.app  # Sources: [PhishTank (Extracted)]
 jaxx-eng.wixstudio.com  # Sources: [PhishTank (Extracted)]
 jaxxliberrty.wixstudio.com  # Sources: [PhishTank (Extracted)]
@@ -33912,6 +33911,7 @@ soft-hexagon-611953.framer.app  # Sources: [PhishTank (Extracted)]
 soft-states-572702.framer.app  # Sources: [PhishTank (Extracted)]
 soft-swan-70c94b.netlify.app  # Sources: [PhishTank (Extracted)]
 soft.110route.com  # Sources: [URLHaus (Extracted)]
+soft.wsyhn.com  # Sources: [URLHaus (Extracted)]
 softbank126023203236.bbtec.net  # Sources: [URLHaus (Extracted)]
 softdl.360tpcdn.com  # Sources: [URLHaus (Extracted)]
 softdl2.360tpcdn.com  # Sources: [URLHaus (Extracted)]
@@ -35377,7 +35377,6 @@ strategic-report-876853.framer.app  # Sources: [PhishTank (Extracted)]
 strategic-variations-828030.framer.app  # Sources: [PhishTank (Extracted)]
 stratographic-core-drill.garden  # Sources: [URLHaus (Extracted)]
 stratos-site.webflow.io  # Sources: [PhishTank (Extracted)]
-stratospheric-weather-balloon.garden  # Sources: [URLHaus (Extracted)]
 strawberry-3az3-ps0a.6hfgwx79.workers.dev  # Sources: [PhishTank (Extracted)]
 streak-ftp.weebly.com  # Sources: [PhishTank (Extracted)]
 stream-absetup.com  # Sources: [PhishTank (Extracted)]
