@@ -1,7 +1,7 @@
 # ==========================================================
 # SOC-FEEDS INTELLIGENCE REPORT
-# Last Updated: 2026-08-16T15:20:25.868956+00:00 UTC
-# Total Records: 43467
+# Last Updated: 2026-08-16T16:24:17.377918+00:00 UTC
+# Total Records: 43465
 # ==========================================================
 
 0-lix-a8sbqnxt.d1cdej.top  # Sources: [PhishTank (Extracted)]
@@ -9064,7 +9064,6 @@ botanicalautomationframework.garden  # Sources: [URLHaus (Extracted)]
 botanicalprocessing.garden  # Sources: [URLHaus (Extracted)]
 botanicalprocessingengine.garden  # Sources: [URLHaus (Extracted)]
 botanicalresourcecontroller.garden  # Sources: [URLHaus (Extracted)]
-botanicalworkflowplatform.garden  # Sources: [URLHaus (Extracted)]
 botbancopan.multidadosti.com.br  # Sources: [PhishTank (Extracted)]
 botecodomanolo.blogspot.com  # Sources: [PhishTank (Extracted)]
 botik.dk  # Sources: [PhishTank (Extracted)]
@@ -13104,7 +13103,6 @@ distributed-cache-storage-layer.wiki  # Sources: [URLHaus (Extracted)]
 distributedbloomnetwork.garden  # Sources: [URLHaus (Extracted)]
 distributedbotanicalnetwork.garden  # Sources: [URLHaus (Extracted)]
 distributedgardenanalytics.garden  # Sources: [URLHaus (Extracted)]
-distributedgardencontrol.garden  # Sources: [URLHaus (Extracted)]
 distributedmeadownetwork.garden  # Sources: [URLHaus (Extracted)]
 distribution-reprogramation.com  # Sources: [PhishTank (Extracted)]
 districtchronicles.com  # Sources: [PhishTank (Extracted)]
@@ -16461,6 +16459,7 @@ fund-fool-stub.xyz  # Sources: [URLHaus (Extracted)]
 funky-matcha.com  # Sources: [PhishTank (Extracted)]
 funky-walrus-177990.framer.app  # Sources: [PhishTank (Extracted)]
 funmnail.weebly.com  # Sources: [PhishTank (Extracted)]
+funneldiy.com  # Sources: [URLHaus (Extracted)]
 funneltrue.wixsite.com  # Sources: [PhishTank (Extracted)]
 funny-page-483396.framer.app  # Sources: [PhishTank (Extracted)]
 fuotcd3b.futshart.pro  # Sources: [URLHaus (Extracted)]
@@ -19814,7 +19813,6 @@ irrigation-control-network.garden  # Sources: [URLHaus (Extracted)]
 irrigation-monitoring-framework.garden  # Sources: [URLHaus (Extracted)]
 irrigationanalyticssystem.garden  # Sources: [URLHaus (Extracted)]
 irrigationautomationhub.garden  # Sources: [URLHaus (Extracted)]
-irrigationprocessingnetwork.garden  # Sources: [URLHaus (Extracted)]
 irrigationtelemetrysystem.garden  # Sources: [URLHaus (Extracted)]
 irrigationworkflowsystem.garden  # Sources: [URLHaus (Extracted)]
 irrvh.ceremoniavezeto.hu  # Sources: [URLHaus (Extracted)]
