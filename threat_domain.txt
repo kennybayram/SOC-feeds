@@ -1,7 +1,7 @@
 # ==========================================================
 # SOC-FEEDS INTELLIGENCE REPORT
-# Last Updated: 2026-08-17T18:36:56.393363+00:00 UTC
-# Total Records: 43532
+# Last Updated: 2026-08-17T19:27:15.099353+00:00 UTC
+# Total Records: 43534
 # ==========================================================
 
 0-lix-a8sbqnxt.d1cdej.top  # Sources: [PhishTank (Extracted)]
@@ -5038,6 +5038,7 @@ allegrolokalnie.pl-85563.click  # Sources: [PhishTank (Extracted)]
 allegrolokalnie.pl-8562989523985.lat  # Sources: [PhishTank (Extracted)]
 allegrolokalnie.pl-86255449.click  # Sources: [PhishTank (Extracted)]
 allegrolokalnie.pl-862634.click  # Sources: [PhishTank (Extracted)]
+allegrolokalnie.pl-867387177425245.lol  # Sources: [PhishTank (Extracted)]
 allegrolokalnie.pl-8724387287.biz  # Sources: [PhishTank (Extracted)]
 allegrolokalnie.pl-876571988647613.lol  # Sources: [PhishTank (Extracted)]
 allegrolokalnie.pl-883023.top  # Sources: [PhishTank (Extracted)]
@@ -5418,6 +5419,7 @@ allegrolokalnie.rezerwacja9397594.sbs  # Sources: [PhishTank (Extracted)]
 allegrolokalnie.rezerwacja95081274.sbs  # Sources: [PhishTank (Extracted)]
 allegrolokalnie.rtbvsdcjjebjre.sbs  # Sources: [PhishTank (Extracted)]
 allegrolokalnie.sdkfrfv.sbs  # Sources: [PhishTank (Extracted)]
+allegrolokalnie.shttp.sbs  # Sources: [PhishTank (Extracted)]
 allegrolokalnie.smar3465.shop  # Sources: [PhishTank (Extracted)]
 allegrolokalnie.smar8t473291.shop  # Sources: [PhishTank (Extracted)]
 allegrolokalnie.smar9438-65j.cfd  # Sources: [PhishTank (Extracted)]
@@ -19362,7 +19364,6 @@ indoamerica200.github.io  # Sources: [PhishTank (Extracted)]
 indoe3e3.weebly.com  # Sources: [PhishTank (Extracted)]
 indportedcoud.start.page  # Sources: [PhishTank (Extracted)]
 indreamtech.github.io  # Sources: [PhishTank (Extracted)]
-indusenterprises.co  # Sources: [URLHaus (Extracted)]
 industrialweb.webcindario.com  # Sources: [PhishTank (Extracted)]
 inervadores.life  # Sources: [URLHaus (Extracted)]
 inexpensive-manager-332431.framer.app  # Sources: [PhishTank (Extracted)]
@@ -41107,6 +41108,7 @@ www.gefahrgut-online.de  # Sources: [PhishTank (Extracted)]
 www.genspark.ai  # Sources: [PhishTank (Extracted)]
 www.georgetownmover.com  # Sources: [PhishTank (Extracted)]
 www.geotherm.cfd  # Sources: [PhishTank (Extracted)]
+www.gestroom.it  # Sources: [URLHaus (Extracted)]
 www.get-information-blue-badge.surge.sh  # Sources: [PhishTank (Extracted)]
 www.getwealthyclients.com  # Sources: [PhishTank (Extracted)]
 www.gh6i7th5g4c38s82a70aeeb2b0e7u4d.vercel.app  # Sources: [PhishTank (Extracted)]
