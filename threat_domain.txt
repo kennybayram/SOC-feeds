@@ -1,7 +1,7 @@
 # ==========================================================
 # SOC-FEEDS INTELLIGENCE REPORT
-# Last Updated: 2026-08-17T15:24:52.754479+00:00 UTC
-# Total Records: 43511
+# Last Updated: 2026-08-17T16:26:14.624201+00:00 UTC
+# Total Records: 43515
 # ==========================================================
 
 0-lix-a8sbqnxt.d1cdej.top  # Sources: [PhishTank (Extracted)]
@@ -24397,9 +24397,7 @@ moccae.weebly.com  # Sources: [PhishTank (Extracted)]
 mochicatcollection.firebaseapp.com  # Sources: [PhishTank (Extracted)]
 mochicatcollection.web.app  # Sources: [PhishTank (Extracted)]
 mode-poll-grew.xyz  # Sources: [URLHaus (Extracted)]
-modelcut-auto-frame-nodipfs.garden  # Sources: [URLHaus (Extracted)]
 modelsadmissionssubmissions.com  # Sources: [PhishTank (Extracted)]
-modesix-iontel-scalapie-system.garden  # Sources: [URLHaus (Extracted)]
 modest-imagine-002436.framer.app  # Sources: [PhishTank (Extracted)]
 modest-measure-411690.framer.app  # Sources: [PhishTank (Extracted)]
 modest-opportunities-418236.framer.app  # Sources: [PhishTank (Extracted)]
@@ -28669,6 +28667,7 @@ protectionpagew00.start.page  # Sources: [PhishTank (Extracted)]
 protector.great-site.net  # Sources: [URLHaus (Extracted)]
 protectvice.weebly.com  # Sources: [PhishTank (Extracted)]
 protegeraccounts.webcindario.com  # Sources: [PhishTank (Extracted)]
+protherapycenter.com  # Sources: [URLHaus (Extracted)]
 protivity.framer.website  # Sources: [PhishTank (Extracted)]
 protivityyy.framer.website  # Sources: [PhishTank (Extracted)]
 protl-project.pages.dev  # Sources: [PhishTank (Extracted)]
@@ -35587,6 +35586,10 @@ suivisdes-colis.com  # Sources: [PhishTank (Extracted)]
 suivre-mes-livraisons-mrelay.info  # Sources: [PhishTank (Extracted)]
 suivre-tracabilites.im  # Sources: [PhishTank (Extracted)]
 suivre5996t.m40721831.pro  # Sources: [PhishTank (Extracted)]
+suivre8633d.oblg463412.pro  # Sources: [PhishTank (Extracted)]
+suivre9933d.oblg463412.pro  # Sources: [PhishTank (Extracted)]
+suivre9953d.oblg463412.pro  # Sources: [PhishTank (Extracted)]
+suivre9956d.oblg463412.pro  # Sources: [PhishTank (Extracted)]
 sujatabhandari.com  # Sources: [PhishTank (Extracted)]
 sujjp.ecologyardakani.xyz  # Sources: [URLHaus (Extracted)]
 sujlskkedh.weebly.com  # Sources: [PhishTank (Extracted)]
@@ -40313,6 +40316,7 @@ wvvbpwt.enfejar.game  # Sources: [URLHaus (Extracted)]
 ww-acesson-simplificado2023.blogspot.com  # Sources: [PhishTank (Extracted)]
 ww.acces2675277.pro  # Sources: [PhishTank (Extracted)]
 ww.ce2661.pro  # Sources: [PhishTank (Extracted)]
+ww.oblg463412.pro  # Sources: [PhishTank (Extracted)]
 ww.tjcr5781135.pro  # Sources: [PhishTank (Extracted)]
 ww1-bradconetempresa-ne2.web.app  # Sources: [PhishTank (Extracted)]
 ww1-dkb.webworkonline.co  # Sources: [PhishTank (Extracted)]
