@@ -1,7 +1,7 @@
 # ==========================================================
 # SOC-FEEDS INTELLIGENCE REPORT
-# Last Updated: 2026-08-17T05:34:44.655893+00:00 UTC
-# Total Records: 43483
+# Last Updated: 2026-08-17T06:52:29.736673+00:00 UTC
+# Total Records: 43479
 # ==========================================================
 
 0-lix-a8sbqnxt.d1cdej.top  # Sources: [PhishTank (Extracted)]
@@ -24374,7 +24374,6 @@ modest-measure-411690.framer.app  # Sources: [PhishTank (Extracted)]
 modest-opportunities-418236.framer.app  # Sources: [PhishTank (Extracted)]
 modification.colisnumero8381.1a3218d.45easyreset.com  # Sources: [PhishTank (Extracted)]
 modotopazempresas.com  # Sources: [PhishTank (Extracted)]
-modular-analog-synthesizer.garden  # Sources: [URLHaus (Extracted)]
 modulo-io.eu.cc  # Sources: [PhishTank (Extracted)]
 modulosegurancapj.online  # Sources: [PhishTank (Extracted)]
 moedepl.weebly.com  # Sources: [PhishTank (Extracted)]
@@ -27313,9 +27312,7 @@ passwordsauthenticator.weebly.com  # Sources: [PhishTank (Extracted)]
 past-priority-744479.framer.app  # Sources: [PhishTank (Extracted)]
 past-reefprin.xyz  # Sources: [URLHaus (Extracted)]
 pastasnetempresarial.kinghost.net  # Sources: [PhishTank (Extracted)]
-paste.ee  # Sources: [URLHaus (Extracted)]
 paste.sensio.no  # Sources: [URLHaus (Extracted)]
-pastee.dev  # Sources: [URLHaus (Extracted)]
 pastefy.app  # Sources: [URLHaus (Extracted)]
 patagonia.fiinanzas.blog  # Sources: [PhishTank (Extracted)]
 pathwaycommuni.weebly.com  # Sources: [PhishTank (Extracted)]
@@ -35434,7 +35431,6 @@ subscribepage.io  # Sources: [PhishTank (Extracted)]
 subscription-update-mt.com  # Sources: [PhishTank (Extracted)]
 subscriptionmembershipsettlement.com  # Sources: [PhishTank (Extracted)]
 subsvideo-prime.com  # Sources: [PhishTank (Extracted)]
-subterranean-bunker-outpost.garden  # Sources: [URLHaus (Extracted)]
 subterranean-mineral-map.garden  # Sources: [URLHaus (Extracted)]
 subterranean-mineral.christmas  # Sources: [URLHaus (Extracted)]
 sucar77por.bond  # Sources: [OpenPhish (Extracted)]
