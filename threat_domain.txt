@@ -1,6 +1,6 @@
 # ==========================================================
 # SOC-FEEDS INTELLIGENCE REPORT
-# Last Updated: 2026-08-18T10:27:49.052160+00:00 UTC
+# Last Updated: 2026-08-18T11:25:17.647165+00:00 UTC
 # Total Records: 43579
 # ==========================================================
 
@@ -8390,7 +8390,6 @@ be-duolinguo.bolt.host  # Sources: [PhishTank (Extracted)]
 be4yji.firebaseapp.com  # Sources: [PhishTank (Extracted)]
 be6pec.webwave.dev  # Sources: [PhishTank (Extracted)]
 beacons.ai  # Sources: [PhishTank (Extracted)]
-beak.in  # Sources: [URLHaus (Extracted)]
 beamish-banoffee-6346d6.netlify.app  # Sources: [PhishTank (Extracted)]
 bearingtraders.com  # Sources: [PhishTank (Extracted)]
 bearmobiles.com  # Sources: [PhishTank (Extracted)]
@@ -35687,6 +35686,7 @@ supplieradvisor.ciamlogin.com  # Sources: [PhishTank (Extracted)]
 suppliers.lovestoblog.com  # Sources: [URLHaus (Extracted)]
 suppors-metabusiness.pages.dev  # Sources: [PhishTank (Extracted)]
 support---legderlive-us--learn.typedream.app  # Sources: [PhishTank (Extracted)]
+support-aboplusinfo.help  # Sources: [PhishTank (Extracted)]
 support-abovideo.help  # Sources: [PhishTank (Extracted)]
 support-acctek.com  # Sources: [PhishTank (Extracted)]
 support-assurance-sante.com  # Sources: [PhishTank (Extracted)]
