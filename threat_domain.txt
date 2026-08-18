@@ -1,6 +1,6 @@
 # ==========================================================
 # SOC-FEEDS INTELLIGENCE REPORT
-# Last Updated: 2026-08-18T04:34:21.394689+00:00 UTC
+# Last Updated: 2026-08-18T05:28:19.787871+00:00 UTC
 # Total Records: 43582
 # ==========================================================
 
@@ -161,7 +161,6 @@
 0xln2imp.yekbetiran.com  # Sources: [URLHaus (Extracted)]
 0z0kmkwn.anodaz.tv  # Sources: [URLHaus (Extracted)]
 0z4y5ci2.1xboropartners.com  # Sources: [URLHaus (Extracted)]
-0zfu07h8.audioattenuatorschematic.digital  # Sources: [URLHaus (Extracted)]
 1-bdmbet.com  # Sources: [PhishTank (Extracted)]
 1.gravatar.com  # Sources: [PhishTank (Extracted)]
 10.196.252.46.host.secureserver.net  # Sources: [PhishTank (Extracted)]
@@ -9459,6 +9458,7 @@ brandadvise.com  # Sources: [PhishTank (Extracted)]
 brandbbbbbbburgggggg.weebly.com  # Sources: [PhishTank (Extracted)]
 brandbt.m-pages.com  # Sources: [PhishTank (Extracted)]
 brandee6f94.myportfolio.com  # Sources: [PhishTank (Extracted)]
+brandtinoda.com  # Sources: [URLHaus (Extracted)]
 branetempresarial.digital  # Sources: [PhishTank (Extracted)]
 brantfordconventioncentre.com  # Sources: [URLHaus (Extracted)]
 brapoaconsultoria.click  # Sources: [PhishTank (Extracted)]
@@ -13255,7 +13255,6 @@ dl.360safe.com  # Sources: [URLHaus (Extracted)]
 dl.dropboxusercontent.com  # Sources: [URLHaus (Extracted)]
 dl.dzqzd.com  # Sources: [URLHaus (Extracted)]
 dl.faster-cdn-hk.click  # Sources: [URLHaus (Extracted)]
-dl.ijinshan.com  # Sources: [URLHaus (Extracted)]
 dl.multiextension.com  # Sources: [URLHaus (Extracted)]
 dl.proxiespool.wiki  # Sources: [URLHaus (Extracted)]
 dlacbhw.nonamejustsoul.com  # Sources: [URLHaus (Extracted)]
@@ -40730,6 +40729,7 @@ www.conviviumcucine.it  # Sources: [PhishTank (Extracted)]
 www.cool-solar-africa.com  # Sources: [PhishTank (Extracted)]
 www.copyrighthistory.org  # Sources: [PhishTank (Extracted)]
 www.corporation-mondialrelay.org  # Sources: [PhishTank (Extracted)]
+www.costadoroimperia.it  # Sources: [PhishTank (Extracted)]
 www.cpark.in  # Sources: [PhishTank (Extracted)]
 www.crazywickedaddiction.com  # Sources: [URLHaus (Extracted)]
 www.creation-numerique.com  # Sources: [PhishTank (Extracted)]
