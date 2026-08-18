@@ -1,6 +1,6 @@
 # ==========================================================
 # SOC-FEEDS INTELLIGENCE REPORT
-# Last Updated: 2026-08-18T06:40:46.090861+00:00 UTC
+# Last Updated: 2026-08-18T07:37:57.121118+00:00 UTC
 # Total Records: 43582
 # ==========================================================
 
@@ -5559,6 +5559,7 @@ altabiacenter.com  # Sources: [PhishTank (Extracted)]
 altair-nail.s3.ap-south-1.amazonaws.com  # Sources: [PhishTank (Extracted)]
 altamademanda.online  # Sources: [PhishTank (Extracted)]
 altamimitex.com  # Sources: [PhishTank (Extracted)]
+altamoorgoods.com  # Sources: [URLHaus (Extracted)]
 altanewvistalkunden.de  # Sources: [PhishTank (Extracted)]
 altaperformancegold.s3.us-east-005.backblazeb2.com  # Sources: [PhishTank (Extracted)]
 altawon-water-leakage-discovery.com  # Sources: [PhishTank (Extracted)]
@@ -16885,7 +16886,6 @@ gestion.bonsplans-prime.com  # Sources: [PhishTank (Extracted)]
 gestion365plus.webcindario.com  # Sources: [PhishTank (Extracted)]
 gestioncredenciales.iceiy.com  # Sources: [PhishTank (Extracted)]
 gestiphone.es  # Sources: [PhishTank (Extracted)]
-gestroom.it  # Sources: [URLHaus (Extracted)]
 get-1o8.pages.dev  # Sources: [URLHaus (Extracted)]
 get-all-information-for-blue.surge.sh  # Sources: [PhishTank (Extracted)]
 get-analytics-repository.s3.ap-southeast-1.amazonaws.com  # Sources: [PhishTank (Extracted)]
@@ -19882,7 +19882,6 @@ irisnet.pages.dev  # Sources: [PhishTank (Extracted)]
 irit.rastamojim.ru  # Sources: [PhishTank (Extracted)]
 irljgzvr.sanjeshvaandazegiri.shop  # Sources: [URLHaus (Extracted)]
 irresistible-success-026757.framer.app  # Sources: [PhishTank (Extracted)]
-irrigation-control-framework.garden  # Sources: [URLHaus (Extracted)]
 irrigation-control-network.garden  # Sources: [URLHaus (Extracted)]
 irrigation-monitoring-framework.garden  # Sources: [URLHaus (Extracted)]
 irrigationautomationhub.garden  # Sources: [URLHaus (Extracted)]
@@ -37462,6 +37461,7 @@ twoinmdb.sbs  # Sources: [PhishTank (Extracted)]
 twopagans.com  # Sources: [PhishTank (Extracted)]
 twoworkplace.com  # Sources: [PhishTank (Extracted)]
 twrvdexnmfs.ca6a8b74-32ac-45ea-84f0-fb607b8789ab.click  # Sources: [PhishTank (Extracted)]
+twu-hwt.org  # Sources: [URLHaus (Extracted)]
 twvjaye.penalti.website  # Sources: [URLHaus (Extracted)]
 twvrjjcu.hugugtejarat4.xyz  # Sources: [URLHaus (Extracted)]
 tww-berlin-de.weebly.com  # Sources: [PhishTank (Extracted)]
