@@ -1,7 +1,7 @@
 # ==========================================================
 # SOC-FEEDS INTELLIGENCE REPORT
-# Last Updated: 2026-08-18T09:37:28.784025+00:00 UTC
-# Total Records: 43581
+# Last Updated: 2026-08-18T10:27:49.052160+00:00 UTC
+# Total Records: 43579
 # ==========================================================
 
 0-lix-a8sbqnxt.d1cdej.top  # Sources: [PhishTank (Extracted)]
@@ -111,7 +111,6 @@
 0frduisp.cloud-meridian.digital  # Sources: [URLHaus (Extracted)]
 0ft5w98vp.duckdns.org  # Sources: [PhishTank (Extracted)]
 0g9ung-oqr-hlje-x32f0-99p.pages.dev  # Sources: [OpenPhish (Extracted)]
-0gmqmb12.orbitaldockingmodule.digital  # Sources: [URLHaus (Extracted)]
 0hk02-tatu78-bnitmg-5ajpc6.pages.dev  # Sources: [PhishTank (Extracted)]
 0hz5u1mn.moarefeslami.xyz  # Sources: [URLHaus (Extracted)]
 0i2th72t.system-horizon.digital  # Sources: [URLHaus (Extracted)]
@@ -8931,7 +8930,6 @@ blogs.sokun.jp  # Sources: [URLHaus (Extracted)]
 blogskub.com  # Sources: [PhishTank (Extracted)]
 blokufieuslogin.gitbook.io  # Sources: [PhishTank (Extracted)]
 bloodsweatart.com  # Sources: [PhishTank (Extracted)]
-bloom-distribution-engine.garden  # Sources: [URLHaus (Extracted)]
 bloomdistributioncenter.garden  # Sources: [URLHaus (Extracted)]
 bloomglow9.com  # Sources: [URLHaus (Extracted)]
 blpqr004lk-vxmzkaplx-0a3d1e-lxp73c.pages.dev  # Sources: [OpenPhish (Extracted)]
@@ -11103,6 +11101,7 @@ cliens143.webcindario.com  # Sources: [PhishTank (Extracted)]
 client-desktop.wixstudio.com  # Sources: [PhishTank (Extracted)]
 client-locker.com  # Sources: [PhishTank (Extracted)]
 client.appsketch.ai  # Sources: [PhishTank (Extracted)]
+client.cnctools.am  # Sources: [PhishTank (Extracted)]
 client.cusmits.com  # Sources: [PhishTank (Extracted)]
 client.mandiify.com  # Sources: [PhishTank (Extracted)]
 client.migrantsofthemed.com  # Sources: [PhishTank (Extracted)]
@@ -11110,6 +11109,7 @@ client.nexusjewell.com  # Sources: [PhishTank (Extracted)]
 client.nutrvelle.com  # Sources: [PhishTank (Extracted)]
 client.sgparticuliers.com  # Sources: [PhishTank (Extracted)]
 clientcentersupport.com  # Sources: [PhishTank (Extracted)]
+clientcm.iyno-llc.com  # Sources: [PhishTank (Extracted)]
 cliente.appclienteseguro.com  # Sources: [PhishTank (Extracted)]
 cliente.consultareceber.com  # Sources: [PhishTank (Extracted)]
 cliente.gruppobper.cfd  # Sources: [PhishTank (Extracted)]
@@ -11708,7 +11708,6 @@ contact-us-business-home-234587417956.mdbgo.io  # Sources: [PhishTank (Extracted
 contacto-digital.webcindario.com  # Sources: [PhishTank (Extracted)]
 contacts.digitals.vu  # Sources: [PhishTank (Extracted)]
 container-mesh.christmas  # Sources: [URLHaus (Extracted)]
-containerized-growth-platform.garden  # Sources: [URLHaus (Extracted)]
 containerized-plant-system.garden  # Sources: [URLHaus (Extracted)]
 contasecuredadminportalupdate.framer.website  # Sources: [PhishTank (Extracted)]
 contasegura.sa.com  # Sources: [PhishTank (Extracted)]
@@ -14115,7 +14114,6 @@ ecomarkperu.com  # Sources: [URLHaus (Extracted)]
 economia-gob.weebly.com  # Sources: [PhishTank (Extracted)]
 economic-poet-b50.notion.site  # Sources: [PhishTank (Extracted)]
 econscope-by-the-agora-review.ghost.io  # Sources: [PhishTank (Extracted)]
-ecosystemworkflow.garden  # Sources: [URLHaus (Extracted)]
 ecotoursturkey.com  # Sources: [PhishTank (Extracted)]
 ecount-update.vercel.app  # Sources: [PhishTank (Extracted)]
 ecountt.vercel.app  # Sources: [PhishTank (Extracted)]
