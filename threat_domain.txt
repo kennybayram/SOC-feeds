@@ -1,7 +1,7 @@
 # ==========================================================
 # SOC-FEEDS INTELLIGENCE REPORT
-# Last Updated: 2026-08-19T10:28:14.763323+00:00 UTC
-# Total Records: 43707
+# Last Updated: 2026-08-19T11:24:49.638027+00:00 UTC
+# Total Records: 43705
 # ==========================================================
 
 0-lix-a8sbqnxt.d1cdej.top  # Sources: [PhishTank (Extracted)]
@@ -436,7 +436,6 @@
 222srrr.weebly.com  # Sources: [PhishTank (Extracted)]
 225.48.167.72.host.secureserver.net  # Sources: [PhishTank (Extracted)]
 227452webmaiiinetnetau.framer.website  # Sources: [PhishTank (Extracted)]
-22goulm8.runtime-nexus.digital  # Sources: [URLHaus (Extracted)]
 22prf6xs.eduprof.ir  # Sources: [URLHaus (Extracted)]
 23094583-wonder-products-fatyl.sitebeat.crazydomains.com  # Sources: [PhishTank (Extracted)]
 23094583-wonder-products-kr4ck.sitebeat.crazydomains.com  # Sources: [PhishTank (Extracted)]
@@ -1892,7 +1891,6 @@ abdelkader.domici948239.pro  # Sources: [PhishTank (Extracted)]
 abdeloum.urge284671.pro  # Sources: [PhishTank (Extracted)]
 abdoul.jour848037.pro  # Sources: [PhishTank (Extracted)]
 abdrsd.github.io  # Sources: [PhishTank (Extracted)]
-abdulahad.net  # Sources: [URLHaus (Extracted)]
 abegabeg.weebly.com  # Sources: [PhishTank (Extracted)]
 abelinogabriel5dbe3.myportfolio.com  # Sources: [PhishTank (Extracted)]
 abertoexpress.vercel.app  # Sources: [PhishTank (Extracted)]
@@ -9967,7 +9965,6 @@ burraqtechnologies.com  # Sources: [PhishTank (Extracted)]
 burreepr.ace90betkade.com  # Sources: [URLHaus (Extracted)]
 burwu.akonyvelod.hu  # Sources: [URLHaus (Extracted)]
 busanopen.org  # Sources: [PhishTank (Extracted)]
-busbytesadd.christmas  # Sources: [URLHaus (Extracted)]
 buscat.cat  # Sources: [PhishTank (Extracted)]
 buscavrbfwepynpqt.firebaseapp.com  # Sources: [PhishTank (Extracted)]
 buscavrbfwepynpqt.web.app  # Sources: [PhishTank (Extracted)]
@@ -15666,6 +15663,7 @@ fdmjhbre.jamjahani2026.football  # Sources: [URLHaus (Extracted)]
 fdmyrhjq.jadoobet.vip  # Sources: [URLHaus (Extracted)]
 fds.jetbet1.online  # Sources: [URLHaus (Extracted)]
 fdshsjss.weebly.com  # Sources: [PhishTank (Extracted)]
+fdstat.vip  # Sources: [URLHaus (Extracted)]
 fdtebc.weebly.com  # Sources: [PhishTank (Extracted)]
 fduybh.weebly.com  # Sources: [PhishTank (Extracted)]
 fdvdbg.weebly.com  # Sources: [PhishTank (Extracted)]
