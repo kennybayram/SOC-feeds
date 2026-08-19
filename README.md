@@ -1,6 +1,6 @@
 # SOC-FEEDS
 
-> **Live Statistics:** 🌐 IP: `42,241` | 🗂️ Domain: `43,677` | 🔗 URL: `135,412` | 🔑 Hash: `539,227`
+> **Live Statistics:** 🌐 IP: `41,954` | 🗂️ Domain: `43,672` | 🔗 URL: `135,393` | 🔑 Hash: `539,226`
 
 ## 🛡️ Real-Time Open-Source Threat Intelligence & IoC Aggregator
 
