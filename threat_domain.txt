@@ -1,7 +1,7 @@
 # ==========================================================
 # SOC-FEEDS INTELLIGENCE REPORT
-# Last Updated: 2026-08-19T22:24:16.080675+00:00 UTC
-# Total Records: 43767
+# Last Updated: 2026-08-19T23:22:14.418210+00:00 UTC
+# Total Records: 43766
 # ==========================================================
 
 0-lix-a8sbqnxt.d1cdej.top  # Sources: [PhishTank (Extracted)]
@@ -11755,7 +11755,6 @@ contacomseguranca.sa.com  # Sources: [PhishTank (Extracted)]
 contact-us-business-home-234587417956.mdbgo.io  # Sources: [PhishTank (Extracted)]
 contacto-digital.webcindario.com  # Sources: [PhishTank (Extracted)]
 contacts.digitals.vu  # Sources: [PhishTank (Extracted)]
-container-mesh.christmas  # Sources: [URLHaus (Extracted)]
 containerized-plant-system.garden  # Sources: [URLHaus (Extracted)]
 contasecuredadminportalupdate.framer.website  # Sources: [PhishTank (Extracted)]
 contasegura.sa.com  # Sources: [PhishTank (Extracted)]
@@ -27258,7 +27257,6 @@ pacificmailerint.weebly.com  # Sources: [PhishTank (Extracted)]
 pacifico-online.myportfolio.com  # Sources: [PhishTank (Extracted)]
 pacificroots.square.site  # Sources: [PhishTank (Extracted)]
 packagemulti.com  # Sources: [PhishTank (Extracted)]
-packet-distribution-core.christmas  # Sources: [URLHaus (Extracted)]
 packet-relay-engine.courses  # Sources: [URLHaus (Extracted)]
 packetget.com  # Sources: [URLHaus (Extracted)]
 packett-id.firebaseapp.com  # Sources: [PhishTank (Extracted)]
@@ -36763,6 +36761,7 @@ thoughtful-galaxy-390661.framer.app  # Sources: [PhishTank (Extracted)]
 thread-church-029.notion.site  # Sources: [PhishTank (Extracted)]
 threadandvelcrotfr.firebaseapp.com  # Sources: [PhishTank (Extracted)]
 threatdefender.info  # Sources: [PhishTank (Extracted)]
+threedrows.net  # Sources: [URLHaus (Extracted)]
 thrilled-network-863150.framer.app  # Sources: [PhishTank (Extracted)]
 thriving-belekoy-aae7c3.netlify.app  # Sources: [PhishTank (Extracted)]
 thriving-experiences-661108.framer.app  # Sources: [PhishTank (Extracted)]
