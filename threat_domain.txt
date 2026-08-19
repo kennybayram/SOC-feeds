@@ -1,7 +1,7 @@
 # ==========================================================
 # SOC-FEEDS INTELLIGENCE REPORT
-# Last Updated: 2026-08-19T03:46:03.104975+00:00 UTC
-# Total Records: 43678
+# Last Updated: 2026-08-19T04:36:00.829997+00:00 UTC
+# Total Records: 43677
 # ==========================================================
 
 0-lix-a8sbqnxt.d1cdej.top  # Sources: [PhishTank (Extracted)]
@@ -20474,6 +20474,7 @@ jtbbsdahq.gamehazarat.com  # Sources: [URLHaus (Extracted)]
 jtbtigers.com  # Sources: [PhishTank (Extracted)]
 jtdi6w23.biabet90.com  # Sources: [URLHaus (Extracted)]
 jtemlhyz.enfej.casino  # Sources: [URLHaus (Extracted)]
+jtexpress.mwkqbr.club  # Sources: [PhishTank (Extracted)]
 jthevya.22beet.vip  # Sources: [URLHaus (Extracted)]
 jtkeavok.bcgame.shop  # Sources: [URLHaus (Extracted)]
 jtnvsfr.notjustsquare.com  # Sources: [URLHaus (Extracted)]
@@ -26536,7 +26537,6 @@ ok2wt5-3n5b2-o9pq-5pm-3gjs5n.pages.dev  # Sources: [PhishTank (Extracted)]
 okadibs.m-pages.com  # Sources: [PhishTank (Extracted)]
 okaidokinet.xsrv.jp  # Sources: [PhishTank (Extracted)]
 okaybearsworld.web.app  # Sources: [PhishTank (Extracted)]
-okb0lvez.subdermalbiometricchip.digital  # Sources: [URLHaus (Extracted)]
 okfinancially.com  # Sources: [PhishTank (Extracted)]
 oki.jtu.mybluehost.me  # Sources: [PhishTank (Extracted)]
 okikil.urest.org  # Sources: [PhishTank (Extracted)]
@@ -31434,7 +31434,6 @@ reg1str4te-aqui.webcindario.com  # Sources: [PhishTank (Extracted)]
 reg1tr4te-4qu1.webcindario.com  # Sources: [PhishTank (Extracted)]
 regal-unicorn-611acc.netlify.app  # Sources: [PhishTank (Extracted)]
 regentnegombo.lk  # Sources: [PhishTank (Extracted)]
-regexcar.christmas  # Sources: [URLHaus (Extracted)]
 regg0d-gand45ts.weebly.com  # Sources: [PhishTank (Extracted)]
 regi-crd-pc-ec.webcindario.com  # Sources: [PhishTank (Extracted)]
 regisdopmsld.webcindario.com  # Sources: [PhishTank (Extracted)]
