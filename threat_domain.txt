@@ -1,7 +1,7 @@
 # ==========================================================
 # SOC-FEEDS INTELLIGENCE REPORT
-# Last Updated: 2026-08-20T22:26:54.054880+00:00 UTC
-# Total Records: 43891
+# Last Updated: 2026-08-20T23:25:03.115200+00:00 UTC
+# Total Records: 43889
 # ==========================================================
 
 0-lix-a8sbqnxt.d1cdej.top  # Sources: [PhishTank (Extracted)]
@@ -34124,7 +34124,6 @@ snnbc-bnki.com  # Sources: [PhishTank (Extracted)]
 snnbc-bnkj.com  # Sources: [PhishTank (Extracted)]
 snonc.accredit.hu  # Sources: [URLHaus (Extracted)]
 snoopdogundefinedhfujb.blogspot.com  # Sources: [PhishTank (Extracted)]
-snow-harbor.christmas  # Sources: [URLHaus (Extracted)]
 sns73.weebly.com  # Sources: [PhishTank (Extracted)]
 snsnnswwjhfy8374.weebly.com  # Sources: [PhishTank (Extracted)]
 sntybnks.weebly.com  # Sources: [PhishTank (Extracted)]
@@ -42612,7 +42611,6 @@ xelzora-gld-zentora-r6t1fc39.pages.dev  # Sources: [PhishTank (Extracted)]
 xenetics.xenproductions.co.in  # Sources: [PhishTank (Extracted)]
 xeno.help  # Sources: [URLHaus (Extracted)]
 xeno.lat  # Sources: [URLHaus (Extracted)]
-xenomorphhiveintel.christmas  # Sources: [URLHaus (Extracted)]
 xenon.studio  # Sources: [URLHaus (Extracted)]
 xeopnxiuometyi.weebly.com  # Sources: [PhishTank (Extracted)]
 xepjlus.riverpoker1.com  # Sources: [URLHaus (Extracted)]
