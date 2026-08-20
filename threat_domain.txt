@@ -1,7 +1,7 @@
 # ==========================================================
 # SOC-FEEDS INTELLIGENCE REPORT
-# Last Updated: 2026-08-20T10:29:46.605156+00:00 UTC
-# Total Records: 43817
+# Last Updated: 2026-08-20T11:26:46.890184+00:00 UTC
+# Total Records: 43815
 # ==========================================================
 
 0-lix-a8sbqnxt.d1cdej.top  # Sources: [PhishTank (Extracted)]
@@ -10925,7 +10925,6 @@ chhul.sm188akurat.sbs  # Sources: [URLHaus (Extracted)]
 chic-muffin-59f7d1.netlify.app  # Sources: [PhishTank (Extracted)]
 chicagobuzz.net  # Sources: [PhishTank (Extracted)]
 chickenbloodfirezpzty.blogspot.com  # Sources: [PhishTank (Extracted)]
-chickencutlet-hacks.christmas  # Sources: [URLHaus (Extracted)]
 chickencutlethacks.fit  # Sources: [URLHaus (Extracted)]
 chicmajor.com  # Sources: [PhishTank (Extracted)]
 chijinjiqi.com  # Sources: [PhishTank (Extracted)]
@@ -10994,7 +10993,6 @@ chromeacti.firebaseapp.com  # Sources: [PhishTank (Extracted)]
 chromeacti.web.app  # Sources: [PhishTank (Extracted)]
 chromewebstoreus.wixstudio.com  # Sources: [PhishTank (Extracted)]
 chronicle-archive-keeper.garden  # Sources: [URLHaus (Extracted)]
-chroniclearchivekeeper.christmas  # Sources: [URLHaus (Extracted)]
 chrtrer09765.framer.website  # Sources: [PhishTank (Extracted)]
 chs2.firebaseapp.com  # Sources: [PhishTank (Extracted)]
 chs2.web.app  # Sources: [PhishTank (Extracted)]
