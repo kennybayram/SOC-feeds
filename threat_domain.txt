@@ -1,7 +1,7 @@
 # ==========================================================
 # SOC-FEEDS INTELLIGENCE REPORT
-# Last Updated: 2026-08-20T03:45:44.000131+00:00 UTC
-# Total Records: 43790
+# Last Updated: 2026-08-20T04:36:56.474674+00:00 UTC
+# Total Records: 43794
 # ==========================================================
 
 0-lix-a8sbqnxt.d1cdej.top  # Sources: [PhishTank (Extracted)]
@@ -10166,6 +10166,7 @@ c8u4wod9.shartland.com  # Sources: [URLHaus (Extracted)]
 c9ah9-zih-co3f-cmfeam-cwdtk.pages.dev  # Sources: [PhishTank (Extracted)]
 c9e059a1.73634c9b2b1a997bd44876e7.workers.dev  # Sources: [PhishTank (Extracted)]
 c9fb2427.webcindario.com  # Sources: [PhishTank (Extracted)]
+c9k5r1v7n3y8d2q6ha.live  # Sources: [PhishTank (Extracted)]
 c9w3m5jq.usoleamoozesh.xyz  # Sources: [URLHaus (Extracted)]
 ca-app-01731.com  # Sources: [PhishTank (Extracted)]
 ca-app-046.info  # Sources: [PhishTank (Extracted)]
@@ -15898,6 +15899,7 @@ fide-lltoy.cyou  # Sources: [PhishTank (Extracted)]
 fide-lltpy.cyou  # Sources: [PhishTank (Extracted)]
 fide1iltyn.cyou  # Sources: [PhishTank (Extracted)]
 fidei-itjy.cyou  # Sources: [PhishTank (Extracted)]
+fidelidade-pontos-app.ct.ws  # Sources: [PhishTank (Extracted)]
 fidelityan.cyou  # Sources: [PhishTank (Extracted)]
 fidelityap.cyou  # Sources: [PhishTank (Extracted)]
 fidelitydb.one  # Sources: [PhishTank (Extracted)]
@@ -28783,6 +28785,7 @@ promo-kiteletrico.vercel.app  # Sources: [PhishTank (Extracted)]
 promo-livsbr.xo.je  # Sources: [PhishTank (Extracted)]
 promo01bdv.webcindario.com  # Sources: [PhishTank (Extracted)]
 promobhd.webcindario.com  # Sources: [PhishTank (Extracted)]
+promocao-fidelidade-pontos.ct.ws  # Sources: [PhishTank (Extracted)]
 promocinespecial.webcindario.com  # Sources: [PhishTank (Extracted)]
 promocionbhd2025.webcindario.com  # Sources: [PhishTank (Extracted)]
 promociones-bhd.webcindario.com  # Sources: [PhishTank (Extracted)]
@@ -31740,6 +31743,7 @@ resgatandopontos.dynv6.net  # Sources: [PhishTank (Extracted)]
 resgatar.pntsonlineapp.com  # Sources: [PhishTank (Extracted)]
 resgatarja.com  # Sources: [PhishTank (Extracted)]
 resgate-livelo.com  # Sources: [PhishTank (Extracted)]
+resgate-pontos-vocelvelos.ct.ws  # Sources: [PhishTank (Extracted)]
 resgate-pontos.portalservicos.sbs  # Sources: [PhishTank (Extracted)]
 resgateonline-livelo.com  # Sources: [PhishTank (Extracted)]
 resgateseuspontos.sa.com  # Sources: [PhishTank (Extracted)]
