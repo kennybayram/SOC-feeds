@@ -1,7 +1,7 @@
 # ==========================================================
 # SOC-FEEDS INTELLIGENCE REPORT
-# Last Updated: 2026-08-21T22:24:17.282949+00:00 UTC
-# Total Records: 43977
+# Last Updated: 2026-08-21T23:23:26.588376+00:00 UTC
+# Total Records: 43981
 # ==========================================================
 
 0-lix-a8sbqnxt.d1cdej.top  # Sources: [PhishTank (Extracted)]
@@ -883,6 +883,7 @@
 3u3u3bw.hair  # Sources: [PhishTank (Extracted)]
 3u4uy6.hair  # Sources: [PhishTank (Extracted)]
 3u7h4h.hair  # Sources: [PhishTank (Extracted)]
+3uwe63we.hair  # Sources: [PhishTank (Extracted)]
 3uzbh-q38ov-3s82s4-vjpj2m.pages.dev  # Sources: [PhishTank (Extracted)]
 3v7qzna.cfd  # Sources: [PhishTank (Extracted)]
 3vk1qwn.cfd  # Sources: [PhishTank (Extracted)]
@@ -1591,6 +1592,7 @@
 8af6d683-4e46-486c-b026-daaf00318548-00-l4t8jpdbxi8k.janeway.replit.dev  # Sources: [PhishTank (Extracted)]
 8aldchrh.jetbt9.online  # Sources: [URLHaus (Extracted)]
 8apvykue.daf.bet  # Sources: [URLHaus (Extracted)]
+8b165878.pinme.dev  # Sources: [PhishTank (Extracted)]
 8b4-3zmmu-4h3-jvd7-egz0ym.pages.dev  # Sources: [PhishTank (Extracted)]
 8bk9x8td.ravanshenasinovin.xyz  # Sources: [URLHaus (Extracted)]
 8bmmubit.site-enfejar-ba-zarib-bala.com  # Sources: [URLHaus (Extracted)]
@@ -15198,6 +15200,7 @@ etaidataseverlease.weebly.com  # Sources: [PhishTank (Extracted)]
 etapedorient.ch  # Sources: [PhishTank (Extracted)]
 etaru.oasis-active.com  # Sources: [URLHaus (Extracted)]
 etax.vetactivity.ro  # Sources: [PhishTank (Extracted)]
+etaxpanel.vetactivity.ro  # Sources: [PhishTank (Extracted)]
 etc-show.com  # Sources: [PhishTank (Extracted)]
 etc.tagtotall.eu.cc  # Sources: [PhishTank (Extracted)]
 etchspinhas.xyz  # Sources: [URLHaus (Extracted)]
@@ -42351,6 +42354,7 @@ www.telekom-privatkunden-de.com  # Sources: [PhishTank (Extracted)]
 www.teleofru.com  # Sources: [PhishTank (Extracted)]
 www.teletfaj.com  # Sources: [PhishTank (Extracted)]
 www.telezsag.com  # Sources: [PhishTank (Extracted)]
+www.telhasvogel.com.br  # Sources: [PhishTank (Extracted)]
 www.tenorshare.ai  # Sources: [PhishTank (Extracted)]
 www.teouhgae.shop  # Sources: [PhishTank (Extracted)]
 www.tephrastratigraphy.cfd  # Sources: [PhishTank (Extracted)]
@@ -42399,6 +42403,7 @@ www.ulysimpayee.com  # Sources: [PhishTank (Extracted)]
 www.ulyss-mes-voyages.com  # Sources: [PhishTank (Extracted)]
 www.umbrellasampling.cfd  # Sources: [PhishTank (Extracted)]
 www.unclelar.net  # Sources: [PhishTank (Extracted)]
+www.unionganadera.com.mx  # Sources: [PhishTank (Extracted)]
 www.uniprimeinternational.com  # Sources: [PhishTank (Extracted)]
 www.unlockon.com  # Sources: [PhishTank (Extracted)]
 www.update-billing-netflix.shekinahglory.co.zw  # Sources: [PhishTank (Extracted)]
@@ -43175,7 +43180,6 @@ y1vcfa.webwave.dev  # Sources: [PhishTank (Extracted)]
 y2o7v8.webwave.dev  # Sources: [PhishTank (Extracted)]
 y4d9qpyb.bazisangkaqazgeychidancepoli.com  # Sources: [URLHaus (Extracted)]
 y4e8lwrs.duckdns.org  # Sources: [PhishTank (Extracted)]
-y4gf3n18.network-foundry.digital  # Sources: [URLHaus (Extracted)]
 y4h1lqu6.jadoou.lat  # Sources: [URLHaus (Extracted)]
 y4hvadqo.taxrundo.hu  # Sources: [URLHaus (Extracted)]
 y4vtvy-rcg-qry-cfdl95-cwy7do.pages.dev  # Sources: [PhishTank (Extracted)]
