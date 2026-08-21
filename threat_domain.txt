@@ -1,6 +1,6 @@
 # ==========================================================
 # SOC-FEEDS INTELLIGENCE REPORT
-# Last Updated: 2026-08-21T18:35:10.355833+00:00 UTC
+# Last Updated: 2026-08-21T19:25:44.958897+00:00 UTC
 # Total Records: 43968
 # ==========================================================
 
@@ -1768,7 +1768,6 @@
 9syep2-9ni-in08-5djx-sqppab.pages.dev  # Sources: [PhishTank (Extracted)]
 9t8bbts2.winston.bet  # Sources: [URLHaus (Extracted)]
 9t9m7lad.yektbet.bet  # Sources: [URLHaus (Extracted)]
-9v42ch67.proxy-frontier.digital  # Sources: [URLHaus (Extracted)]
 9vs-4g4jmc-xojn-j6cbby-d62.pages.dev  # Sources: [PhishTank (Extracted)]
 9vskin1.skin  # Sources: [PhishTank (Extracted)]
 9vxg256z.bazikeno.com  # Sources: [URLHaus (Extracted)]
@@ -36430,6 +36429,7 @@ taiktaikvn.weebly.com  # Sources: [PhishTank (Extracted)]
 taiquge.lincoplus.xyz  # Sources: [URLHaus (Extracted)]
 taitei-andreea.ro  # Sources: [PhishTank (Extracted)]
 taiyoil.web.app  # Sources: [PhishTank (Extracted)]
+taizi.fdstat.vip  # Sources: [URLHaus (Extracted)]
 tajkartiya-neak.com  # Sources: [PhishTank (Extracted)]
 take-suiteapp.wixstudio.com  # Sources: [PhishTank (Extracted)]
 takealotvoucher.weebly.com  # Sources: [PhishTank (Extracted)]
