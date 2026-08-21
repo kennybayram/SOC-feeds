@@ -1,6 +1,6 @@
 # ==========================================================
 # SOC-FEEDS INTELLIGENCE REPORT
-# Last Updated: 2026-08-21T04:36:53.983725+00:00 UTC
+# Last Updated: 2026-08-21T05:32:27.208183+00:00 UTC
 # Total Records: 43879
 # ==========================================================
 
@@ -27714,6 +27714,7 @@ pcrectdkbz6.web.app  # Sources: [PhishTank (Extracted)]
 pcsss.s3.us-east-2.amazonaws.com  # Sources: [PhishTank (Extracted)]
 pcucucare.weebly.com  # Sources: [PhishTank (Extracted)]
 pcue.elitesport.ir  # Sources: [URLHaus (Extracted)]
+pcupd.com  # Sources: [URLHaus (Extracted)]
 pcz-3.weebly.com  # Sources: [PhishTank (Extracted)]
 pczlsqy.hi-lo.bet  # Sources: [URLHaus (Extracted)]
 pd9l19qk.milliardbet.com  # Sources: [URLHaus (Extracted)]
@@ -38000,7 +38001,6 @@ uk-rev-summer.bolt.host  # Sources: [PhishTank (Extracted)]
 uk1nymxr.varzeshlife.ir  # Sources: [URLHaus (Extracted)]
 ukfxv.motuntakhasosi.store  # Sources: [URLHaus (Extracted)]
 ukkiw.ukit.me  # Sources: [PhishTank (Extracted)]
-ukkqtbst.snow-harbor.christmas  # Sources: [URLHaus (Extracted)]
 ukmcha.yasbet90.com  # Sources: [URLHaus (Extracted)]
 uknootropics.com  # Sources: [PhishTank (Extracted)]
 uknwgsop.red90.casino  # Sources: [URLHaus (Extracted)]
