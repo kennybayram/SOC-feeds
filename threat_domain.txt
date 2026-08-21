@@ -1,7 +1,7 @@
 # ==========================================================
 # SOC-FEEDS INTELLIGENCE REPORT
-# Last Updated: 2026-08-21T17:28:24.335390+00:00 UTC
-# Total Records: 43964
+# Last Updated: 2026-08-21T18:35:10.355833+00:00 UTC
+# Total Records: 43968
 # ==========================================================
 
 0-lix-a8sbqnxt.d1cdej.top  # Sources: [PhishTank (Extracted)]
@@ -20097,6 +20097,8 @@ irs.digitalcomplianceportal.com  # Sources: [PhishTank (Extracted)]
 irs.getdigitalassetcompliance.com  # Sources: [PhishTank (Extracted)]
 irs.mydigitalassetcompliance.com  # Sources: [PhishTank (Extracted)]
 irsamc--ups--tlse--fr.weebly.com  # Sources: [PhishTank (Extracted)]
+irsci.net  # Sources: [PhishTank (Extracted)]
+irsci.online  # Sources: [PhishTank (Extracted)]
 irsgovtax.xyz  # Sources: [PhishTank (Extracted)]
 irsgovusa.myportfolio.com  # Sources: [PhishTank (Extracted)]
 irsrred.w3spaces.com  # Sources: [PhishTank (Extracted)]
@@ -26171,6 +26173,7 @@ norquza-gld-fentavi-p8q5fc93.pages.dev  # Sources: [PhishTank (Extracted)]
 norsistemas.pt  # Sources: [PhishTank (Extracted)]
 northchest.com  # Sources: [PhishTank (Extracted)]
 northernlighting.ca  # Sources: [PhishTank (Extracted)]
+northernvirginiaeyeassociates.com  # Sources: [URLHaus (Extracted)]
 northstarsecure.weebly.com  # Sources: [PhishTank (Extracted)]
 northwesstel.weebly.com  # Sources: [PhishTank (Extracted)]
 northwestel-storage-gbspacesipm.weebly.com  # Sources: [PhishTank (Extracted)]
@@ -30338,6 +30341,7 @@ pub-be645e8fed924c5c8e39da2ef8c6d5df.r2.dev  # Sources: [PhishTank (Extracted)]
 pub-bf24647e843146a6a492b98bbb45b512.r2.dev  # Sources: [PhishTank (Extracted)]
 pub-bf410a88ec67437fb183b22f87a37d63.r2.dev  # Sources: [PhishTank (Extracted)]
 pub-bf621bcb7f3647c1bcdeab72e3b5d47f.r2.dev  # Sources: [PhishTank (Extracted)]
+pub-bfc34934a91a4893817098f73415917a.r2.dev  # Sources: [URLHaus (Extracted)]
 pub-bfed733beb31476b96b439195829b84b.r2.dev  # Sources: [PhishTank (Extracted)]
 pub-bfeee2fff40346999be1530fc101c67e.r2.dev  # Sources: [PhishTank (Extracted)]
 pub-bff73fea0cd34ba18479407ee3443024.r2.dev  # Sources: [PhishTank (Extracted)]
