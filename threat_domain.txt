@@ -1,7 +1,7 @@
 # ==========================================================
 # SOC-FEEDS INTELLIGENCE REPORT
-# Last Updated: 2026-08-21T10:30:06.702351+00:00 UTC
-# Total Records: 43881
+# Last Updated: 2026-08-21T11:25:43.202517+00:00 UTC
+# Total Records: 43884
 # ==========================================================
 
 0-lix-a8sbqnxt.d1cdej.top  # Sources: [PhishTank (Extracted)]
@@ -235,6 +235,7 @@
 176.65.149.124.ptr.pfcloud.network  # Sources: [URLHaus (Extracted)]
 176.65.149.168.ptr.pfcloud.network  # Sources: [URLHaus (Extracted)]
 1760880568519-windy-hammer.surge.sh  # Sources: [PhishTank (Extracted)]
+178.248.3.202.ll.sta.mana.pf  # Sources: [URLHaus (Extracted)]
 1781b91d-569b-47de-a333-d9f94e497090-00-bejwa76m1tsd.kirk.replit.dev  # Sources: [PhishTank (Extracted)]
 1789mzx.skin  # Sources: [PhishTank (Extracted)]
 179.248.3.202.ll.sta.mana.pf  # Sources: [URLHaus (Extracted)]
@@ -25938,6 +25939,7 @@ nightmare-download.pw  # Sources: [URLHaus (Extracted)]
 nightsforest.netlify.app  # Sources: [PhishTank (Extracted)]
 niloy7t7.github.io  # Sources: [PhishTank (Extracted)]
 nimake.m-pages.com  # Sources: [PhishTank (Extracted)]
+nimblenumbers.screenconnect.com  # Sources: [URLHaus (Extracted)]
 nine-edge-was.xyz  # Sources: [URLHaus (Extracted)]
 ninjalucky.com  # Sources: [PhishTank (Extracted)]
 nintvncm.rayegan.net  # Sources: [URLHaus (Extracted)]
@@ -26304,6 +26306,7 @@ nurt-release.weebly.com  # Sources: [PhishTank (Extracted)]
 nurtured-umbrella-322056.framer.app  # Sources: [PhishTank (Extracted)]
 nurtz-square.weebly.com  # Sources: [PhishTank (Extracted)]
 nusaldo.vercel.app  # Sources: [PhishTank (Extracted)]
+nusatoyota.co.id  # Sources: [URLHaus (Extracted)]
 nusendaciuerasor.weebly.com  # Sources: [PhishTank (Extracted)]
 nuulycp.bet365iran.com  # Sources: [URLHaus (Extracted)]
 nuwyhalu.me  # Sources: [PhishTank (Extracted)]
