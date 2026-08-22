@@ -1,7 +1,7 @@
 # ==========================================================
 # SOC-FEEDS INTELLIGENCE REPORT
-# Last Updated: 2026-08-22T12:36:47.589664+00:00 UTC
-# Total Records: 44057
+# Last Updated: 2026-08-22T13:31:40.975030+00:00 UTC
+# Total Records: 44059
 # ==========================================================
 
 0-lix-a8sbqnxt.d1cdej.top  # Sources: [PhishTank (Extracted)]
@@ -20397,6 +20397,7 @@ jdavxy.p5yjlf31w6hve12yktuwmenkyz07nk.lat  # Sources: [PhishTank (Extracted)]
 jdcoksa-my.sharepoint.com  # Sources: [PhishTank (Extracted)]
 jdissdiodosdpskjkd.weebly.com  # Sources: [PhishTank (Extracted)]
 jdizon-tech.github.io  # Sources: [PhishTank (Extracted)]
+jdjdldkenrkf.sbs  # Sources: [PhishTank (Extracted)]
 jdkjerjdoidnkld.weebly.com  # Sources: [PhishTank (Extracted)]
 jdnonap-ar-eu.smartcat-proxy.net  # Sources: [PhishTank (Extracted)]
 jds4p0yc.betbacklink.com  # Sources: [URLHaus (Extracted)]
@@ -20965,6 +20966,7 @@ kentuckycommunitytechnicalcollege.weebly.com  # Sources: [PhishTank (Extracted)]
 kenwillzltd.com  # Sources: [URLHaus (Extracted)]
 keptpilekeep.xyz  # Sources: [URLHaus (Extracted)]
 ker3000.com  # Sources: [PhishTank (Extracted)]
+kern-kapithal.com  # Sources: [PhishTank (Extracted)]
 kerorpls.weebly.com  # Sources: [PhishTank (Extracted)]
 kesh-108632.weeblysite.com  # Sources: [PhishTank (Extracted)]
 kesyothd.irantop.bet  # Sources: [URLHaus (Extracted)]
