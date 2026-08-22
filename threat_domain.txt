@@ -1,7 +1,7 @@
 # ==========================================================
 # SOC-FEEDS INTELLIGENCE REPORT
-# Last Updated: 2026-08-22T09:26:35.450018+00:00 UTC
-# Total Records: 44014
+# Last Updated: 2026-08-22T10:22:55.749387+00:00 UTC
+# Total Records: 44013
 # ==========================================================
 
 0-lix-a8sbqnxt.d1cdej.top  # Sources: [PhishTank (Extracted)]
@@ -13441,12 +13441,12 @@ dkrbvhs.jamjahani.site  # Sources: [URLHaus (Extracted)]
 dkrxwehc.testpaye.xyz  # Sources: [URLHaus (Extracted)]
 dkserver.sviluppo.host  # Sources: [PhishTank (Extracted)]
 dkvvwj.com  # Sources: [PhishTank (Extracted)]
-dl.1003b.56a.com  # Sources: [URLHaus (Extracted)]
 dl.2345.com  # Sources: [URLHaus (Extracted)]
 dl.360safe.com  # Sources: [URLHaus (Extracted)]
 dl.dropboxusercontent.com  # Sources: [URLHaus (Extracted)]
 dl.dzqzd.com  # Sources: [URLHaus (Extracted)]
 dl.faster-cdn-hk.click  # Sources: [URLHaus (Extracted)]
+dl.ijinshan.com  # Sources: [URLHaus (Extracted)]
 dl.multiextension.com  # Sources: [URLHaus (Extracted)]
 dl.proxiespool.wiki  # Sources: [URLHaus (Extracted)]
 dlacbhw.nonamejustsoul.com  # Sources: [URLHaus (Extracted)]
@@ -13737,7 +13737,6 @@ download.suxiazai.com  # Sources: [URLHaus (Extracted)]
 download.tfyxzai.com  # Sources: [URLHaus (Extracted)]
 download.ubua.online  # Sources: [URLHaus (Extracted)]
 download1532.mediafire.com  # Sources: [URLHaus (Extracted)]
-download2.huduntech.com  # Sources: [URLHaus (Extracted)]
 download2281.mediafire.com  # Sources: [URLHaus (Extracted)]
 download2300.mediafire.com  # Sources: [URLHaus (Extracted)]
 download2349.mediafire.com  # Sources: [URLHaus (Extracted)]
@@ -24263,7 +24262,6 @@ metmskluginn-auth.gitbook.io  # Sources: [PhishTank (Extracted)]
 metmskzlgin.gitbook.io  # Sources: [PhishTank (Extracted)]
 metqmask-wallet.gitbook.io  # Sources: [PhishTank (Extracted)]
 metricasweb.s3.us-east-005.backblazeb2.com  # Sources: [PhishTank (Extracted)]
-metrics.gocloudmaps.com  # Sources: [URLHaus (Extracted)]
 metrixor.com  # Sources: [PhishTank (Extracted)]
 metrocastcommunicationadminmailservice000000009.weebly.com  # Sources: [PhishTank (Extracted)]
 metrocastcommunicationadminmailserviceconnectionupdate001.weebly.com  # Sources: [PhishTank (Extracted)]
@@ -28620,6 +28618,7 @@ practical-channel-060419.framer.app  # Sources: [PhishTank (Extracted)]
 practical-engineers-435865.framer.app  # Sources: [PhishTank (Extracted)]
 practical-video-561502.framer.app  # Sources: [PhishTank (Extracted)]
 practical-yard-145949.framer.app  # Sources: [PhishTank (Extracted)]
+practisingcertificateprotection.com  # Sources: [URLHaus (Extracted)]
 prakaasheyewear.com  # Sources: [PhishTank (Extracted)]
 prasenjitgautam.github.io  # Sources: [PhishTank (Extracted)]
 pratica-io.eu.cc  # Sources: [PhishTank (Extracted)]
