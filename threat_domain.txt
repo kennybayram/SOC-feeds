@@ -1,7 +1,7 @@
 # ==========================================================
 # SOC-FEEDS INTELLIGENCE REPORT
-# Last Updated: 2026-08-22T03:40:59.333577+00:00 UTC
-# Total Records: 43987
+# Last Updated: 2026-08-22T04:31:30.258488+00:00 UTC
+# Total Records: 43990
 # ==========================================================
 
 0-lix-a8sbqnxt.d1cdej.top  # Sources: [PhishTank (Extracted)]
@@ -16860,6 +16860,7 @@ galciasservicios.blog  # Sources: [PhishTank (Extracted)]
 galcionci.st  # Sources: [PhishTank (Extracted)]
 galdum.ro  # Sources: [URLHaus (Extracted)]
 galeri3.arkitera.com  # Sources: [URLHaus (Extracted)]
+galerisenimutiara.com  # Sources: [URLHaus (Extracted)]
 galic-ar.webcindario.com  # Sources: [PhishTank (Extracted)]
 galicia-ar.webcindario.com  # Sources: [PhishTank (Extracted)]
 galicia-brief-abm.pages.dev  # Sources: [PhishTank (Extracted)]
@@ -17561,6 +17562,7 @@ goash-electric.myportfolio.com  # Sources: [PhishTank (Extracted)]
 gobersik.com  # Sources: [PhishTank (Extracted)]
 gobfmmh.casino888.promo  # Sources: [URLHaus (Extracted)]
 gobieron1nejalisco.cc  # Sources: [PhishTank (Extracted)]
+gobiotechpestcontrol.com  # Sources: [URLHaus (Extracted)]
 gobshajakdjhf.weebly.com  # Sources: [PhishTank (Extracted)]
 gochainwallet.github.io  # Sources: [PhishTank (Extracted)]
 godaieducation.org  # Sources: [PhishTank (Extracted)]
@@ -22619,6 +22621,7 @@ login-mvtvwireless.weebly.com  # Sources: [PhishTank (Extracted)]
 login-outlook.webcindario.com  # Sources: [PhishTank (Extracted)]
 login-outlook23.webcindario.com  # Sources: [PhishTank (Extracted)]
 login-pichinha.hstn.me  # Sources: [PhishTank (Extracted)]
+login-pn-reinventabanbif.netlify.app  # Sources: [PhishTank (Extracted)]
 login-primus-ca.weebly.com  # Sources: [PhishTank (Extracted)]
 login-raiffeisen-ebanking.firebaseapp.com  # Sources: [PhishTank (Extracted)]
 login-raiffeisen-ebanking.web.app  # Sources: [PhishTank (Extracted)]
