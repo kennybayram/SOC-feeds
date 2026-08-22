@@ -1,7 +1,7 @@
 # ==========================================================
 # SOC-FEEDS INTELLIGENCE REPORT
-# Last Updated: 2026-08-22T18:29:44.132505+00:00 UTC
-# Total Records: 44098
+# Last Updated: 2026-08-22T19:21:45.315579+00:00 UTC
+# Total Records: 44094
 # ==========================================================
 
 0-lix-a8sbqnxt.d1cdej.top  # Sources: [PhishTank (Extracted)]
@@ -14123,7 +14123,6 @@ dxblg.workoutwithdorci.com  # Sources: [URLHaus (Extracted)]
 dxclneq.webrevelem.hu  # Sources: [URLHaus (Extracted)]
 dxdxdxe.web.app  # Sources: [PhishTank (Extracted)]
 dxgmx.weebly.com  # Sources: [PhishTank (Extracted)]
-dxsdji.felhangolo.com  # Sources: [URLHaus (Extracted)]
 dxssnlzn.penalty.casino  # Sources: [URLHaus (Extracted)]
 dxxxyoqr.bet313.org  # Sources: [URLHaus (Extracted)]
 dy.fi  # Sources: [PhishTank (Extracted)]
@@ -18937,7 +18936,6 @@ hpromise.hyundai-motom.ru  # Sources: [PhishTank (Extracted)]
 hpwj.betawarz.com  # Sources: [URLHaus (Extracted)]
 hpxqt.accredit.hu  # Sources: [URLHaus (Extracted)]
 hq-cpanel-uptime-upgrade-hnrv61j7if.edgeone.app  # Sources: [PhishTank (Extracted)]
-hqcmiiiu.cloud-orbit.digital  # Sources: [URLHaus (Extracted)]
 hqmcfjqy.madgal.life  # Sources: [URLHaus (Extracted)]
 hqmfda.com  # Sources: [PhishTank (Extracted)]
 hqndcsdha.hazaratbet.game  # Sources: [URLHaus (Extracted)]
@@ -35697,7 +35695,6 @@ static.3001.net  # Sources: [URLHaus (Extracted)]
 static.pb3.duckdns.org  # Sources: [PhishTank (Extracted)]
 static.topxgun.com  # Sources: [URLHaus (Extracted)]
 static.youdm.cn  # Sources: [URLHaus (Extracted)]
-static.zongheng.com  # Sources: [URLHaus (Extracted)]
 staticfile-878b7.wasmer.app  # Sources: [PhishTank (Extracted)]
 staticfile-sntandre.wasmer.app  # Sources: [PhishTank (Extracted)]
 station-bridge.wixstudio.com  # Sources: [PhishTank (Extracted)]
@@ -37474,7 +37471,6 @@ trejorr-io-strt.zapier.app  # Sources: [PhishTank (Extracted)]
 trejort-started.wixstudio.com  # Sources: [PhishTank (Extracted)]
 trejortstarts.wixstudio.com  # Sources: [PhishTank (Extracted)]
 trejr-suite.square.site  # Sources: [PhishTank (Extracted)]
-trejzg.femeso.hu  # Sources: [URLHaus (Extracted)]
 trelvo-samrik-46f29d-brbn-hf2406xto.pages.dev  # Sources: [PhishTank (Extracted)]
 trembo-lopez.firebaseapp.com  # Sources: [PhishTank (Extracted)]
 trembo-lopez.web.app  # Sources: [PhishTank (Extracted)]
