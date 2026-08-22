@@ -1,6 +1,6 @@
 # ==========================================================
 # SOC-FEEDS INTELLIGENCE REPORT
-# Last Updated: 2026-08-22T02:53:15.822737+00:00 UTC
+# Last Updated: 2026-08-22T03:40:59.333577+00:00 UTC
 # Total Records: 43987
 # ==========================================================
 
@@ -10701,6 +10701,7 @@ cdn.anzho06.xyz  # Sources: [URLHaus (Extracted)]
 cdn.choicely.com  # Sources: [PhishTank (Extracted)]
 cdn.defenders.workers.dev  # Sources: [URLHaus (Extracted)]
 cdn.discordapp.com  # Sources: [URLHaus (Extracted)]
+cdn.file6.goodid.com  # Sources: [URLHaus (Extracted)]
 cdn.formfacade.com  # Sources: [PhishTank (Extracted)]
 cdn.gomlab.com  # Sources: [URLHaus (Extracted)]
 cdn.imgtree.co  # Sources: [URLHaus (Extracted)]
@@ -23035,6 +23036,7 @@ luderlawe.com  # Sources: [PhishTank (Extracted)]
 ludrimuteplus.firebaseapp.com  # Sources: [PhishTank (Extracted)]
 ludrimuteplus.web.app  # Sources: [PhishTank (Extracted)]
 lueplxze.sadreislam.xyz  # Sources: [URLHaus (Extracted)]
+luizmatoso.com.br  # Sources: [URLHaus (Extracted)]
 lulfav.bet404farsi.com  # Sources: [URLHaus (Extracted)]
 lull-islebrew.xyz  # Sources: [URLHaus (Extracted)]
 lulobank.digiventures.la  # Sources: [PhishTank (Extracted)]
@@ -24251,7 +24253,6 @@ metmskluginn-auth.gitbook.io  # Sources: [PhishTank (Extracted)]
 metmskzlgin.gitbook.io  # Sources: [PhishTank (Extracted)]
 metqmask-wallet.gitbook.io  # Sources: [PhishTank (Extracted)]
 metricasweb.s3.us-east-005.backblazeb2.com  # Sources: [PhishTank (Extracted)]
-metrics.gocloudmaps.com  # Sources: [URLHaus (Extracted)]
 metrixor.com  # Sources: [PhishTank (Extracted)]
 metrocastcommunicationadminmailservice000000009.weebly.com  # Sources: [PhishTank (Extracted)]
 metrocastcommunicationadminmailserviceconnectionupdate001.weebly.com  # Sources: [PhishTank (Extracted)]
@@ -42916,7 +42917,6 @@ xhtn.nextbahis.one  # Sources: [URLHaus (Extracted)]
 xi7mxo.csb.app  # Sources: [PhishTank (Extracted)]
 xiabttjkaj.p5yjlf31w6hve12yktuwmenkyz07nk.lat  # Sources: [PhishTank (Extracted)]
 xiangshunjy.com  # Sources: [PhishTank (Extracted)]
-xiaoma-10021647.file.myqcloud.com  # Sources: [URLHaus (Extracted)]
 xiaoniucloud.com  # Sources: [PhishTank (Extracted)]
 xiaoyistore.rumahsakit.de  # Sources: [PhishTank (Extracted)]
 xiazaixitong8.com  # Sources: [URLHaus (Extracted)]
