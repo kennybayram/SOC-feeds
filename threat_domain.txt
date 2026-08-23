@@ -1,7 +1,7 @@
 # ==========================================================
 # SOC-FEEDS INTELLIGENCE REPORT
-# Last Updated: 2026-08-23T13:32:03.582479+00:00 UTC
-# Total Records: 44032
+# Last Updated: 2026-08-23T14:23:05.923585+00:00 UTC
+# Total Records: 44031
 # ==========================================================
 
 0-lix-a8sbqnxt.d1cdej.top  # Sources: [PhishTank (Extracted)]
@@ -10181,7 +10181,6 @@ bwvastni.bet1xyek.bet  # Sources: [URLHaus (Extracted)]
 bwwxd.polarstartire.com  # Sources: [URLHaus (Extracted)]
 bxdc6z4b.betmegapari.org  # Sources: [URLHaus (Extracted)]
 bxhnheh.vostrovape.com  # Sources: [URLHaus (Extracted)]
-bxjmrg.krisztinavarga.hu  # Sources: [URLHaus (Extracted)]
 bxnbcc.weebly.com  # Sources: [PhishTank (Extracted)]
 bxto.site-shartbandi-variz-kam.com  # Sources: [URLHaus (Extracted)]
 bxv2-bbirxs-f1r-gb2i-9qw.pages.dev  # Sources: [PhishTank (Extracted)]
@@ -26371,7 +26370,6 @@ nsol2ghjcd.firebaseapp.com  # Sources: [PhishTank (Extracted)]
 nsol2ghjcd.web.app  # Sources: [PhishTank (Extracted)]
 nsolutionsquarantine.firebaseapp.com  # Sources: [PhishTank (Extracted)]
 nsolutionsquarantine.web.app  # Sources: [PhishTank (Extracted)]
-nspbcu.krokodilpince.hu  # Sources: [URLHaus (Extracted)]
 nspmedia.com.au  # Sources: [PhishTank (Extracted)]
 nsuoqcej.betturkey.bet  # Sources: [URLHaus (Extracted)]
 nswofmyl.site-shartbandi-50toman.com  # Sources: [URLHaus (Extracted)]
@@ -35677,6 +35675,7 @@ static.26.134.83.5.clients.ryzehosting.com  # Sources: [URLHaus (Extracted)]
 static.3001.net  # Sources: [URLHaus (Extracted)]
 static.pb3.duckdns.org  # Sources: [PhishTank (Extracted)]
 static.topxgun.com  # Sources: [URLHaus (Extracted)]
+static.zongheng.com  # Sources: [URLHaus (Extracted)]
 staticfile-878b7.wasmer.app  # Sources: [PhishTank (Extracted)]
 staticfile-sntandre.wasmer.app  # Sources: [PhishTank (Extracted)]
 station-bridge.wixstudio.com  # Sources: [PhishTank (Extracted)]
