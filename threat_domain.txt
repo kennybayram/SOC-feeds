@@ -1,7 +1,7 @@
 # ==========================================================
 # SOC-FEEDS INTELLIGENCE REPORT
-# Last Updated: 2026-08-23T16:24:47.260372+00:00 UTC
-# Total Records: 44030
+# Last Updated: 2026-08-23T17:20:11.188046+00:00 UTC
+# Total Records: 44027
 # ==========================================================
 
 0-lix-a8sbqnxt.d1cdej.top  # Sources: [PhishTank (Extracted)]
@@ -11103,7 +11103,6 @@ chzldmh3.parsbet90.com  # Sources: [URLHaus (Extracted)]
 ci-app294.info  # Sources: [PhishTank (Extracted)]
 ci5lbh.duckdns.org  # Sources: [PhishTank (Extracted)]
 ci7lslzb.enfej.win  # Sources: [URLHaus (Extracted)]
-ci7uxmq7.proxy-harbor.digital  # Sources: [URLHaus (Extracted)]
 ciaz8h-8njujr-xch4l-nr1b.pages.dev  # Sources: [PhishTank (Extracted)]
 cic-verification.bolt.host  # Sources: [PhishTank (Extracted)]
 ciedigitaie0216.info  # Sources: [PhishTank (Extracted)]
@@ -31071,7 +31070,6 @@ qkwgkjx.seoprof.ir  # Sources: [URLHaus (Extracted)]
 ql1aii3f.jadoobet.pro  # Sources: [URLHaus (Extracted)]
 ql5b30.info  # Sources: [PhishTank (Extracted)]
 qlggges.penaltibazi.com  # Sources: [URLHaus (Extracted)]
-qlhsnt.lifealigned.hu  # Sources: [URLHaus (Extracted)]
 qll4p9fw.one1xiran.bet  # Sources: [URLHaus (Extracted)]
 qlrjloxh.jozve.one  # Sources: [URLHaus (Extracted)]
 qlsgo9c9.shimiskoog.shop  # Sources: [URLHaus (Extracted)]
@@ -38058,7 +38056,6 @@ ud9uuf.casa  # Sources: [PhishTank (Extracted)]
 uddjdkd.m-pages.com  # Sources: [PhishTank (Extracted)]
 udev.informedgreetings.com  # Sources: [PhishTank (Extracted)]
 udhayarraj619-art.github.io  # Sources: [PhishTank (Extracted)]
-udiqhj.levivilaga.hu  # Sources: [URLHaus (Extracted)]
 udomx-my.sharepoint.com  # Sources: [PhishTank (Extracted)]
 udorafd.github.io  # Sources: [PhishTank (Extracted)]
 udp.ixx.mybluehost.me  # Sources: [PhishTank (Extracted)]
