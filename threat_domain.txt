@@ -1,7 +1,7 @@
 # ==========================================================
 # SOC-FEEDS INTELLIGENCE REPORT
-# Last Updated: 2026-08-23T18:27:53.493664+00:00 UTC
-# Total Records: 44029
+# Last Updated: 2026-08-23T19:22:12.061346+00:00 UTC
+# Total Records: 44026
 # ==========================================================
 
 0-lix-a8sbqnxt.d1cdej.top  # Sources: [PhishTank (Extracted)]
@@ -1435,7 +1435,6 @@
 7785857594.weebly.com  # Sources: [PhishTank (Extracted)]
 778997t656t.weebly.com  # Sources: [PhishTank (Extracted)]
 77h5jddd.yek1.bet  # Sources: [URLHaus (Extracted)]
-78-20-115-5.access.telenet.be  # Sources: [URLHaus (Extracted)]
 780-gkhv-y5x3-8fc228-iyr.pages.dev  # Sources: [PhishTank (Extracted)]
 78019362.xyz  # Sources: [PhishTank (Extracted)]
 780232.weebly.com  # Sources: [PhishTank (Extracted)]
@@ -27042,7 +27041,6 @@ onoizuz.fibi-ireland.com  # Sources: [URLHaus (Extracted)]
 onpublishies-data69-centers.start.page  # Sources: [PhishTank (Extracted)]
 ontwig.com  # Sources: [PhishTank (Extracted)]
 ontyi.weebly.com  # Sources: [PhishTank (Extracted)]
-onwqrw.lillafunfit.com  # Sources: [URLHaus (Extracted)]
 onx.la  # Sources: [PhishTank (Extracted)]
 onyx-ae.cc  # Sources: [URLHaus (Extracted)]
 oo1ilxp0l-zaya7.s7pfuk.sbs  # Sources: [PhishTank (Extracted)]
@@ -38665,7 +38663,6 @@ utua.com.br  # Sources: [PhishTank (Extracted)]
 utuyuea.backlinkyek.com  # Sources: [URLHaus (Extracted)]
 utwli.almasiklima.hu  # Sources: [URLHaus (Extracted)]
 utyge5645gvcg.poiaqewsxcbcgtrt566655.workers.dev  # Sources: [PhishTank (Extracted)]
-uubbkkxd.network-vector.digital  # Sources: [URLHaus (Extracted)]
 uucsbr.weebly.com  # Sources: [PhishTank (Extracted)]
 uudhuede.w3spaces.com  # Sources: [PhishTank (Extracted)]
 uuivasortemais.vercel.app  # Sources: [PhishTank (Extracted)]
