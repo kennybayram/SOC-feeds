@@ -1,6 +1,6 @@
 # ==========================================================
 # SOC-FEEDS INTELLIGENCE REPORT
-# Last Updated: 2026-08-23T05:28:09.304141+00:00 UTC
+# Last Updated: 2026-08-23T06:38:59.743120+00:00 UTC
 # Total Records: 44026
 # ==========================================================
 
@@ -16401,7 +16401,6 @@ footballbalanceadder0921.weebly.com  # Sources: [PhishTank (Extracted)]
 footballcomadderweb29.weebly.com  # Sources: [PhishTank (Extracted)]
 footballcombalanceadder.weebly.com  # Sources: [PhishTank (Extracted)]
 footballladdup.weebly.com  # Sources: [PhishTank (Extracted)]
-foqovv.h13lakopark.hu  # Sources: [URLHaus (Extracted)]
 forcarorbike.com  # Sources: [PhishTank (Extracted)]
 forceful-forms-528662.framer.app  # Sources: [PhishTank (Extracted)]
 forceful-pizza-995326.framer.app  # Sources: [PhishTank (Extracted)]
@@ -16481,6 +16480,7 @@ forologikespplirofories.firebaseapp.com  # Sources: [PhishTank (Extracted)]
 forologikespplirofories.web.app  # Sources: [PhishTank (Extracted)]
 forpetbuys.com  # Sources: [PhishTank (Extracted)]
 forsakimya.com  # Sources: [PhishTank (Extracted)]
+forsalenear.me  # Sources: [URLHaus (Extracted)]
 forspeed.onlinedown.net  # Sources: [URLHaus (Extracted)]
 fortbendisdaccess.weebly.com  # Sources: [PhishTank (Extracted)]
 forterasecure.weebly.com  # Sources: [PhishTank (Extracted)]
