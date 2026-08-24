@@ -1,7 +1,7 @@
 # ==========================================================
 # SOC-FEEDS INTELLIGENCE REPORT
-# Last Updated: 2026-08-24T22:25:53.423780+00:00 UTC
-# Total Records: 44183
+# Last Updated: 2026-08-24T23:21:43.771532+00:00 UTC
+# Total Records: 44181
 # ==========================================================
 
 0-lix-a8sbqnxt.d1cdej.top  # Sources: [PhishTank (Extracted)]
@@ -17392,7 +17392,6 @@ gifts-reward.quest  # Sources: [PhishTank (Extracted)]
 giftshop-vip.quest  # Sources: [PhishTank (Extracted)]
 giftshop-vip.yachts  # Sources: [PhishTank (Extracted)]
 gig241.wixsite.com  # Sources: [PhishTank (Extracted)]
-gijjr.welovevent.com  # Sources: [URLHaus (Extracted)]
 gilded-macaron-79e0e2.netlify.app  # Sources: [PhishTank (Extracted)]
 gill-jones-s-school.teachable.com  # Sources: [PhishTank (Extracted)]
 gimenixlogn.gitbook.io  # Sources: [PhishTank (Extracted)]
@@ -20404,7 +20403,6 @@ iway-na.weebly.com  # Sources: [PhishTank (Extracted)]
 iwd21.icu  # Sources: [URLHaus (Extracted)]
 iweukrsdjiw.weeblysite.com  # Sources: [PhishTank (Extracted)]
 iwl-tp313-tna6zp-93ap-5crv.pages.dev  # Sources: [PhishTank (Extracted)]
-iwojm.webgondozas.hu  # Sources: [URLHaus (Extracted)]
 iwpt50r25.ukit.me  # Sources: [PhishTank (Extracted)]
 iwyx.bekabet.casino  # Sources: [URLHaus (Extracted)]
 ixirgroup.com  # Sources: [URLHaus (Extracted)]
@@ -44008,6 +44006,7 @@ zkukywuh.sadreislam.xyz  # Sources: [URLHaus (Extracted)]
 zkvxphk.barandebash.bet  # Sources: [URLHaus (Extracted)]
 zlbcjre.wrfc8.com  # Sources: [URLHaus (Extracted)]
 zlbwuzyy.e-kei.pl  # Sources: [PhishTank (Extracted)]
+zlknxzy.skin  # Sources: [PhishTank (Extracted)]
 zlmbra-2025.weebly.com  # Sources: [PhishTank (Extracted)]
 zlmbra-25.weebly.com  # Sources: [PhishTank (Extracted)]
 zlmbra2025.weebly.com  # Sources: [PhishTank (Extracted)]
@@ -44096,7 +44095,6 @@ zs1-7dolv-ezvj-s7f-lyaq-eaap69.pages.dev  # Sources: [PhishTank (Extracted)]
 zs3z44wh.bettilt90.com  # Sources: [URLHaus (Extracted)]
 zsc.com.pk  # Sources: [PhishTank (Extracted)]
 zscaler-dev-login.pages.dev  # Sources: [PhishTank (Extracted)]
-zsdmb.webermann.hu  # Sources: [URLHaus (Extracted)]
 zsdrtgsrtghgdfghghdfgdfghdhg.framer.wiki  # Sources: [PhishTank (Extracted)]
 zsemar.weebly.com  # Sources: [PhishTank (Extracted)]
 zshaimrg.forwardbahis.com  # Sources: [URLHaus (Extracted)]
