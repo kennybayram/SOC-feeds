@@ -1,7 +1,7 @@
 # ==========================================================
 # SOC-FEEDS INTELLIGENCE REPORT
-# Last Updated: 2026-08-24T04:43:02.522609+00:00 UTC
-# Total Records: 44056
+# Last Updated: 2026-08-24T05:37:25.344907+00:00 UTC
+# Total Records: 44054
 # ==========================================================
 
 0-lix-a8sbqnxt.d1cdej.top  # Sources: [PhishTank (Extracted)]
@@ -20828,7 +20828,6 @@ jwllogic.com  # Sources: [PhishTank (Extracted)]
 jwn7dj-vrn-xg7r-mxrx9g-255h.pages.dev  # Sources: [PhishTank (Extracted)]
 jwngvds.sargarminovin.ir  # Sources: [URLHaus (Extracted)]
 jwouoops.sakhtemandade.shop  # Sources: [URLHaus (Extracted)]
-jwqnk.bbautokozmetika.hu  # Sources: [URLHaus (Extracted)]
 jwyclcz.shartbandi.xyz  # Sources: [URLHaus (Extracted)]
 jwzyamqu.questionsmotor.xyz  # Sources: [URLHaus (Extracted)]
 jxfszcuc.megaparifarsi.com  # Sources: [URLHaus (Extracted)]
@@ -26611,7 +26610,6 @@ odile.serv7231.pro  # Sources: [PhishTank (Extracted)]
 odng6v0p.rewardbet.bet  # Sources: [URLHaus (Extracted)]
 odp-strawtv.com  # Sources: [PhishTank (Extracted)]
 odpsodo.biz  # Sources: [PhishTank (Extracted)]
-odqtx.bbglobalbau.hu  # Sources: [URLHaus (Extracted)]
 odstraszacz-szkodnikow-pl.com  # Sources: [PhishTank (Extracted)]
 oe0ttm.webwave.dev  # Sources: [PhishTank (Extracted)]
 oecg-org.weebly.com  # Sources: [PhishTank (Extracted)]
