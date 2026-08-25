@@ -1,7 +1,7 @@
 # ==========================================================
 # SOC-FEEDS INTELLIGENCE REPORT
-# Last Updated: 2026-08-25T22:26:42.828488+00:00 UTC
-# Total Records: 44295
+# Last Updated: 2026-08-25T23:24:44.665959+00:00 UTC
+# Total Records: 44294
 # ==========================================================
 
 0-lix-a8sbqnxt.d1cdej.top  # Sources: [PhishTank (Extracted)]
@@ -973,7 +973,6 @@
 4cxhi8x94.ukit.me  # Sources: [PhishTank (Extracted)]
 4d3x23.duckdns.org  # Sources: [PhishTank (Extracted)]
 4dc5hwj8.nextbahis.poker  # Sources: [URLHaus (Extracted)]
-4dfx0u7r.stgsolar.hu  # Sources: [URLHaus (Extracted)]
 4etyg7hbb.cc.rs6.net  # Sources: [PhishTank (Extracted)]
 4f4ez65f46ze54f35ez4f34ze.blogspot.com  # Sources: [PhishTank (Extracted)]
 4f6c9a7a-ae29-4201-8fd4-acec5a5e6b27-00-3c87jtkpm56mb.spock.replit.dev  # Sources: [PhishTank (Extracted)]
@@ -9186,6 +9185,7 @@ blhs.20sport.ir  # Sources: [URLHaus (Extracted)]
 blinq.me  # Sources: [PhishTank (Extracted)]
 blissful-pages-854004.framer.app  # Sources: [PhishTank (Extracted)]
 blissfulrubdown.com  # Sources: [PhishTank (Extracted)]
+blit.co.za  # Sources: [URLHaus (Extracted)]
 blkfazi.xenicalby6.com  # Sources: [URLHaus (Extracted)]
 blluuepeak.weebly.com  # Sources: [PhishTank (Extracted)]
 blocakchain-login.gitbook.io  # Sources: [PhishTank (Extracted)]
@@ -38940,7 +38940,6 @@ utpesi.pablobet90.com  # Sources: [URLHaus (Extracted)]
 utryxw2uiisd1jkydtry2-tuad1qujscfd73ewusj.teemill.com  # Sources: [PhishTank (Extracted)]
 utua.com.br  # Sources: [PhishTank (Extracted)]
 utuyuea.backlinkyek.com  # Sources: [URLHaus (Extracted)]
-utwli.almasiklima.hu  # Sources: [URLHaus (Extracted)]
 utyge5645gvcg.poiaqewsxcbcgtrt566655.workers.dev  # Sources: [PhishTank (Extracted)]
 uucsbr.weebly.com  # Sources: [PhishTank (Extracted)]
 uudhuede.w3spaces.com  # Sources: [PhishTank (Extracted)]
