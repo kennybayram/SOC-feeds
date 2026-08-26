@@ -1,7 +1,7 @@
 # ==========================================================
 # SOC-FEEDS INTELLIGENCE REPORT
-# Last Updated: 2026-08-26T10:34:59.745019+00:00 UTC
-# Total Records: 44305
+# Last Updated: 2026-08-26T11:28:46.723199+00:00 UTC
+# Total Records: 44303
 # ==========================================================
 
 0-lix-a8sbqnxt.d1cdej.top  # Sources: [PhishTank (Extracted)]
@@ -19700,7 +19700,6 @@ igrbuyo.pokerkade.online  # Sources: [URLHaus (Extracted)]
 igsolthermsolar.blogspot.com  # Sources: [PhishTank (Extracted)]
 igsx.closedfistllc.com  # Sources: [URLHaus (Extracted)]
 igtq-xop1d0-a7opu9-ed338.pages.dev  # Sources: [PhishTank (Extracted)]
-igyom.technologiaiviz.hu  # Sources: [URLHaus (Extracted)]
 iheyl1.wixstudio.com  # Sources: [PhishTank (Extracted)]
 ihgdhsehss.w3spaces.com  # Sources: [PhishTank (Extracted)]
 ihhtyl.webwave.dev  # Sources: [PhishTank (Extracted)]
@@ -44000,7 +43999,6 @@ zhongfupower.com  # Sources: [PhishTank (Extracted)]
 zhrzviveu.downloadquran.xyz  # Sources: [URLHaus (Extracted)]
 zhta2873-lang.github.io  # Sources: [PhishTank (Extracted)]
 zhw-china-pggaming.com  # Sources: [PhishTank (Extracted)]
-zhxtq.visszateritok.hu  # Sources: [URLHaus (Extracted)]
 zi0034034323.web.app  # Sources: [PhishTank (Extracted)]
 zi5eq20hd.duckdns.org  # Sources: [PhishTank (Extracted)]
 zi6uvzi9.btyek.beauty  # Sources: [URLHaus (Extracted)]
