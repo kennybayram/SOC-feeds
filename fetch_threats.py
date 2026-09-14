@@ -28,6 +28,19 @@ domains = set()
 urls = set()
 hashes = set()
 
+def sanitize_threat_data(text):
+    """
+    GitHub Push Protection / Secret Scanning engeline takılan
+    AWS Access Key ve Secret Key desenlerini temizler.
+    """
+    if not text:
+        return text
+    # AWS Access Key ID
+    text = re.sub(r'AKIA[0-9A-Z]{16}', 'AWS_KEY_REMOVED', text)
+    # AWS Secret Access Key
+    text = re.sub(r'(?<![A-Za-z0-9/+=])[A-Za-z0-9/+=]{40}(?![A-Za-z0-9/+=])', 'AWS_SECRET_REMOVED', text)
+    return text
+
 def is_valid_ip(ip):
     if not ip or ip in WHITELIST_IPS:
         return False
@@ -54,11 +67,13 @@ def add_ip(ip, source):
         ip_sources[ip].add(source)
 
 def add_domain(domain, source):
+    domain = sanitize_threat_data(domain) # Secret Filtresi
     if is_valid_domain(domain):
         domains.add(domain)
         domain_sources[domain].add(source)
 
 def add_url(url, source):
+    url = sanitize_threat_data(url) # Secret Filtresi
     if url and url.startswith("http"):
         urls.add(url)
         url_sources[url].add(source)
@@ -80,7 +95,6 @@ def extract_hashes_from_text(text, source_name):
 
 def process_misp_json(data, source_name):
     if isinstance(data, dict):
-        # MISP Event veya Manifest yapısını kontrol et
         events = data.values() if "Attribute" not in data and "event" not in data else [data]
         for ev in events:
             attr_list = []
@@ -127,7 +141,6 @@ def fetch_feeds():
         ("DShield", "https://www.dshield.org/block.txt", "txt_ip"),
         ("IPsum", "https://raw.githubusercontent.com/zoneh/IPsum/master/ipsum.txt", "txt_ip"),
         ("Tor Exit Nodes", "https://check.torproject.org/torbulkexitlist", "txt_ip"),
-        # MISP Feeds Entegrasyonu
         ("MISP Botvrij IP", "https://www.botvrij.eu/data/ioc/ip-dst.txt", "txt_ip"),
         ("MISP Botvrij Domain", "https://www.botvrij.eu/data/ioc/domain.txt", "txt_domain"),
         ("MISP Botvrij URL", "https://www.botvrij.eu/data/ioc/url.txt", "txt_url"),
