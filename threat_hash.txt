@@ -1,7 +1,7 @@
 # ==========================================================
 # SOC-FEEDS INTELLIGENCE REPORT
-# Last Updated: 2026-10-23T17:43:12.323556+00:00 UTC
-# Total Records: 538763
+# Last Updated: 2026-10-23T21:00:52.464375+00:00 UTC
+# Total Records: 538764
 # ==========================================================
 
 0000037e85e02777b193ec49c85d662f  # Sources: [MISP CIRCL OSINT Hashes, MISP CIRCL OSINT Hashes (Scan)]
@@ -329556,6 +329556,7 @@
 9c889a7527ab61f9470a03d01de09e3a  # Sources: [MISP CIRCL OSINT Hashes, MISP CIRCL OSINT Hashes (Scan)]
 9c88ba717a0007ece2c22f521245f096  # Sources: [MISP CIRCL OSINT Hashes, MISP CIRCL OSINT Hashes (Scan)]
 9c88cdda7e96fbe2eab0f5af30f866a3  # Sources: [MISP CIRCL OSINT Hashes, MISP CIRCL OSINT Hashes (Scan)]
+9c88e769b979b145966a476ca48f4c26  # Sources: [PhishTank (Scan)]
 9c891837ad3ed8efeb6b08ef7347c7ec  # Sources: [MISP CIRCL OSINT Hashes, MISP CIRCL OSINT Hashes (Scan)]
 9c8947f232e34ce8c328235b1d28bff4  # Sources: [MISP CIRCL OSINT Hashes, MISP CIRCL OSINT Hashes (Scan)]
 9c894d3a495f640f3d822d24f3172e80  # Sources: [MISP CIRCL OSINT Hashes, MISP CIRCL OSINT Hashes (Scan)]
