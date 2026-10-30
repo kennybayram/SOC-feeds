@@ -1,7 +1,7 @@
 # ==========================================================
 # SOC-FEEDS INTELLIGENCE REPORT
-# Last Updated: 2026-10-30T01:34:01.065930+00:00 UTC
-# Total Records: 538678
+# Last Updated: 2026-10-30T08:04:57.613515+00:00 UTC
+# Total Records: 538676
 # ==========================================================
 
 0000037e85e02777b193ec49c85d662f  # Sources: [MISP CIRCL OSINT Hashes, MISP CIRCL OSINT Hashes (Scan)]
@@ -34982,7 +34982,6 @@
 107fefb56cc155b0e304bdc418895993  # Sources: [MISP CIRCL OSINT Hashes, MISP CIRCL OSINT Hashes (Scan)]
 108019d1e02f354afc4b045980ac47b3  # Sources: [MISP CIRCL OSINT Hashes, MISP CIRCL OSINT Hashes (Scan)]
 108064f0ce3fd0411a9952ee303cfb29  # Sources: [MISP CIRCL OSINT Hashes, MISP CIRCL OSINT Hashes (Scan)]
-10806bbc01324712a4eea4d6ab68e715  # Sources: [PhishTank (Scan)]
 10808942c32cc0e6ea184bf0b1485f0d  # Sources: [MISP CIRCL OSINT Hashes, MISP CIRCL OSINT Hashes (Scan)]
 1080a87082b28656ddae7e38ca4fb882  # Sources: [MISP CIRCL OSINT Hashes, MISP CIRCL OSINT Hashes (Scan)]
 1080ace0ff7f9d5b75bda069b5868c17  # Sources: [MISP CIRCL OSINT Hashes, MISP CIRCL OSINT Hashes (Scan)]
@@ -469164,7 +469163,6 @@ defede0d4989693e12f89a196dd2aa3e  # Sources: [MISP CIRCL OSINT Hashes, MISP CIRC
 deff1a9165edd19467ee71e51e0224a1  # Sources: [MISP CIRCL OSINT Hashes, MISP CIRCL OSINT Hashes (Scan)]
 deff21839cb45557cebea78c1e42ed5b  # Sources: [MISP CIRCL OSINT Hashes, MISP CIRCL OSINT Hashes (Scan)]
 deff2a5f641b491ca48f001fcbdcf647  # Sources: [MISP CIRCL OSINT Hashes, MISP CIRCL OSINT Hashes (Scan)]
-deff4fca4fd3e41b6fae886c3d79149f  # Sources: [PhishTank (Scan)]
 deff808cef02598381f70083bf01dded  # Sources: [MISP CIRCL OSINT Hashes, MISP CIRCL OSINT Hashes (Scan)]
 deff9fc00d4351a9fb635839bd52519c  # Sources: [MISP CIRCL OSINT Hashes, MISP CIRCL OSINT Hashes (Scan)]
 deffa5e71f45e0c7027951b5b88a32d6  # Sources: [MISP CIRCL OSINT Hashes, MISP CIRCL OSINT Hashes (Scan)]
