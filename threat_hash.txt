@@ -1,7 +1,7 @@
 # ==========================================================
 # SOC-FEEDS INTELLIGENCE REPORT
-# Last Updated: 2026-11-10T12:07:23.842957+00:00 UTC
-# Total Records: 538491
+# Last Updated: 2026-11-10T20:13:45.269227+00:00 UTC
+# Total Records: 538484
 # ==========================================================
 
 0000037e85e02777b193ec49c85d662f  # Sources: [MISP CIRCL OSINT Hashes, MISP CIRCL OSINT Hashes (Scan)]
@@ -96195,7 +96195,6 @@
 2d988497bb7bd270287bcc6760e65d13  # Sources: [MISP CIRCL OSINT Hashes, MISP CIRCL OSINT Hashes (Scan)]
 2d989dc1b4693f9e9ecb37a011a597f3  # Sources: [MISP CIRCL OSINT Hashes, MISP CIRCL OSINT Hashes (Scan)]
 2d989e1c029f9bc392c401bb7b547b34  # Sources: [MISP CIRCL OSINT Hashes, MISP CIRCL OSINT Hashes (Scan)]
-2d98c6907eb5442a9b2112a0cb02b94c  # Sources: [PhishTank (Scan)]
 2d98fd34070047e7e7f92cbdfe0d2af6  # Sources: [MISP CIRCL OSINT Hashes, MISP CIRCL OSINT Hashes (Scan)]
 2d9904528c151e91cdea0f1229cb3777  # Sources: [MISP CIRCL OSINT Hashes, MISP CIRCL OSINT Hashes (Scan)]
 2d990627d7a9f21edbaa6372f8739207  # Sources: [MISP CIRCL OSINT Hashes, MISP CIRCL OSINT Hashes (Scan)]
@@ -213652,7 +213651,6 @@
 6567aca014c1a6cc181cd93bf5a6f3bb  # Sources: [MISP CIRCL OSINT Hashes, MISP CIRCL OSINT Hashes (Scan)]
 6567ad15065e81b67bd2f09709660677  # Sources: [MISP CIRCL OSINT Hashes, MISP CIRCL OSINT Hashes (Scan)]
 6567caabcf60820066551756ebbbb7e1  # Sources: [MISP CIRCL OSINT Hashes, MISP CIRCL OSINT Hashes (Scan)]
-6567d298630649f1a6aeb07a0bdb8f63  # Sources: [PhishTank (Scan)]
 6567e3d1ddd9f145eb2f65177e315569  # Sources: [MISP CIRCL OSINT Hashes, MISP CIRCL OSINT Hashes (Scan)]
 6567e81f411fe9795b4d56f5e57c87e9  # Sources: [MISP CIRCL OSINT Hashes, MISP CIRCL OSINT Hashes (Scan)]
 6568119567614e2d84f4277fb1f6099c  # Sources: [MISP CIRCL OSINT Hashes, MISP CIRCL OSINT Hashes (Scan)]
@@ -332664,7 +332662,6 @@
 9e12cfe3caaf91420160986c79100525  # Sources: [MISP CIRCL OSINT Hashes, MISP CIRCL OSINT Hashes (Scan)]
 9e13151f5fd12bb4526b74e90e1b65bb  # Sources: [MISP CIRCL OSINT Hashes, MISP CIRCL OSINT Hashes (Scan)]
 9e134db5ca17355273476e4488cbb350  # Sources: [MISP CIRCL OSINT Hashes, MISP CIRCL OSINT Hashes (Scan)]
-9e1358676a684ebd8c8608b544021116  # Sources: [PhishTank (Scan)]
 9e138c55d909adbc6d41a694492a278f  # Sources: [MISP CIRCL OSINT Hashes, MISP CIRCL OSINT Hashes (Scan)]
 9e13991df771e7564247957c074586ec  # Sources: [MISP CIRCL OSINT Hashes, MISP CIRCL OSINT Hashes (Scan)]
 9e13de49bc1b5020038316bdf27386ce  # Sources: [MISP CIRCL OSINT Hashes, MISP CIRCL OSINT Hashes (Scan)]
@@ -406233,7 +406230,6 @@ c116c582b3ef05f6f6b21fd1cfab86b3  # Sources: [MISP CIRCL OSINT Hashes, MISP CIRC
 c1172b25c8c10fb7e829d455e9743067  # Sources: [MISP CIRCL OSINT Hashes, MISP CIRCL OSINT Hashes (Scan)]
 c1174145e6fe6a95e85788ccdc961d3f  # Sources: [MISP CIRCL OSINT Hashes, MISP CIRCL OSINT Hashes (Scan)]
 c11760c019eb0ae0ee0395dacfd3828b  # Sources: [MISP CIRCL OSINT Hashes, MISP CIRCL OSINT Hashes (Scan)]
-c117955845d94cb7b65c24309a3646d4  # Sources: [PhishTank (Scan)]
 c117eb8fb37241fb218dc7cbb695153a  # Sources: [MISP CIRCL OSINT Hashes, MISP CIRCL OSINT Hashes (Scan)]
 c11803984f3198d18eb36921dea7a980  # Sources: [MISP CIRCL OSINT Hashes, MISP CIRCL OSINT Hashes (Scan)]
 c1180b45acfa2643fd3fcd0546f64b24  # Sources: [MISP CIRCL OSINT Hashes, MISP CIRCL OSINT Hashes (Scan)]
@@ -407505,7 +407501,6 @@ c1ba0c95c6b3762ff599fde11932c5d3  # Sources: [MISP CIRCL OSINT Hashes, MISP CIRC
 c1ba1e816f9aa6dc5e6c690a1bcf5d3c  # Sources: [MISP CIRCL OSINT Hashes, MISP CIRCL OSINT Hashes (Scan)]
 c1ba284b7cf4c860a8844fe714a3e531  # Sources: [MISP CIRCL OSINT Hashes, MISP CIRCL OSINT Hashes (Scan)]
 c1ba3af6aa0e49e2d97ae3ebe754d3a3  # Sources: [MISP CIRCL OSINT Hashes, MISP CIRCL OSINT Hashes (Scan)]
-c1ba488cfa3f48d8826110d757981ec4  # Sources: [PhishTank (Scan)]
 c1ba5482ff54d7ae63d541f9cc27600f  # Sources: [MISP CIRCL OSINT Hashes, MISP CIRCL OSINT Hashes (Scan)]
 c1ba77486d05543958f5f3e884577f66  # Sources: [MISP CIRCL OSINT Hashes, MISP CIRCL OSINT Hashes (Scan)]
 c1ba7b6aafa819e193ac65ee58df6abb  # Sources: [MISP CIRCL OSINT Hashes, MISP CIRCL OSINT Hashes (Scan)]
@@ -460877,7 +460872,6 @@ db32572dd4850630ed5215c387f09924  # Sources: [MISP CIRCL OSINT Hashes, MISP CIRC
 db325d580e640db1c4f3ade065f21cd4  # Sources: [MISP CIRCL OSINT Hashes, MISP CIRCL OSINT Hashes (Scan)]
 db32af2b61bef9b973c53f6c88a4dd42  # Sources: [MISP CIRCL OSINT Hashes, MISP CIRCL OSINT Hashes (Scan)]
 db32cb9bda7d7e4db7b3f10e6811fc8d  # Sources: [MISP CIRCL OSINT Hashes, MISP CIRCL OSINT Hashes (Scan)]
-db32f107339a439283965dba56d4edf5  # Sources: [PhishTank (Scan)]
 db3319b4f03d9bca8002e816d0637c2c  # Sources: [MISP CIRCL OSINT Hashes, MISP CIRCL OSINT Hashes (Scan)]
 db333482ef6af4581f637f099b0665ef  # Sources: [MISP CIRCL OSINT Hashes, MISP CIRCL OSINT Hashes (Scan)]
 db333dd46312163699e78a14b114e8c5  # Sources: [MISP CIRCL OSINT Hashes, MISP CIRCL OSINT Hashes (Scan)]
@@ -495984,7 +495978,6 @@ ebc497acba37430dd24d7d571c1bdfcc  # Sources: [MISP CIRCL OSINT Hashes, MISP CIRC
 ebc4cf061842978ee843615b61fe8d79  # Sources: [MISP CIRCL OSINT Hashes, MISP CIRCL OSINT Hashes (Scan)]
 ebc504a97eed0444fa67a1b7e6e98d3b  # Sources: [MISP CIRCL OSINT Hashes, MISP CIRCL OSINT Hashes (Scan)]
 ebc51836fb66e28dca861a25abcc3345  # Sources: [MISP CIRCL OSINT Hashes, MISP CIRCL OSINT Hashes (Scan)]
-ebc5211b6e5342a68fe58e5771e55eb3  # Sources: [PhishTank (Scan)]
 ebc529ca45e9c5790ac80ae767c64adf  # Sources: [MISP CIRCL OSINT Hashes, MISP CIRCL OSINT Hashes (Scan)]
 ebc5557e341b6a3d10efbd98040e679f  # Sources: [MISP CIRCL OSINT Hashes, MISP CIRCL OSINT Hashes (Scan)]
 ebc55df1ba2fb221c2e2cf77bff8cbb2  # Sources: [MISP CIRCL OSINT Hashes, MISP CIRCL OSINT Hashes (Scan)]
